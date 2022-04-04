@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+<title>Leaflet sample</title>
+<link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+<script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+</head>
+<body>
+    <div id = "map" style = "width: 1520px; height: 580px"></div>
+    
+    <p id="demo">
+        
+    </p>
+
+    <p id="demo1">
+        
+    </p>
+    <script>
+        // Creating map options
+        var mapOptions = {
+        center: [17.385044, 78.486671],
+        zoom: 10
+        }
+        // Creating a map object
+        var map = L.map('map').setView([35.6926,51.40000], 13);
+        let messages = "{{circule_messages}}";
+        var me = "my name is\nreza";
+        const myArray = messages.split(",");
+        var circule_poses = {{circule_poses}};
+        var circule_color = "{{circule_color}}";
+        const myArray_color = circule_color.split(",");
+       
+        var marker_poses = {{marker_poses}};
+        let  text;
+        // Creating a Layer object
+        for (let i = 0; i < circule_poses[0].length; i++) {
+        
+           text = circule_poses[0][i]
+   
+           {% comment %} document.getElementById("demo").innerHTML =  circule_poses[0][i-1]
+           document.getElementById("demo1").innerHTML =  circule_poses[0][i] {% endcomment %}
+           var circle = L.circle(circule_poses[0][i],5, {
+            color: myArray_color[i].substring(7,14),
+            fillColor: myArray_color[i].substring(7,14),
+            fillOpacity: 0.5
+        }).addTo(map);
+        message = myArray[i].replace('[','')
+        message = myArray[i].replace(']','')
+        message = myArray[i].replace(']','')
+        message = message.replaceAll('/','<br/>')
+        circle.bindPopup(message); 
+        {% comment %} document.getElementById("demo").innerHTML = circule_color {% endcomment %}
+        
+           
+          }
+          {% comment %} console.log( myArray_color[100].substring(7,14))
+          console.log( myArray_color[100]) {% endcomment %}
+        {% comment %} document.getElementById("demo").innerHTML = myArray[5].replace('[',''); {% endcomment %}
+        var layer = new L.TileLayer('http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/ {y}.png');
+        var marker = L.marker(text).addTo(map);
+        marker.bindPopup(me+"<br/>"+" rezaaaaaaaaaaa "); 
+    
+        
+        {% comment %} console.log(str); {% endcomment %}
+        // Adding layer to the map
+        map.addLayer(layer);
+       
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+<title>Leaflet sample</title>
+<link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+<script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+</head>
+<body>
+    <div id = "map" style = "width: 1520px; height: 580px"></div>
+
+    <script>
+        // Creating map options
+        var mapOptions = {
+        center: [17.385044, 78.486671],
+        zoom: 10
+        }
+        // Creating a map object
+        var map = L.map('map').setView([35.6926,51.40000], 13);
+        var message = "{{popup_message}}";
+        var circule_pos = {{circule_pos}};
+        var marker_pos = {{marker_pos}};
+        
+        // Creating a Layer object
+        var layer = new L.TileLayer('http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/ {y}.png');
+        var marker = L.marker(marker_pos).addTo(map);
+        var circle = L.circle(circule_pos, 50, {
+            color: 'red',
+            fillColor: '#f03',
+            fillOpacity: 0.5
+        }).addTo(map);
+
+        // Adding layer to the map
+        map.addLayer(layer);
+        circle.bindPopup(message);
+
+    </script>
+</body>
+</html>
