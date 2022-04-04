@@ -22,6 +22,9 @@ def Map(request):
     points_list = []
     Messages = []
     dict_from_csv = pd.read_csv('map//data.csv', header=None, index_col=0, squeeze=True).to_dict()
+
+    Time = list(dict_from_csv[1].keys())
+    Node = list(dict_from_csv[1].values())
     latitude = list(dict_from_csv[2].values())
     longitude = list(dict_from_csv[3].values())
     technology = list(dict_from_csv[4].values())
@@ -30,6 +33,10 @@ def Map(request):
     PLMNID = list(dict_from_csv[7].values())
     LAC = list(dict_from_csv[8].values())
     Color = list(dict_from_csv[13].values())
+    CellID = list(dict_from_csv[9].values())
+    Scan = list(dict_from_csv[10].values())
+    Power = list(dict_from_csv[11].values())
+    Quality = list(dict_from_csv[12].values())
     color_list = []
 
     # create location list
@@ -44,10 +51,10 @@ def Map(request):
             color_list.append("#CBC6C4")
            
         else:
-          
+
             color_list.append(str(Set_Color(int(color))))
         # condition = SET_COLOR(color)
-        message = "Technology : "+str(technology[i])+"/"+"ARFCN : "+ARFCN[i]+"/"+"Code : "+code[i]+"/"+"PLMNID : "+PLMNID[i]+"/"+"LAC : "+LAC[i]
+        message = "Time : "+str(Time[i])+"//"+"Loc : ("+str(latitude[i])+"/"+str(longitude[i])+")"+"//"+"Node id : "+str(Node[i])+"//"+"-------------------------------"+"//"+"Technology : "+str(technology[i])+"//"+"ARFCN : "+ARFCN[i]+"//"+"Code : "+code[i]+"//"+"PLMNID : "+PLMNID[i]+"//"+"LAC : "+LAC[i]+"//"+"Cell id : "+str(CellID[i])+"//"+"Scan Tech : "+str(Scan[i])+"//"+"Power : "+str(Power[i])+"//"+"Quality : "+str(Quality[i])+"//"+"-------------------------------"+"//"+"Color : "+str(Color[i])
         # l.append(format(float(point.latitude),".6f"))
         # l.append(format(float(point.longitude),".6f"))
         l.append(float(latitude[i]))
