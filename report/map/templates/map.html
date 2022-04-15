@@ -4,36 +4,103 @@
 <head>
 <title>Leaflet sample</title>
 <link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+<link rel="stylesheet" href="{% static 'map.css' %}"/>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
 </head>
 <body>
-    <div id = "map" style = "width: 1520px; height: 580px"></div>
+    <div id = "map" ></div>
     
-    <p id="demo">
-        
-    </p>
-
+      
+    <div id="map"></div>
     <p id="demo1">
         
     </p>
+
+    
+    <nav class="top-nav">
+      <div class="menu-wrapper">
+        <ul class="menu">
+          <br>
+          <br>
+          
+          <li>
+            <input type="radio" id="dark" name="fav_language" value="dark">
+             <label for="html">Dark</label><br>
+          </li>
+          <li>
+            <input type="radio" id="light" name="fav_language" value=label>
+             <label for="css">Light</label><br>
+          </li>
+          
+          
+        </ul>
+        
+        <button class="menu-close" aria-label="close menu">✕</button>
+       
+      </div>
+      
+      <div class="fixed-menu">
+        <h2 class="logo" style="font-size:20px;">Web Report</h2>
+        <button class="menu-open" aria-label="open menu">☰</button>
+        <ul class="socials">
+          {% comment %} <li>
+            <a href="">facebook</a>
+          </li>
+          <li>
+            <a href="">twitter</a>
+          </li>
+          <li>
+            <a href="">instagram</a>
+          </li> {% endcomment %}
+        </ul>
+        
+      </div>
+    </nav>
     <script>
+
+      const menuOpen = document.querySelector(".top-nav .menu-open");
+      const menuClose = document.querySelector(".top-nav .menu-close");
+      const menuWrapper = document.querySelector(".top-nav .menu-wrapper");
+      const topBannerOverlay = document.querySelector(".top-banner-overlay");
+    
+      
+      
+          
         // Creating map options
         var mapOptions = {
         center: [17.385044, 78.486671],
         zoom: 10
         }
         // Creating a map object
-        var map = L.map('map').setView([35.6926,51.40000], 13);
+        var map = L.map('map',{ zoomControl: false }).setView([35.6926,51.40000], 13);
         let messages = "{{circule_messages}}";
         var me = "my name is\nreza";
         const myArray = messages.split(",");
         var circule_poses = {{circule_poses}};
         var circule_color = "{{circule_color}}";
         const myArray_color = circule_color.split(",");
+
        
+       
+
+
+        {% comment %} var zoomOptions = {
+          position :'topright',
+          zoomInText: '1',
+          zoomOutText: '0',
+       };
+       // Creating zoom control
+       var zoom = L.control.zoom(zoomOptions);
+       zoom.addTo(map) {% endcomment %}
+
+
+     
         var marker_poses = {{marker_poses}};
         let  text;
         // Creating a Layer object
+        //serialize data here
         for (let i = 0; i < circule_poses[0].length; i++) {
         
            text = circule_poses[0][i]
@@ -57,7 +124,36 @@
           {% comment %} console.log( myArray_color[100].substring(7,14))
           console.log( myArray_color[100]) {% endcomment %}
         {% comment %} document.getElementById("demo").innerHTML = myArray[5].replace('[',''); {% endcomment %}
+
+
+
+        //add layer and here when change the mode and close menu then changed map mode
         var layer = new L.TileLayer('http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/ {y}.png');
+        function toggleMenu() {
+          menuOpen.addEventListener("click", () => {
+            menuWrapper.classList.add("is-opened");
+            
+          });
+          
+          menuClose.addEventListener("click", () => {
+            menuWrapper.classList.remove("is-opened");
+            
+            if (document.getElementById("dark").checked == true){
+          
+              var layer = new L.TileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png');
+              console.log(layer)
+              map.addLayer(layer);
+            }
+            else{
+       
+              var layer = new L.TileLayer( 'http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/ {y}.png');
+              map.addLayer(layer);
+            }
+  
+          });
+        }
+        
+        toggleMenu();
         var marker = L.marker(text).addTo(map);
         marker.bindPopup(me+"<br/>"+" rezaaaaaaaaaaa "); 
     
