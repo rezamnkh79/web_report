@@ -19,51 +19,58 @@
     </p>
 
     
-    <nav class="top-nav">
-      <div class="menu-wrapper">
-        <ul class="menu">
-          <br>
-          <br>
+    <main>
+      <aside>
+        <h2 style="position:absolute;left:10%;color:white">Web Report</h2>
+        <ul class="asideList">
           
-          <li>
-            <input type="radio" id="dark" name="fav_language" value="dark">
-             <label for="html">Dark</label><br>
-          </li>
-          <li>
-            <input type="radio" id="light" name="fav_language" value=label>
-             <label for="css">Light</label><br>
-          </li>
-          
-          
+          <a class="asideAnchor">
+              
+             
+              <li >
+                mode
+                <br>
+                <br>
+              <input type="radio" id="dark" name="fav_language" value="dark " onclick="myFunction()">
+               <label for="html">Dark</label><br>
+            
+            
+              <input type="radio" id="light" name="fav_language" value="light" onclick="myFunction()">
+              <label for="css">Light</label>
+               <br>
+               <br>
+               {% comment %} <button id ="test" style = "position:absolute;left:5%;color:white;top:83% ::after color:blue;" onclick="myFunction()">switch</button> {% endcomment %}
+              </li>
+              
+            </a>
+            
+         
+         <br>
+         <br>
+          {% comment %} <li><a  class="asideAnchor">Link</a></li>
+          <li><a  class="asideAnchor">Link</a></li>
+          <li><a  class="asideAnchor">Link</a></li> {% endcomment %}
         </ul>
-        
-        <button class="menu-close" aria-label="close menu">✕</button>
-       
-      </div>
+      </aside>
+      <section>
+        <input type="checkbox" id="myInput">
+        <label for="myInput">
+          <span class="bar top"></span>
+          <span class="bar middle"></span>
+          <span class="bar bottom"></span>
+        </label>
+    
       
-      <div class="fixed-menu">
-        <h2 class="logo" style="font-size:20px;">Web Report</h2>
-        <button class="menu-open" aria-label="open menu">☰</button>
-        <ul class="socials">
-          {% comment %} <li>
-            <a href="">facebook</a>
-          </li>
-          <li>
-            <a href="">twitter</a>
-          </li>
-          <li>
-            <a href="">instagram</a>
-          </li> {% endcomment %}
-        </ul>
-        
-      </div>
-    </nav>
+      </section>
+    </main>
+    
+  
     <script>
 
-      const menuOpen = document.querySelector(".top-nav .menu-open");
-      const menuClose = document.querySelector(".top-nav .menu-close");
-      const menuWrapper = document.querySelector(".top-nav .menu-wrapper");
-      const topBannerOverlay = document.querySelector(".top-banner-overlay");
+    
+      {% comment %} const menuClose = document.querySelector(".asideList .menu-close"); {% endcomment %}
+     
+     
     
       
       
@@ -81,7 +88,7 @@
         var circule_poses = {{circule_poses}};
         var circule_color = "{{circule_color}}";
         const myArray_color = circule_color.split(",");
-        document.getElementById("light").checked = true
+        document.getElementById("light").checked = true  
        
        
 
@@ -129,14 +136,11 @@
 
         //add layer and here when change the mode and close menu then changed map mode
         var layer = new L.TileLayer('http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/ {y}.png');
-        function toggleMenu() {
-          menuOpen.addEventListener("click", () => {
-            menuWrapper.classList.add("is-opened");
-            
-          });
+       {% comment %} function toggleMenu() {
+          
           
           menuClose.addEventListener("click", () => {
-            menuWrapper.classList.remove("is-opened");
+           console.log(document.getElementById("dark").checked)
             
             if (document.getElementById("dark").checked == true){
           
@@ -151,9 +155,21 @@
             }
   
           });
+        } {% endcomment %}
+        function myFunction() {
+          if (document.getElementById("dark").checked == true){
+          
+            var layer = new L.TileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png');
+            console.log(layer)
+            map.addLayer(layer);
+          }
+          else{
+     
+            var layer = new L.TileLayer( 'http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/ {y}.png');
+            map.addLayer(layer);
+          }
         }
-        
-        toggleMenu();
+        {% comment %} toggleMenu();  {% endcomment %}
         var marker = L.marker(text).addTo(map);
         marker.bindPopup(me+"<br/>"+" rezaaaaaaaaaaa "); 
     
