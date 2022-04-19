@@ -10,174 +10,59 @@
 
 </head>
 <body>
-    <div id = "map" ></div>
-    
-      
+    <div id = "map" ></div>    
     <div id="map"></div>
-    <p id="demo1">
-        
-    </p>
+    <p id="demo1">       
+    </p>   
 
-    
-    <main>
+
+  
       <aside>
         <h2 style="position:absolute;left:10%;color:white">Web Report</h2>
         <ul class="asideList">
           
           <a class="asideAnchor">
-              
-             
+                
               <li >
-                mode
-                <br>
-                <br>
-              <input type="radio" id="dark" name="fav_language" value="dark " onclick="myFunction()">
-               <label for="html">Dark</label><br>
-            
-            
-              <input type="radio" id="light" name="fav_language" value="light" onclick="myFunction()">
-              <label for="css">Light</label>
-               <br>
-               <br>
-               {% comment %} <button id ="test" style = "position:absolute;left:5%;color:white;top:83% ::after color:blue;" onclick="myFunction()">switch</button> {% endcomment %}
+                  mode
+                  <br>
+                  <br>
+                  <input type="radio" id="dark" name="fav_language" value="dark " onclick="MapMode()">
+                  <label for="html">Dark</label><br>
+                
+                
+                  <input type="radio" id="light" name="fav_language" value="light" onclick="MapMode()">
+                  <label for="css">Light</label>
+
+                  <br>
+                  <br>
+                  {% comment %} <button id ="test" style = "position:absolute;left:5%;color:white;top:83% ::after color:blue;" onclick="myFunction()">switch</button> {% endcomment %}
               </li>
               
-            </a>
-            
-         
-         <br>
-         <br>
+          </a>
+          <br>
+          <br>
           {% comment %} <li><a  class="asideAnchor">Link</a></li>
           <li><a  class="asideAnchor">Link</a></li>
           <li><a  class="asideAnchor">Link</a></li> {% endcomment %}
         </ul>
       </aside>
-      <section>
-        <input type="checkbox" id="myInput">
-        <label for="myInput">
-          <span class="bar top"></span>
-          <span class="bar middle"></span>
-          <span class="bar bottom"></span>
-        </label>
-    
-      
-      </section>
-    </main>
-    
+     
   
-    <script>
+    
+    <script  src="{% static 'map.js' %}" >
 
-    
-      {% comment %} const menuClose = document.querySelector(".asideList .menu-close"); {% endcomment %}
-     
-     
-    
       
-      
-          
-        // Creating map options
-        var mapOptions = {
-        center: [17.385044, 78.486671],
-        zoom: 10
-        }
-        // Creating a map object
-        var map = L.map('map',{ zoomControl: false }).setView([35.6926,51.40000], 13);
+    </script>
+    <script>  
+      //map variable
         let messages = "{{circule_messages}}";
-        var me = "my name is\nreza";
-        const myArray = messages.split(",");
         var circule_poses = {{circule_poses}};
         var circule_color = "{{circule_color}}";
-        const myArray_color = circule_color.split(",");
-        document.getElementById("light").checked = true  
-       
-       
-
-
-        {% comment %} var zoomOptions = {
-          position :'topright',
-          zoomInText: '1',
-          zoomOutText: '0',
-       };
-       // Creating zoom control
-       var zoom = L.control.zoom(zoomOptions);
-       zoom.addTo(map) {% endcomment %}
-
-
-     
         var marker_poses = {{marker_poses}};
-        let  text;
-        // Creating a Layer object
-        //serialize data here
-        for (let i = 0; i < circule_poses[0].length; i++) {
-        
-           text = circule_poses[0][i]
-   
-           {% comment %} document.getElementById("demo").innerHTML =  circule_poses[0][i-1]
-           document.getElementById("demo1").innerHTML =  circule_poses[0][i] {% endcomment %}
-           var circle = L.circle(circule_poses[0][i],5, {
-            color: myArray_color[i].substring(7,14),
-            fillColor: myArray_color[i].substring(7,14),
-            fillOpacity: 0.5
-        }).addTo(map);
-        message = myArray[i].replace('[','')
-        message = myArray[i].replace(']','')
-        message = myArray[i].replace(']','')
-        message = message.replaceAll('//','<br/>')
-        circle.bindPopup(message); 
-        {% comment %} document.getElementById("demo").innerHTML = circule_color {% endcomment %}
-        
-           
-          }
-          {% comment %} console.log( myArray_color[100].substring(7,14))
-          console.log( myArray_color[100]) {% endcomment %}
-        {% comment %} document.getElementById("demo").innerHTML = myArray[5].replace('[',''); {% endcomment %}
-
-
-
-        //add layer and here when change the mode and close menu then changed map mode
-        var layer = new L.TileLayer('http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/ {y}.png');
-       {% comment %} function toggleMenu() {
-          
-          
-          menuClose.addEventListener("click", () => {
-           console.log(document.getElementById("dark").checked)
-            
-            if (document.getElementById("dark").checked == true){
-          
-              var layer = new L.TileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png');
-              console.log(layer)
-              map.addLayer(layer);
-            }
-            else{
-       
-              var layer = new L.TileLayer( 'http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/ {y}.png');
-              map.addLayer(layer);
-            }
-  
-          });
-        } {% endcomment %}
-        function myFunction() {
-          if (document.getElementById("dark").checked == true){
-          
-            var layer = new L.TileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png');
-            console.log(layer)
-            map.addLayer(layer);
-          }
-          else{
+        CreateMap(circule_poses,messages,circule_color,marker_poses)
      
-            var layer = new L.TileLayer( 'http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/ {y}.png');
-            map.addLayer(layer);
-          }
-        }
-        {% comment %} toggleMenu();  {% endcomment %}
-        var marker = L.marker(text).addTo(map);
-        marker.bindPopup(me+"<br/>"+" rezaaaaaaaaaaa "); 
-    
-        
-        {% comment %} console.log(str); {% endcomment %}
-        // Adding layer to the map
-        map.addLayer(layer);
-       
+     
 
     </script>
 </body>
