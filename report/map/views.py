@@ -1,23 +1,21 @@
 
-from calendar import c
 
-from multiprocessing import Condition
-from operator import concat
-from traceback import print_tb
-
+from dis import dis
+from lib2to3.pytree import type_repr
+from multiprocessing import context
 from django.http import HttpResponse
 from django.shortcuts import render
 import json
-from .models import Color, Poit_Info
+from .models import Color, Color_param, Poit_Info
 from .forms import PointForm
 import datetime
 import pandas as pd
 import os
 import configparser
 
-
+color_list = []
 def Map(request):
-    print(Set_Color("88"))
+    
     points = Poit_Info.objects.all()
     points_list = []
     Messages = []
@@ -37,23 +35,23 @@ def Map(request):
     Scan = list(dict_from_csv[10].values())
     Power = list(dict_from_csv[11].values())
     Quality = list(dict_from_csv[12].values())
-    color_list = []
+
 
     # create location list
     for i in range(1,len(latitude)) :
         l = []
         
         color = Color[i].split(' ')
-        print(color)
+        
         color = color[0].replace('*','')
         
         if  color == '' :
-            color_list.append("#CBC6C4")
+            color_list.append("#aaaaaa")
            
         else:
-
-            color_list.append(str(Set_Color(int(color))))
-        # condition = SET_COLOR(color)
+            c = str(Set_Color(int(color)))
+            color_list.append(c)
+        
         message = "Time : "+str(Time[i])+"//"+"Loc : ("+str(latitude[i])+"/"+str(longitude[i])+")"+"//"+"Node id : "+str(Node[i])+"//"+"-------------------------------"+"//"+"Technology : "+str(technology[i])+"//"+"ARFCN : "+ARFCN[i]+"//"+"Code : "+code[i]+"//"+"PLMNID : "+PLMNID[i]+"//"+"LAC : "+LAC[i]+"//"+"Cell id : "+str(CellID[i])+"//"+"Scan Tech : "+str(Scan[i])+"//"+"Power : "+str(Power[i])+"//"+"Quality : "+str(Quality[i])+"//"+"-------------------------------"+"//"+"Color : "+str(Color[i])
         # l.append(format(float(point.latitude),".6f"))
         # l.append(format(float(point.longitude),".6f"))
@@ -68,6 +66,7 @@ def Map(request):
         # print(type(Color[i]))
         
     # print(len(color_list))
+    Set_Color_info(color_list)
     contex = {
         "popup_message" :'hello world',
         #  "circule_poses":[[35.6926, 51.40000],[35.6926, 51.40110],[35.6926, 51.45000],[35.6926, 51.46000]],
@@ -94,7 +93,7 @@ def Insert_info(request):
 def Data(request):
 
     dict_from_csv = pd.read_csv('map//data.csv', header=None, index_col=0, squeeze=True).to_dict()
-    print(len(list(dict_from_csv[3].values())))
+    # print(len(list(dict_from_csv[3].values())))
     return HttpResponse("done")
     
 
@@ -161,3 +160,112 @@ def Set_Color(color_val):
             return con.color
     return None
 
+def test(request):
+    return render(request,'index.html')
+
+
+def RSRP(request):
+    employees = [
+          {'id':1,'name':'lightblue','age':35},
+          {'id':2,'name':'pink','age':25},
+    ]
+    # Set_Color_info(color_list)
+
+    context = {
+        'employees':employees,
+        'info' :Color_param.objects.all().distinct(),
+        'len': len(list(Color_param.objects.all()))
+    }
+    temp = send_data()
+    context.update(temp)
+    return render(request, 'RSRP.html',context=context)
+
+
+def Set_Color_info(color_list):
+    color_count = Color.objects.all()
+    
+    # my_dict = {i.color:color_info.count(i.color) for i in color_info}
+    l = []
+    for i in color_list:
+        # count = color_info.count(i[0])
+        l.append(i)
+
+
+    my_dict = {i:l.count(i) for i in l}
+    colors = Color_param.objects.all()
+    l1 = []
+    l2 = []
+    values = my_dict.values()
+    total = sum(values)
+    for i in colors:
+        count = 0
+        if i.color_range.color not in my_dict :
+            count = 0
+            print(i.color_range.color)
+        else:
+            
+            count = my_dict[i.color_range.color]
+
+        distribution = (count/(total))*100
+        # print([i.color_range.color])
+        l1.append([distribution,i.color_range.color])
+
+        Color_param.objects.filter(id = i.id).update(distribution = distribution,count = count)
+    print((l1))
+    print(my_dict)
+
+
+
+def send_data():
+    points_list = []
+    Messages = []
+    dict_from_csv = pd.read_csv('map//data.csv', header=None, index_col=0, squeeze=True).to_dict()
+    Time = list(dict_from_csv[1].keys())
+    Node = list(dict_from_csv[1].values())
+    latitude = list(dict_from_csv[2].values())
+    longitude = list(dict_from_csv[3].values())
+    technology = list(dict_from_csv[4].values())
+    ARFCN = list(dict_from_csv[5].values())
+    code = list(dict_from_csv[6].values())
+    PLMNID = list(dict_from_csv[7].values())
+    LAC = list(dict_from_csv[8].values())
+    Color = list(dict_from_csv[13].values())
+    CellID = list(dict_from_csv[9].values())
+    Scan = list(dict_from_csv[10].values())
+    Power = list(dict_from_csv[11].values())
+    Quality = list(dict_from_csv[12].values())
+
+    # create location list
+    for i in range(1,len(latitude)) :
+        l = []
+        
+        color = Color[i].split(' ')
+        
+        color = color[0].replace('*','')
+        
+        if  color == '' :
+            color_list.append("#aaaaaa")
+           
+        else:
+            c = str(Set_Color(int(color)))
+            color_list.append(c)
+        
+        message = "Time : "+str(Time[i])+"//"+"Loc : ("+str(latitude[i])+"/"+str(longitude[i])+")"+"//"+"Node id : "+str(Node[i])+"//"+"-------------------------------"+"//"+"Technology : "+str(technology[i])+"//"+"ARFCN : "+ARFCN[i]+"//"+"Code : "+code[i]+"//"+"PLMNID : "+PLMNID[i]+"//"+"LAC : "+LAC[i]+"//"+"Cell id : "+str(CellID[i])+"//"+"Scan Tech : "+str(Scan[i])+"//"+"Power : "+str(Power[i])+"//"+"Quality : "+str(Quality[i])+"//"+"-------------------------------"+"//"+"Color : "+str(Color[i])
+        l.append(float(latitude[i]))
+        l.append(float(longitude[i]))
+        points_list.append(l)
+        Messages.append(message)
+    Set_Color_info(color_list)
+    contex = {
+        "popup_message" :'hello world',
+        "circule_poses":[points_list],
+        "circule_color":color_list,
+        "circule_messages" : Messages, 
+        "marker_poses":[35.7600,51.5200]
+    }
+    return contex
+
+
+
+def setting(request):
+    return render(request,'setting.html')
