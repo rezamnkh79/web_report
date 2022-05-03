@@ -1,14 +1,15 @@
+href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"
 var map = L.map('map',{ zoomControl: false }).setView([35.6926,51.40000], 13);
+var mode = 'http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/ {y}.png';
 function MapMode() {
     if (document.getElementById("dark").checked == true){
     
-      var layer = new L.TileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png');
-      map.addLayer(layer);
+      mode = 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png';
+      // map.addLayer(layer);
     }
     else{
 
-      var layer = new L.TileLayer( 'http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/ {y}.png');
-      map.addLayer(layer);
+      mode = 'http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/ {y}.png';
     }
   }
 function CreateMap(circule_poses,circule_messages,circule_color,marker_poses){
@@ -24,7 +25,7 @@ function CreateMap(circule_poses,circule_messages,circule_color,marker_poses){
         var circule_poses = circule_poses;
         var circule_color = circule_color;
         const myArray_color = circule_color.split(",");
-        document.getElementById("light").checked = true  
+        // document.getElementById("light").checked = true  
        
        
 
@@ -51,6 +52,8 @@ function CreateMap(circule_poses,circule_messages,circule_color,marker_poses){
         
            
           }
+
+    
         //add layer and here when change the mode and close menu then changed map mode
         var layer = new L.TileLayer('http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/ {y}.png');
        
