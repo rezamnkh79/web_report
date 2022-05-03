@@ -192,7 +192,7 @@ def Set_Color_info(color_list):
 
 
     my_dict = {i:l.count(i) for i in l}
-    colors = Color_param.objects.all()
+    colors = Color_param.objects.filter(paraeter = "RSRP")
     l1 = []
     l2 = []
     values = my_dict.values()
@@ -201,7 +201,7 @@ def Set_Color_info(color_list):
         count = 0
         if i.color_range.color not in my_dict :
             count = 0
-            print(i.color_range.color)
+           
         else:
             
             count = my_dict[i.color_range.color]
@@ -211,9 +211,7 @@ def Set_Color_info(color_list):
         l1.append([distribution,i.color_range.color])
 
         Color_param.objects.filter(id = i.id).update(distribution = distribution,count = count)
-    print((l1))
-    print(my_dict)
-
+   
 
 
 def send_data():
@@ -269,3 +267,6 @@ def send_data():
 
 def setting(request):
     return render(request,'setting.html')
+
+def test_line_chart(request):
+    return render(request,'test_line_chart.html')
