@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+<title>Leaflet sample</title>
+<link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+<link rel="stylesheet" href="{% static 'line.css' %}"/>
+<script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<meta name="viewport" content="width=device-width">
+</head>
+<style type="text/css">
+    
+</style>
+<body>
+    {% include "base/menu.html" %}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+        
+        <div id = "line">
+            <canvas id="myChart" ></canvas>
+        </div>
+        {% comment %} <canvas id="myChart" ></canvas> {% endcomment %}
+
+
+
+       <script >
+        var xValues = [50,60,70,80,90,100,110,120,130,140,150];
+        var yValues = [7,8,8,9,9,9,10,11,14,14,15];
+
+        new Chart("myChart", {
+        type: "line",
+        data: {
+            labels: xValues,
+            datasets: [{
+            fill: false,
+            lineTension: 0,
+            backgroundColor: "rgba(0,0,255,1.0)",
+            borderColor: "rgba(0,0,255,0.1)",
+            data: yValues
+            }]
+        },
+        options: {
+            legend: {display: false},
+            scales: {
+            yAxes: [{ticks: {min: 6, max:16}}],
+            }
+        }
+        });      
+    </script>
+
+    <script>  
+    
+
+    </script>
+</body>
+</html>

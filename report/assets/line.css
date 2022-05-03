@@ -137,11 +137,18 @@ body {
   
   
 
-#setting{
+#line{
     position: absolute;
-    width: 20%;
+    width: 50%;
     height: 50%;
-    left: 40%;
+    left: 20%;
     top: 30%;
     background-color: white;
+}
+#myChart{
+    position:absolute;
+    width:50%;
+    height:50%;
+    top: 5%;
+    background-color: #fff;
 }
