@@ -3,10 +3,13 @@
 from dis import dis
 from lib2to3.pytree import type_repr
 from multiprocessing import context
+
+from time import time
 from django.http import HttpResponse
 from django.shortcuts import render
 import json
-from .models import Color, Color_param, Poit_Info
+
+from .models import Ranges, Color_Info, Point_Info,Static_Info
 from .forms import PointForm
 import datetime
 import pandas as pd
@@ -16,7 +19,7 @@ import configparser
 color_list = []
 def Map(request):
     
-    points = Poit_Info.objects.all()
+    points = Point_Info.objects.all()
     points_list = []
     Messages = []
     dict_from_csv = pd.read_csv('map//data.csv', header=None, index_col=0, squeeze=True).to_dict()
@@ -93,7 +96,38 @@ def Insert_info(request):
 def Data(request):
 
     dict_from_csv = pd.read_csv('map//data.csv', header=None, index_col=0, squeeze=True).to_dict()
-    # print(len(list(dict_from_csv[3].values())))
+
+    Time = list(dict_from_csv[1].keys())
+    Node = list(dict_from_csv[1].values())
+    latitude = list(dict_from_csv[2].values())
+    longitude = list(dict_from_csv[3].values())
+    technology = list(dict_from_csv[4].values())
+    ARFCN = list(dict_from_csv[5].values())
+    code = list(dict_from_csv[6].values())
+    PLMNID = list(dict_from_csv[7].values())
+    LAC = list(dict_from_csv[8].values())
+    Color = list(dict_from_csv[13].values())
+    CellID = list(dict_from_csv[9].values())
+    Scan = list(dict_from_csv[10].values())
+    Power = list(dict_from_csv[11].values())
+    Quality = list(dict_from_csv[12].values())
+
+    for i in range(1,len(latitude)) :
+        l = []
+        
+        color = Color[i].split(' ')
+        
+        color = color[0].replace('*','')
+        
+        if  color == '' :
+            color_list.append("#aaaaaa")
+           
+        else:
+            c = str(Set_Color(int(color)))
+            color_list.append(c)
+
+        Point_Info.objects.create(time = Time[i],node = Node[i],latitude = latitude[i],longitude = longitude[i],technology = technology[i],arfcn = ARFCN[i],code = code[i],plmnId = PLMNID[i],
+        lac = LAC[i],color = Color[i],cellId = CellID[i],scan = Scan[i],power = Power[i],quality = Quality[i])
     return HttpResponse("done")
     
 
@@ -153,7 +187,7 @@ def Data(request):
 def Set_Color(color_val):
     color_val = int(color_val)
     
-    conditions = Color.objects.all()
+    conditions = Ranges.objects.all()
     for con in conditions:
         if color_val in range(con.min,con.max):
 
@@ -165,24 +199,23 @@ def test(request):
 
 
 def RSRP(request):
-    employees = [
-          {'id':1,'name':'lightblue','age':35},
-          {'id':2,'name':'pink','age':25},
-    ]
+   
     # Set_Color_info(color_list)
-
+    # data = pd.read_csv('map//RSRP.csv', header=None, index_col=0, squeeze=True).to_dict()
+    statics = Static_Info.objects.filter(parameter = "RSRP")
     context = {
-        'employees':employees,
-        'info' :Color_param.objects.all().distinct(),
-        'len': len(list(Color_param.objects.all()))
+        'info' :Color_Info.objects.all().distinct(),
+        'len': len(list(Color_Info.objects.all())),
+        'statics': statics,
     }
+    # context.update('rsrp_static','dscvfcd')
     temp = send_data()
     context.update(temp)
     return render(request, 'RSRP.html',context=context)
 
 
 def Set_Color_info(color_list):
-    color_count = Color.objects.all()
+    # color_count = Color.objects.all()
     
     # my_dict = {i.color:color_info.count(i.color) for i in color_info}
     l = []
@@ -192,9 +225,8 @@ def Set_Color_info(color_list):
 
 
     my_dict = {i:l.count(i) for i in l}
-    colors = Color_param.objects.filter(paraeter = "RSRP")
-    l1 = []
-    l2 = []
+    colors = Color_Info.objects.filter(parameter = "RSRP")
+    temp = []
     values = my_dict.values()
     total = sum(values)
     for i in colors:
@@ -208,11 +240,14 @@ def Set_Color_info(color_list):
 
         distribution = (count/(total))*100
         # print([i.color_range.color])
-        l1.append([distribution,i.color_range.color])
+        temp.append([distribution,i.color_range.color])
 
-        Color_param.objects.filter(id = i.id).update(distribution = distribution,count = count)
+        Color_Info.objects.filter(id = i.id).update(distribution = distribution,count = count)
    
 
+   
+
+   
 
 def send_data():
     points_list = []
@@ -270,3 +305,11 @@ def setting(request):
 
 def test_line_chart(request):
     return render(request,'test_line_chart.html')
+
+def test_circle_chart(request):
+
+    context = {
+        'info' :Color_Info.objects.all().distinct(),
+        'len': len(list(Color_Info.objects.all()))
+    }
+    return render(request,'test_circle_chart.html',context)
