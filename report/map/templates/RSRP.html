@@ -84,6 +84,39 @@
                     
        </table>
 
+       <h4>{{.}}</h4>
+       <table id = "static"  style = "">
+
+        <tr>
+        <td >Count</td>
+        <td>Mean</td>
+        <td>Max</td>
+        <td>Min</td>
+        <td>Median</td>
+        <td>Mode</td>
+        <td>Std</td>
+        <td>Variance</td>
+        <td>CI[95%]</td>   
+            
+        </tr>
+            {% for data in statics %}
+                        
+                <tr>
+                  
+                    <td> {{ data.count }}</td>
+                    <td> {{ data.mean }}</td>
+                    <td>{{ data.max }} </td>
+                    <td>{{ data.min }} </td>
+                    <td>{{ data.median }} </td>
+                    <td>{{ data.mode }} </td>
+                    <td>{{ data.std }} </td>
+                    <td>{{ data.variance }} </td>
+                    <td>[{{ data.ci_min}},{{data.ci_max}}] </td>
+                </tr>
+            {% endfor %}
+                
+   </table>
+
        <script  src="{% static 'map.js' %}" >
 
       
@@ -95,7 +128,7 @@
         var circule_color = "{{circule_color}}";
         var marker_poses = {{marker_poses}};
         CreateMap(circule_poses,messages,circule_color,marker_poses)
-        let flag = false;
+        let flag = true;
         function myFunction() {
              if(flag ==true){
               console.log(flag)
