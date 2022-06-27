@@ -1,0 +1,85 @@
+@import "base/menu.css";
+
+
+  .ct-series-a .ct-slice-pie {
+    fill: hsl(100, 20%, 50%); /* filling pie slices */
+    stroke: white; /*giving pie slices outline */          
+    stroke-width: 5px;  /* outline width */
+  }
+
+  .ct-series-b .ct-slice-pie {
+    fill: hsl(10, 40%, 60%);
+    stroke: white;
+    stroke-width: 5px;
+  }
+
+  .ct-series-c .ct-slice-pie {
+    fill: hsl(120, 30%, 80%);
+    stroke: white;
+    stroke-width: 5px;
+  }
+
+  .ct-series-d .ct-slice-pie {
+    fill: hsl(90, 70%, 30%);
+    stroke: white;
+    stroke-width: 5px;
+  }
+  .ct-series-e .ct-slice-pie {
+    fill: hsl(60, 140%, 20%);
+    stroke: white;
+    stroke-width: 5px;
+  }
+
+  
+  @media (min-width: 1601px) and ( max-width: 2200px) {
+
+
+
+    #title-range
+    {
+      position:absolute;
+      top:40%;  
+      right:15%;
+      width: 20%;
+    }
+  #ranges {
+    border:ridge 5px rgb(30, 255, 0);
+    position:absolute;
+    top:40%;
+    right:15%;
+    width: 20%;
+  }
+  #title-info  {
+      
+    position:absolute;
+    top:15%;
+    right:15%;
+    width: 20%;
+  }
+  
+
+  table td       
+  {
+    border:inset 1px #000;
+  }
+  table tr
+  {
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+  }
+#circle{
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    top: 30%;
+    left: 10%;
+    background-color: white;
+}
+
+#chart5{
+    position: absolute;
+    top: -15%;
+    left: 10%;
+    
+}
+}
