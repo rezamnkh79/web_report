@@ -1,0 +1,211 @@
+body { 
+  background: #ccc;
+  font-family: helvetica, arial, serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: center;
+}
+ 
+.wrap {
+  display: inline-block;
+  
+  margin-top: 40px;
+ 
+  
+}
+
+/* a little "umph" */
+.decor {
+ 
+ 
+  padding: 2px;
+  display: block;
+  width: 95%;
+  
+}
+
+
+
+ul.primary li:last-child a {
+  border-right: none;
+}
+
+ul.primary li a:hover {
+  
+  color: #000;
+}
+
+/* subs */
+ul.sub {
+  position: absolute;
+  z-index: 200;
+  box-shadow: 2px 2px 0 #BEBEBE;
+  width: 35%;
+  display:none;
+}
+ul.sub1 {
+  position: absolute;
+  z-index: 200;
+  box-shadow: 2px 2px 0 #BEBEBE;
+  width: 5%;
+  display:none;
+}
+
+#nav {
+list-style:none inside;
+margin:0;
+padding:0;
+text-align:center;
+}
+#nav li {
+display:block;
+position:relative;
+float:left;
+position: relative;
+  background: #2B2B2B;
+  background-image: -webkit-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
+  background-image: -moz-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
+  background-image: -o-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
+  background-image: linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px #ccc;
+  -webkit-box-shadow: 2px 2px 3px #ccc;
+  -moz-box-shadow: 2px 2px 3px #ccc;
+  box-shadow: 2px 2px 3px #ccc;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+#nav li a {
+display:block;
+padding:0;
+text-decoration:none;
+height: 50px;
+left: 20px;
+width:400px; /* this is the width of the menu items */
+line-height:35px; /* this is the hieght of the menu items */
+color:#ffffff; /* list item font color */
+}
+#nav li li a {font-size:80%;} /* smaller font size for sub menu items */
+#nav li:hover {background:#BEBEBE;} /* highlights current hovered list item and the parent list items when hovering over sub menues */
+#nav ul {
+position:absolute;
+padding:0;
+left:0;
+display:none; /* hides sublists */
+}
+#nav li:hover ul ul {display:none;} /* hides sub-sublists */
+#nav li:hover ul {display:block;} /* shows sublist on hover */
+#nav li li:hover ul {
+display:block; /* shows sub-sublist on hover */
+margin-left:200px; /* this should be the same width as the parent list item */
+margin-top:-35px; /* aligns top of sub menu with top of list item */
+}
+
+
+#selector{
+  position: absolute;
+  left: 500px;
+
+  top: 200px;
+  
+}
+
+/**
+* VGNav THEME
+* only css
+**/
+
+a {
+	transition: all .3s ease;
+}
+
+/* main menu */
+.vg-nav > ul > li {
+	padding: 20px 25px;
+}
+.vg-nav > ul > li > a {
+	font-size: 16px;
+	line-height: 1.2;
+	display: block;
+	color: #232323;
+	text-decoration: none;
+	background-color: white;
+}
+
+.vg-nav > ul > li.active a, .vg-nav > ul > li a:hover {
+	color: #236da9;
+}
+
+.vg-nav .dropdown ul {
+	background: rgba(255, 255, 255, .9);
+	box-shadow: 0 4px 7px rgba(0, 0, 0, .15);
+}
+
+.vg-nav .dropdown ul li a {
+	text-decoration: none;
+	font-size: 14px;
+	display: block;
+	padding: 15px;
+	color: #232323;
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-top: none;
+}
+
+.vg-nav .dropdown ul li:first-child a {
+	border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.vg-nav .dropdown ul ul {
+	background: rgba(255, 255, 255, .9);
+}
+
+/* mega menu */
+.vg-nav .dropdown-mega .dropdown-mega-container {
+	background: rgba(255, 255, 255, .9);
+	border: 1px solid rgba(0, 0, 0, .1);
+	box-shadow: 0 4px 7px rgba(0, 0, 0, .15);
+	padding: 15px;
+}
+
+/* sidebar, collapse */
+.vg-nav-sidebar .vg-nav-sidebar__content {
+	width: 100%;
+	padding: 0 20px 20px 20px;
+}
+
+.vg-nav-collapse ul {
+	width: 100%;
+	padding: 20px 0;
+}
+
+.vg-nav-sidebar__content > ul > li > a,
+.vg-nav-collapse > ul > li > a {
+	display: block;
+	padding: 10px 0;
+	border-bottom: 1px solid #f2f2f2;
+	text-decoration: none;
+	color: #333333;
+}
+
+.vg-nav-sidebar__content > ul ul,
+.vg-nav-collapse > ul ul{
+	background: rgba(0, 0, 0, .02);
+}
+
+.vg-nav-sidebar__content > ul ul li > a,
+.vg-nav-collapse > ul ul li > a{
+	display: block;
+	padding: 10px;
+	border-bottom: 1px solid #f5f5f5;
+	text-decoration: none;
+	color: #333333;
+	font-size: .95rem;
+}
+
+.vg-nav-sidebar__content .dropdown-mega-container,
+.vg-nav-collapse .dropdown-mega-container{
+	background: rgba(0, 0, 0, .02);
+	border-bottom: 1px solid #f5f5f5;
+	padding: 15px;
+}

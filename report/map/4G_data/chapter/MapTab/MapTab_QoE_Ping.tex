@@ -1,0 +1,13 @@
+%===========================
+% Ping
+\IfFileExists{./pic/Map-QoE--ping.png}{%
+\vfill
+\begin{figure}[H]\centering
+\begin{tikzpicture}
+\node [](P){\includegraphics[width=\MapScale\linewidth]{./pic/Map-QoE--ping}};
+\node at(P.south west)[above right,shape=rectangle,fill=white]{\input{./legend/Map-QoE--ping}};
+\end{tikzpicture}
+\caption{Ping time on map (QoE)}
+\end{figure}
+\vfill
+}{}

@@ -1080,7 +1080,7 @@ table tr
 #title-info  {
     
   position:absolute;
-  top:15%;
+  top:12%;
   right:15%;
   width: 20%;
 }
@@ -1088,7 +1088,7 @@ table tr
 #color_info  {
   border:ridge 5px rgb(30, 255, 0);
   position:absolute;
-  top:20%;
+  top:16%;
   right:5%;
   width: 30%;
 }
@@ -1106,7 +1106,7 @@ table tr
   position:absolute;
   top:92%;
   left:13%;
-  width: 30%;
+  width: 35%;
 }
 
 table td       

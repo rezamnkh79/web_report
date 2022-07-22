@@ -1,22 +1,61 @@
 
 
 from dis import dis
+from inspect import Parameter
+from itertools import count
 from lib2to3.pytree import type_repr
 from multiprocessing import context
+from sqlite3 import paramstyle
 
 from time import time
+
+
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render,get_object_or_404
 import json
 
-from .models import Ranges, Color_Info, Point_Info,Static_Info
-from .forms import PointForm
+
+from .models import Ranges, Color_Info, Point_Info, Region,Static_Info,Table
 import datetime
 import pandas as pd
 import os
-import configparser
 
 color_list = []
+
+def InsertColorInfoTechnology():
+    dict_from_csv = pd.read_csv('map//serving.csv', header=None, index_col=0, squeeze=True)
+    # Time = list(dict_from_csv[1].keys())
+    # Node = list(dict_from_csv[1].values())
+    
+    # print(Time)
+    # print(Node)
+    count3G = 0
+    count2G = 0
+    count4G = 0
+    count5G = 0
+    for i in list(dict_from_csv[5]):
+        if i == 4 :
+            count4G +=1
+        elif i == 2 :
+            count2G +=1
+        elif i == 3 :
+            count3G +=1
+        else :
+            count5G += 1
+    
+    count2G = int(count2G/len(list(dict_from_csv[5]))*100)
+    count3G = int(count3G/len(list(dict_from_csv[5]))*100)
+    count4G = int(count4G/len(list(dict_from_csv[5]))*100)
+    count5G = int(count5G/len(list(dict_from_csv[5]))*100)
+    return ([count2G,count3G,count4G,count5G])
+def InsertARFNTable(request):
+    dict_from_csv = pd.read_csv('map//Map-Serving Cell-ARFCN_Code---.csv', header=None, index_col=0, squeeze=True)
+    for i in range(1,len(list(dict_from_csv[1]))):
+    #   table = Table.objects.create(color =list(dict_from_csv[1].keys())[i],name = list(dict_from_csv[1])[i],count = list(dict_from_csv[2])[i],distance = list(dict_from_csv[3])[i],distribution = list(dict_from_csv[4])[i],tech = list(dict_from_csv[5])[i],band = list(dict_from_csv[6])[i],freq =list(dict_from_csv[7])[i])
+      table = Table.objects.create(parameter = "Arfcn-Code",color =list(dict_from_csv[1].keys())[i],name = list(dict_from_csv[1])[i],count = list(dict_from_csv[2])[i],distance = list(dict_from_csv[3])[i],distribution = list(dict_from_csv[4])[i],tech = list(dict_from_csv[5])[i])
+
+    return HttpResponse(list(dict_from_csv[1])[2])
+
 def Map(request):
     
     points = Point_Info.objects.all()
@@ -69,48 +108,65 @@ def Map(request):
         # print(type(Color[i]))
         
     # print(len(color_list))
-    Set_Color_info(color_list)
+    # Set_Color_info(color_list)
+    regions = Region.objects.all()
     contex = {
         "popup_message" :'hello world',
         #  "circule_poses":[[35.6926, 51.40000],[35.6926, 51.40110],[35.6926, 51.45000],[35.6926, 51.46000]],
         "circule_poses":[points_list],
         "circule_color":color_list,
         "circule_messages" : Messages, 
-        "marker_poses":[35.7600,51.5200]
+        "marker_poses":[35.7600,51.5200],
+        "regions":regions,
+        "range" :range(len(regions)),
     }
+    
     return render(request,'map.html',contex)
 
 
-def Insert_info(request):
-    form = PointForm(request.POST or None)
-    context ={}
-    if form.is_valid():
-        form.save()
+# def Insert_info(request):
+#     form = PointForm(request.POST or None)
+#     context ={}
+#     if form.is_valid():
+#         form.save()
    
    
-    context['form']= form
-    return render(request, "create_view.html", context)
+#     context['form']= form
+#     return render(request, "create_view.html", context)
 
 
-
+# here store data form csv file in database
 def Data(request):
+    # get info of points like distribution and finally store in database as model color info
+    info_path = os.path.join("map","CSV","SigPow.csv")
+    dict_from_csv_info = pd.read_csv('map//CSV//SigPow.csv', header=None, index_col=0, squeeze=True)
+    # color_code_in = list(dict_from_csv_info[1].keys())
+    # color_in = list(dict_from_csv_info[1].keys())
+    # color_in = list(dict_from_csv_info[1].keys())
+  
+    # idx = ['Color', 'Name', 'Count', 'Distance', 'Distribution']
+    # result = sr.str.decode(encoding = 'UTF-8')
+    # sr.index = idx
+    # result = sr.str.decode(encoding = 'ASCII')
 
-    dict_from_csv = pd.read_csv('map//data.csv', header=None, index_col=0, squeeze=True).to_dict()
+    # get position and some parameter of points in database as model points info
+    dict_from_csv_points = pd.read_csv('map//data.csv', header=None, index_col=0, squeeze=True).to_dict()
 
-    Time = list(dict_from_csv[1].keys())
-    Node = list(dict_from_csv[1].values())
-    latitude = list(dict_from_csv[2].values())
-    longitude = list(dict_from_csv[3].values())
-    technology = list(dict_from_csv[4].values())
-    ARFCN = list(dict_from_csv[5].values())
-    code = list(dict_from_csv[6].values())
-    PLMNID = list(dict_from_csv[7].values())
-    LAC = list(dict_from_csv[8].values())
-    Color = list(dict_from_csv[13].values())
-    CellID = list(dict_from_csv[9].values())
-    Scan = list(dict_from_csv[10].values())
-    Power = list(dict_from_csv[11].values())
-    Quality = list(dict_from_csv[12].values())
+    Time = list(dict_from_csv_points[1].keys())
+    Node = list(dict_from_csv_points[1].values())
+    latitude = list(dict_from_csv_points[2].values())
+    longitude = list(dict_from_csv_points[3].values())
+    technology = list(dict_from_csv_points[4].values())
+    ARFCN = list(dict_from_csv_points[5].values())
+    code = list(dict_from_csv_points[6].values())
+    PLMNID = list(dict_from_csv_points[7].values())
+    LAC = list(dict_from_csv_points[8].values())
+    Color = list(dict_from_csv_points[13].values())
+    CellID = list(dict_from_csv_points[9].values())
+    Scan = list(dict_from_csv_points[10].values())
+    Power = list(dict_from_csv_points[11].values())
+    Quality = list(dict_from_csv_points[12].values())
+    region = Region.objects.get(region_name = "tehranpars")
 
     for i in range(1,len(latitude)) :
         l = []
@@ -127,7 +183,7 @@ def Data(request):
             color_list.append(c)
 
         Point_Info.objects.create(time = Time[i],node = Node[i],latitude = latitude[i],longitude = longitude[i],technology = technology[i],arfcn = ARFCN[i],code = code[i],plmnId = PLMNID[i],
-        lac = LAC[i],color = Color[i],cellId = CellID[i],scan = Scan[i],power = Power[i],quality = Quality[i])
+        lac = LAC[i],color = Color[i],cellId = CellID[i],scan = Scan[i],power = Power[i],quality = Quality[i],region =region)
     return HttpResponse("done")
     
 
@@ -190,7 +246,6 @@ def Set_Color(color_val):
     conditions = Ranges.objects.all()
     for con in conditions:
         if color_val in range(con.min,con.max):
-
             return con.color
     return None
 
@@ -199,19 +254,198 @@ def test(request):
 
 
 def RSRP(request):
-   
+    
+
+    points = Point_Popup("RSRP")
     # Set_Color_info(color_list)
     # data = pd.read_csv('map//RSRP.csv', header=None, index_col=0, squeeze=True).to_dict()
+    l = [1]
     statics = Static_Info.objects.filter(parameter = "RSRP")
     context = {
-        'info' :Color_Info.objects.all().distinct(),
+        'info' :Color_Info.objects.filter(parameter = "RSRP").distinct(),
         'len': len(list(Color_Info.objects.all())),
         'statics': statics,
+        'object':Region.objects.all(),
+        'l':l
+       
+        
     }
     # context.update('rsrp_static','dscvfcd')
-    temp = send_data()
-    context.update(temp)
+    # temp = send_data()
+    context.update(points)
     return render(request, 'RSRP.html',context=context)
+
+def PingTest(request):
+    
+    
+    points = Point_Popup("test-ping")
+    # Set_Color_info(color_list)
+    # data = pd.read_csv('map//RSRP.csv', header=None, index_col=0, squeeze=True).to_dict()
+    l = [1]
+    statics = Static_Info.objects.filter(parameter = "test-ping")
+    context = {
+        'info' :Color_Info.objects.filter(parameter = "test-ping").distinct(),
+        'len': len(list(Color_Info.objects.all())),
+        'statics': statics,
+        'l':l
+       
+        
+    }
+    # context.update('rsrp_static','dscvfcd')
+    # temp = send_data()
+    context.update(points)
+    return render(request, 'test//ping.html',context=context)
+
+
+def QoE(request):
+    
+    
+    points = Point_Popup("test-QoE")
+    # Set_Color_info(color_list)
+    # data = pd.read_csv('map//RSRP.csv', header=None, index_col=0, squeeze=True).to_dict()
+    l = [1]
+    statics = Static_Info.objects.filter(parameter = "test-QoE")
+    context = {
+        'info' :Color_Info.objects.filter(parameter = "test-QoE").distinct(),
+        'len': len(list(Color_Info.objects.all())),
+        'statics': statics,
+        'l':l
+       
+        
+    }
+    # context.update('rsrp_static','dscvfcd')
+    # temp = send_data()
+    context.update(points)
+    return render(request, 'test//ping.html',context=context)
+def Technology(request):
+    color_list_technology = []
+    points_info = Point_Info.objects.all().distinct()
+    points_list = []
+    Messages = []
+    list_color = []
+
+    # create location list
+    for i in range(len(points_info)) :
+        l = []
+        if points_info[i].technology == "4G":
+
+            list_color.append("#0008ff")
+        elif points_info[i].technology == "3G":
+
+            list_color.append("#ff00e6")
+        elif points_info[i].technology == "2G":
+
+            list_color.append("#00ffff")
+        else:
+            list_color.append("#32cd32")
+            
+
+        message = "Time : "+str(points_info[i].time)+"//"+"Loc : ("+str(points_info[i].latitude)+"/"+str(points_info[i].longitude)+")"+"//"+"Node id : "+str(points_info[i].node)+"//"+"-------------------------------"+"//"+"Technology : "+str(points_info[i].technology)+"//"+"ARFCN : "+str(points_info[i].arfcn)+"//"+"Code : "+str(points_info[i].code)+"//"+"PLMNID : "+str(points_info[i].plmnId)+"//"+"LAC : "+str(points_info[i].lac)+"//"+"Cell id : "+str(points_info[i].cellId)+"//"+"Scan Tech : "+str(points_info[i].scan)+"//"+"Power : "+str(points_info[i].power)+"//"+"Quality : "+str(points_info[i].quality)+"//"+"-------------------------------"+"//"+"Color : "+str(points_info[i].color)
+        l.append(float(points_info[i].latitude))
+        l.append(float(points_info[i].longitude))
+        points_list.append(l)
+        Messages.append(message)
+    l = [1]
+
+    context = {
+        'info' :Color_Info.objects.filter(parameter = "technology").distinct(),
+        'len': len(list(Color_Info.objects.all())),
+        'l':l,
+        "circule_poses":[points_list],
+        "circule_color":list_color,
+        "circule_messages" : Messages, 
+       "marker_poses":[35.7600,51.5200],
+        
+    }
+    
+    return render(request, 'TechnologyInfo.html',context=context)
+
+def ARFCN(request):
+    points_info = Point_Info.objects.all().distinct()
+    points_list = []
+    Messages = []
+    list_color = []
+
+    for i in range(len(points_info)) :
+        l = []
+        if points_info[i].technology == "4G":
+
+            list_color.append("#0008ff")
+        elif points_info[i].technology == "3G":
+
+            list_color.append("#ff00e6")
+        elif points_info[i].technology == "2G":
+
+            list_color.append("#00ffff")
+        else:
+            list_color.append("#32cd32")
+            
+
+        message = "Time : "+str(points_info[i].time)+"//"+"Loc : ("+str(points_info[i].latitude)+"/"+str(points_info[i].longitude)+")"+"//"+"Node id : "+str(points_info[i].node)+"//"+"-------------------------------"+"//"+"Technology : "+str(points_info[i].technology)+"//"+"ARFCN : "+str(points_info[i].arfcn)+"//"+"Code : "+str(points_info[i].code)+"//"+"PLMNID : "+str(points_info[i].plmnId)+"//"+"LAC : "+str(points_info[i].lac)+"//"+"Cell id : "+str(points_info[i].cellId)+"//"+"Scan Tech : "+str(points_info[i].scan)+"//"+"Power : "+str(points_info[i].power)+"//"+"Quality : "+str(points_info[i].quality)+"//"+"-------------------------------"+"//"+"Color : "+str(points_info[i].color)
+        l.append(float(points_info[i].latitude))
+        l.append(float(points_info[i].longitude))
+        points_list.append(l)
+        Messages.append(message)
+    l = [1]
+
+    context = {
+        'info' :Table.objects.filter(parameter = "ARFCN").distinct(),
+        'len': len(list(Color_Info.objects.all())),
+        'l':l,
+        "circule_poses":[points_list],
+        "circule_color":list_color,
+        "circule_messages" : Messages, 
+       "marker_poses":[35.7600,51.5200],
+        
+    }
+    # context.update('rsrp_static','dscvfcd')
+    # temp = send_data()
+    
+    return render(request, 'ARFCN.html',context=context)
+
+def Code(request):
+    points_info = Point_Info.objects.all().distinct()
+    points_list = []
+    Messages = []
+    list_color = []
+
+    for i in range(len(points_info)) :
+        l = []
+        if points_info[i].technology == "4G":
+
+            list_color.append("#0008ff")
+        elif points_info[i].technology == "3G":
+
+            list_color.append("#ff00e6")
+        elif points_info[i].technology == "2G":
+
+            list_color.append("#00ffff")
+        else:
+            list_color.append("#32cd32")
+            
+
+        message = "Time : "+str(points_info[i].time)+"//"+"Loc : ("+str(points_info[i].latitude)+"/"+str(points_info[i].longitude)+")"+"//"+"Node id : "+str(points_info[i].node)+"//"+"-------------------------------"+"//"+"Technology : "+str(points_info[i].technology)+"//"+"ARFCN : "+str(points_info[i].arfcn)+"//"+"Code : "+str(points_info[i].code)+"//"+"PLMNID : "+str(points_info[i].plmnId)+"//"+"LAC : "+str(points_info[i].lac)+"//"+"Cell id : "+str(points_info[i].cellId)+"//"+"Scan Tech : "+str(points_info[i].scan)+"//"+"Power : "+str(points_info[i].power)+"//"+"Quality : "+str(points_info[i].quality)+"//"+"-------------------------------"+"//"+"Color : "+str(points_info[i].color)
+        l.append(float(points_info[i].latitude))
+        l.append(float(points_info[i].longitude))
+        points_list.append(l)
+        Messages.append(message)
+    l = [1]
+
+    context = {
+        'info' :Table.objects.filter(parameter = "Code").distinct(),
+        'len': len(list(Color_Info.objects.all())),
+        'l':l,
+        "circule_poses":[points_list],
+        "circule_color":list_color,
+        "circule_messages" : Messages, 
+       "marker_poses":[35.7600,51.5200],
+        
+    }
+    # context.update('rsrp_static','dscvfcd')
+    # temp = send_data()
+    
+    return render(request, 'Code.html',context=context)
+
 
 
 def Set_Color_info(color_list):
@@ -249,7 +483,8 @@ def Set_Color_info(color_list):
 
    
 
-def send_data():
+def send_data(prameter):
+    points_info = Point_Info.objects.filter(parameter = prameter)
     points_list = []
     Messages = []
     dict_from_csv = pd.read_csv('map//data.csv', header=None, index_col=0, squeeze=True).to_dict()
@@ -288,7 +523,7 @@ def send_data():
         l.append(float(longitude[i]))
         points_list.append(l)
         Messages.append(message)
-    Set_Color_info(color_list)
+    # Set_Color_info(color_list)
     contex = {
         "popup_message" :'hello world',
         "circule_poses":[points_list],
@@ -299,7 +534,6 @@ def send_data():
     return contex
 
 
-
 def setting(request):
     return render(request,'setting.html')
 
@@ -307,9 +541,58 @@ def test_line_chart(request):
     return render(request,'test_line_chart.html')
 
 def test_circle_chart(request):
-
+    counts = InsertColorInfoTechnology()
     context = {
         'info' :Color_Info.objects.all().distinct(),
-        'len': len(list(Color_Info.objects.all()))
+        'len': len(list(Color_Info.objects.all())),
+        '2G' :counts[0],
+        '3G':counts[1],
+        '4G':counts[2],
+        '5G' :counts[3]
+
     }
     return render(request,'test_circle_chart.html',context)
+
+def update_points(request):
+    # points = Point_Info.objects.all().update(region = "tehranpars")
+    points = Table.objects.filter(parameter = "Code").update(parameter = "CellId")
+    return HttpResponse("updated")
+
+
+def Point_Popup(prameter):
+    points_info = Point_Info.objects.filter(parameter = prameter)
+    points_list = []
+    Messages = []
+
+
+    # create location list
+    for i in range(len(points_info)) :
+        l = []
+        # print(points_info[i].color)
+        color = points_info[i].color.split(' ')
+        
+        color = color[0].replace('*','')
+        
+        if  color == '' :
+            color_list.append("#aaaaaa")
+           
+        else:
+            c = str(Set_Color(int(color)))
+            color_list.append(c)
+        
+        message = "Time : "+str(points_info[i].time)+"//"+"Loc : ("+str(points_info[i].latitude)+"/"+str(points_info[i].longitude)+")"+"//"+"Node id : "+str(points_info[i].node)+"//"+"-------------------------------"+"//"+"Technology : "+str(points_info[i].technology)+"//"+"ARFCN : "+str(points_info[i].arfcn)+"//"+"Code : "+str(points_info[i].code)+"//"+"PLMNID : "+str(points_info[i].plmnId)+"//"+"LAC : "+str(points_info[i].lac)+"//"+"Cell id : "+str(points_info[i].cellId)+"//"+"Scan Tech : "+str(points_info[i].scan)+"//"+"Power : "+str(points_info[i].power)+"//"+"Quality : "+str(points_info[i].quality)+"//"+"-------------------------------"+"//"+"Color : "+str(points_info[i].color)
+        l.append(float(points_info[i].latitude))
+        l.append(float(points_info[i].longitude))
+        points_list.append(l)
+        Messages.append(message)
+    
+    # Set_Color_info(color_list)
+    contex = {
+        "popup_message" :'hello world',
+        "circule_poses":[points_list],
+        "circule_color":color_list,
+        "circule_messages" : Messages, 
+        "marker_poses":[35.7600,51.5200]
+    }
+   
+    return contex

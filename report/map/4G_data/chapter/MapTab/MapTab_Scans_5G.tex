@@ -1,0 +1,77 @@
+%===========================
+% 5G Serving Cell Power
+\IfFileExists{./pic/Map-Scan-5G-Serving,Power.png}{%
+\begin{figure}[H]\centering
+\begin{tikzpicture}
+\node [](P){\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./pic/Map-Scan-5G-Serving,Power}};
+\node at(P.south west)[above right,shape=rectangle,fill=white]{\input{./legend/Map-Scan-5G-Serving,Power}};
+\end{tikzpicture}
+\caption{Reference Signals Received Power (\textit{RSRP}) for 5G serving cell}
+\end{figure}
+}{}
+
+
+%===========================
+% 5G Serving Cell Quality
+\IfFileExists{./pic/Map-Scan-5G-Serving,Quality.png}{%
+\begin{figure}[H]\centering
+\begin{tikzpicture}
+\node [](P){\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./pic/Map-Scan-5G-Serving,Quality}};
+\node at(P.south west)[above right,shape=rectangle,fill=white]{\input{./legend/Map-Scan-5G-Serving,Quality}};
+\end{tikzpicture}
+\caption{Reference Signal Received Quality (RSRQ) for 5G serving cell}
+\end{figure}
+}{}
+
+
+%===========================
+% 5G Neighbor Cell Power
+\IfFileExists{./pic/Map-Scan-5G-Neighbor,Power.png}{%
+\begin{figure}[H]\centering
+\begin{tikzpicture}
+\node [](P){\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./pic/Map-Scan-5G-Neighbor,Power}};
+\node at(P.south west)[above right,shape=rectangle,fill=white]{\input{./legend/Map-Scan-5G-Neighbor,Power}};
+\end{tikzpicture}
+\caption{Reference Signals Received Power (\textit{RSRP}) for 5G neighbor cells}
+\end{figure}
+}{}
+
+
+%===========================
+% 5G Neighbor Cell Quality
+\IfFileExists{./pic/Map-Scan-5G-Neighbor,Quality.png}{%
+\begin{figure}[H]\centering
+\begin{tikzpicture}
+\node [](P){\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./pic/Map-Scan-5G-Neighbor,Quality}};
+\node at(P.south west)[above right,shape=rectangle,fill=white]{\input{./legend/Map-Scan-5G-Neighbor,Quality}};
+\end{tikzpicture}
+\caption{Reference Signal Received Quality (RSRQ) for 5G neighbor cells}
+\end{figure}
+}{}
+
+
+%===========================
+% 5G Serving and Neighbor Cells Power
+\IfFileExists{./pic/Map-Scan-5G-Serving+Neighbor,Power.png}{%
+\begin{figure}[H]\centering
+\begin{tikzpicture}
+\node [](P){\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./pic/Map-Scan-5G-Serving+Neighbor,Power}};
+\node at(P.south west)[above right,shape=rectangle,fill=white]{\input{./legend/Map-Scan-5G-Serving+Neighbor,Power}};
+\end{tikzpicture}
+\caption{Reference Signals Received Power (\textit{RSRP}) for 5G serving and neighbor cells}
+\end{figure}
+}{}
+
+
+%===========================
+% 5G Serving and Neighbor Cells Quality
+\IfFileExists{./pic/Map-Scan-5G-Serving+Neighbor,Quality.png}{%
+\begin{figure}[H]\centering
+\begin{tikzpicture}
+\node [](P){\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./pic/Map-Scan-5G-Serving+Neighbor,Quality}};
+\node at(P.south west)[above right,shape=rectangle,fill=white]{\input{./legend/Map-Scan-5G-Serving+Neighbor,Quality}};
+\end{tikzpicture}
+\caption{Reference Signal Received Quality (RSRQ) for 5G serving and neighbor cells}
+\end{figure}
+}{}
+

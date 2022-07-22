@@ -628,7 +628,6 @@ body {
 }
 /* .logo h2{
   background-color: #EF8354;
-
 } */
 .top-banner-overlay p {
   font-size: 1rem;
@@ -692,4 +691,9 @@ body {
   top: 20px;
   right: 20px;
   font-size: 1.6rem;
+}
+
+
+table, th, td {
+  border: 1px solid black;
 }

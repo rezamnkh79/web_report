@@ -1,0 +1,11 @@
+Color@Name@Range [km/h]
+#000000 @Null@600≤X
+#00703c @Car Racing@140≤X
+#00a032 @High Speed@120≤X<140
+#00d228 @Highway@100≤X<120
+#ffff00 @Road@80≤X<100
+#ffaa00 @Street@60≤X<80
+#fa6400 @Bicycle@30≤X<60
+#ff0000 @Running@10≤X<30
+#dc143c @Walking@2≤X<10
+#aaaaaa @Standing@0≤X<2

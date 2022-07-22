@@ -1,6 +1,6 @@
 /* A simple, css only, (some-what) responsive menu */
 
-@import "base/menu.css";
+@import "menu.css";
 
 #line{
     position: absolute;

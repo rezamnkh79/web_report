@@ -1,0 +1,13 @@
+%===========================
+% ftp
+\IfFileExists{./pic/Map-QoE--ftp.png}{%
+\vfill
+\begin{figure}[H]\centering
+\begin{tikzpicture}
+\node [](P){\includegraphics[width=\MapScale\linewidth]{./pic/Map-QoE--ftp}};
+\node at(P.south west)[above right,shape=rectangle,fill=white]{\input{./legend/Map-QoE--ftp}};
+\end{tikzpicture}
+\caption{FTP response time on map (QoE)}
+\end{figure}
+\vfill
+}{}

@@ -1,35 +1,49 @@
 <div class="wrap">
     <span class="decor"></span>
-    <nav>
-      <ul class="primary">
-        <li>
-          <a href="../map">Home</a>
-        
-        </li>
-        <li>
-          <a>Pages</a>
-          <ul class="sub">
-            <li><a href="../rsrp">RSRP</a></li>
+   
+    <ul id="nav">
+      <li><a href="../map">home</a></li>
+      <li>
+        <a >map</a>
+          <ul class = "sub">
+            <li><a href="#">RSSI</a> </li>
+
+            <li><a href="#">RSRQ</a></li>
+            <li> 
+          
+              <!-- Second Tier Drop Down -->
+              
+              <a href="#">RSRP</a>
+              <input type="checkbox" id="drop-3"/>
+              <ul>
+                <li><a href="http://localhost:8000/map/rsrp/">Map</a></li>
+                <li><a href="http://localhost:8000/map/circle/">Chart</a></li>
+                <li><a href="http://localhost:8000/map/line/">Line</a></li>
+              </ul>
+            </li>
            
-          </ul>
-        </li>
-        <li>
-          <a href="">Scan Result</a>
-          <ul class="sub">
-            <li><a href="">Humming Bird</a></li>
-            <li><a href="">Hawk</a></li>
-            <li><a href="">Crow</a></li>
-          </ul>  
-        </li>
-        <li>
-          <a href="">Test</a>
-          <ul class="sub">
-            <li><a href="">Brown Horse</a></li>
-            <li><a href="">Race Horse</a></li>
-            <li><a href="">Tall Horse</a></li>
-          </ul>  
-        </li>
-        
+        </ul>
+      </li>
+      <li>
+        <a >test</a>
+          <ul class = "sub">
+            <li><a href="#">Ping</a> </li>
+
+            <li><a href="#">QoE</a></li>
+            <li> 
+          
+              <!-- Second Tier Drop Down -->
+              
+              <a href="#">Throughtput</a>
+              <input type="checkbox" id="drop-3"/>
+              <ul>
+                <li><a href="../test/ping/map">Map</a></li>
+                <li><a href="../circle/">Chart</a></li>
+                <li><a href="../line/">Line</a></li>
+              </ul>
+            </li>
+           
+        </ul>
+      </li>
       </ul>
-    </nav>
  </div>

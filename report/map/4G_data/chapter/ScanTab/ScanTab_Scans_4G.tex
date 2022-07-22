@@ -1,0 +1,37 @@
+
+Reference Signal Received Power (RSRP), is defined as the linear average over the power contributions (in [W]) of the resource elements (REs) that carry cell-specific reference signals within the considered measurement frequency bandwidth. For RSRP determination the cell-specific reference signals R0 according TS 36.211 [3] shall be used. If the UE can reliably detect that R1 is available it may use R1 in addition to R0 to determine RSRP. Note : R0 is the Cell Specific Reference Signal for Antenna Port 0 and R1 is the Cell Specific Reference signal for Antenna Port 1 (Refer to 36.211 Figure 6.10.1.2-1. Mapping of downlink reference signals (normal cyclic prefix)).  Its typical range is around -44dbm  to -140dbm. 
+
+Since this measures only the reference power, we can say this is the strength of the wanted signal. But it does not gives any information about signal quality. RSRP gives us the signal strenth of the desired signal, not the quality of  the signal. For quality of the signal information another parameter called 'RSSQ' is used in some case. Indicates quality of the received signal, and its range is typically -19.5dB(bad) to -3dB (good). This is the ratio of RSRP and total received signal and noise power (normalised to 1PRB bandwidth).
+
+SINR is a measure of signal quality as well but it is not defined in the 3GPP specs but defined by the UE vendor. It is not reported to the network. SINR is used a lot by operators, and the LTE industry in general, as it better quantifies the relationship between RF conditions and Throughput. LTE UEs typically use SINR to calculate the CQI (Channel Quality Indicator) they report to the network.
+
+%\IfFileExists{./legend/Scans-Plot-Serving--4G--SigPow.tex}{%
+%\vfill
+%\begin{table}[H]
+%\centering
+%\begin{subtable}[b]{0.48\textwidth}\centering\large
+%\input{./legend/Scans-Plot-Serving--4G--SigPow}
+%\end{subtable}
+%\begin{subtable}[b]{0.48\textwidth}\centering\large
+%\input{./legend/Scans-Plot-Serving--4G--SigQual}
+%\end{subtable}
+%\end{table}
+%\vfill
+%}{}
+
+\AddPicLegOutG{Scans-Plot-Serving--4G--SigPow}{Reference Signal Received Powery (\textit{RSRP}) for 4G Serving Cell.}
+\AddPicLegOutG{Scans-Plot-Serving--4G--SigQual}{Reference Signal Received Quality (\textit{RSRQ}) for 4G Serving Cell.}
+%\AddPicLegOutG{Scans-Plot-Serving--4G--SigSINR}{Signal-to-Interference Ratio (\textit{SINR}) for 4G Serving Cell.}
+\AddPicLegOutG{Scans-Plot-Neighbor--4G--SigPow}{Reference Signal Received Powery (\textit{RSRP}) for 4G Neighbor Cell.}
+\AddPicLegOutG{Scans-Plot-Neighbor--4G--SigQual}{Reference Signal Received Quality (\textit{RSRQ}) for 4G Neighbor Cell.}
+%\AddPicLegOutG{Scans-Plot-Neighbor--4G--SigSINR}{Signal-to-Interference Ratio (\textit{SINR}) for 4G Neighbor Cell.} //No SINR
+\AddPicLegOutG{Scans-Plot-Serving,Neighbor--4G--SigPow}{Reference Signal Received Powery (\textit{RSRP}) for 4G Serving and Neighbor Cell.}
+\AddPicLegOutG{Scans-Plot-Serving,Neighbor--4G--SigQual}{Reference Signal Received Quality (\textit{RSRQ}) for 4G Serving and Neighbor Cell.}
+%\AddPicLegOutG{Scans-Plot-Serving,Neighbor--4G--SigSINR}{Signal-to-Interference Ratio (\textit{SINR}) for 4G Serving and Neighbor Cell.}
+
+\clearpage
+\AddTableOMultiPage{Scans-Table-Serving--4G-}{Scan results for  Serving cell in 4G}
+\clearpage
+\AddTableOMultiPage{Scans-Table-Neighbor--4G-}{Scan results for  Neighbor cell in 4G}
+\clearpage
+\AddTableOMultiPage{Scans-Table-Serving,Neighbor--4G-}{Scan results for  Serving and Neighbor cell in 4G}

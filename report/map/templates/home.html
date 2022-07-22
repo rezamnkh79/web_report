@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+<title>Leaflet sample</title>
+<link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+<link rel="stylesheet" href="{% static 'map.css' %}"/>
+<script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<meta name="viewport" content="width=device-width">
+</head>
+<style type="text/css">
+    /* A simple, css only, (some-what) responsive menu */
+
+
+  </style>
+<body>
+  {% include "base/menu.html" %}  
+    <div id = "map" style = "" ></div>
+    
+    <p id="demo">
+        
+    </p>   
+    <script>  
+      
+    </script>
+</body>
+</html>

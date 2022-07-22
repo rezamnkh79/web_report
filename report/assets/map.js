@@ -1,5 +1,5 @@
 href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"
-var map = L.map('map',{ zoomControl: false }).setView([35.6926,51.40000], 13);
+var map = L.map('map',{ zoomControl: false });
 var mode = 'http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/ {y}.png';
 function MapMode() {
     if (document.getElementById("dark").checked == true){
@@ -12,11 +12,10 @@ function MapMode() {
       mode = 'http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/ {y}.png';
     }
   }
-function CreateMap(circule_poses,circule_messages,circule_color,marker_poses){
-    var mapOptions = {
-        center: [17.385044, 78.486671],
-        zoom: 10
-        }
+function CreateMap(circule_poses,circule_messages,circule_color,marker_poses,region_lon,region_lat){
+
+    map.setView([region_lon,region_lat], 16)
+   
         // Creating a map object
         
         let messages = circule_messages;
@@ -26,8 +25,8 @@ function CreateMap(circule_poses,circule_messages,circule_color,marker_poses){
         var circule_color = circule_color;
         const myArray_color = circule_color.split(",");
         // document.getElementById("light").checked = true  
-       
-       
+        
+        
 
         //location of points
         var marker_poses = marker_poses;
@@ -53,7 +52,7 @@ function CreateMap(circule_poses,circule_messages,circule_color,marker_poses){
            
           }
 
-    
+        
         //add layer and here when change the mode and close menu then changed map mode
         var layer = new L.TileLayer('http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/ {y}.png');
        

@@ -26,9 +26,20 @@
         
     </p>
     
-    
 
-       <script  src="{% static 'map.js' %}" >
+
+		<script>
+			function update() {
+				var select = document.getElementById('language');
+				var option = select.options[select.selectedIndex];
+
+        document.getElementById('demo3').innerText = option.value;
+				document.getElementById('text').value = option.text;
+			}
+
+			update();
+		</script>
+    <script  src="{% static 'map.js' %}" >
 
       
     </script>
@@ -38,7 +49,9 @@
         var circule_poses = {{circule_poses}};
         var circule_color = "{{circule_color}}";
         var marker_poses = {{marker_poses}};
-        CreateMap(circule_poses,messages,circule_color,marker_poses)
+        var region_lat = 17.385044
+        var region_lon = 78.486671
+        CreateMap(circule_poses,messages,circule_color,marker_poses,region_lat,region_lon)
      
         let flag = false;
         function myFunction() {

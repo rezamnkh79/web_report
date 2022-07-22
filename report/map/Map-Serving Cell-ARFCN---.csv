@@ -1,0 +1,7 @@
+Color,Name,Count,Distance,Distribution,Tech,Band,Freq
+#000000 ,Null,1,0,0.02,,,
+#ff34ff ,3300,3710,49707,82.48,4G,Band 7 (IMT-E 2600),2675
+#ff4a46 ,3102,362,4788,8.05,4G,Band 7 (IMT-E 2600),2655.2
+#008941 ,1423,369,4814,8.2,4G,Band 3 (DCS 1800),1827.3
+#006fa6 ,550,56,725,1.24,4G,Band 1 (IMT 2100),2165
+#ffffff ,Total,4498 [#],60034 [m],100.00 [%],,,
