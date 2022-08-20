@@ -39,7 +39,7 @@
        {% for color in info %}
                     
                      <tr>
-                        <td bgcolor ="{{color.color_range}}" ></td>
+                        <td bgcolor ="{{color.color_range.color}}" ></td>
                         <td> {{ color.name }}</td>
                         <td> {{ color.count }}</td>
                         <td>{{ color.distance }} </td>
@@ -61,36 +61,28 @@
             <td>Range </td>
             
             </tr>
-            
-            {% for color in ranges %}
+            {% for color in info %}
                         {% if color.name != "Null" and color.name != "Total" %}
                         
-
-                             
                         <tr>
-                            
-                            <td bgcolor ="{{color.color}}" ></td>
+                            <td bgcolor ="{{color.color_range.color}}" ></td>
                             <td> {{ color.name }}</td>
-                            <td> {{ color.tech }}</td>
-                            {% if color.min == -1000 %}
+                            <td> {{ color.color_range.tech }}</td>
+                            {% if color.color_range.min == -1000 %}
 
-                                <td>X<span>&#60;</span> {{color.max}} </td>
+                                <td>X<span>&#60;</span> {{color.color_range.max}} </td>
                         
-                            {% elif color.max == 1000%}
+                            {% elif color.color_range.max == 1000%}
                         
-                                <td>{{ color.min }} ≤ X </td>
+                                <td>{{ color.color_range.min }} ≤ X </td>
 
                             {% else %}
                                 
-                                <td>{{ color.min }} ≤  X <span>&#60;</span> {{color.max}} </td>
+                                <td>{{ color.color_range.min }} ≤  X <span>&#60;</span> {{color.color_range.max}} </td>
                             {% endif %}
                         </tr>
 
-
-
                         {% endif %}
-                       
-                       
                         
                         
             {% endfor %}
@@ -133,6 +125,7 @@
   
    <div>
     
+
     {% comment %} {% for i in object.filter.region_name = "fdcx"  %}
             {{i}}
     {% endfor %} {% endcomment %}

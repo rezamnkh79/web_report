@@ -1,0 +1,13 @@
+Color,Name,Count,Distance,Distribution
+#00703c ,Excellent,2845,38067,63.25
+#00a032 ,Very Good,865,11501,19.23
+#00d228 ,Good,590,7870,13.12
+#ffff00 ,Fair,195,2562,4.34
+#ffaa00 ,Poor,0,0,0
+#fa6400 ,Very Poor,0,0,0
+#ff0000 ,Bad,0,0,0
+#dc143c ,Very Bad,0,0,0
+#820000 ,Awful,0,0,0
+#aaaaaa ,No Coverage,0,0,0
+#000000 ,Null,3,34,0.07
+#ffffff ,Total,4498 [#],60034 [m],100.00 [%]

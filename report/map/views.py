@@ -1,12 +1,13 @@
 
 
+from curses.ascii import HT
 from dis import dis
 from inspect import Parameter
 from itertools import count
 from lib2to3.pytree import type_repr
 from multiprocessing import context
-from sqlite3 import paramstyle
 
+import redis
 from time import time
 
 
@@ -58,7 +59,6 @@ def InsertARFNTable(request):
 
 def Map(request):
     
-    points = Point_Info.objects.all()
     points_list = []
     Messages = []
     dict_from_csv = pd.read_csv('map//data.csv', header=None, index_col=0, squeeze=True).to_dict()
@@ -83,16 +83,19 @@ def Map(request):
     for i in range(1,len(latitude)) :
         l = []
         
-        color = Color[i].split(' ')
+        # color = Color[i].split(' ')
         
-        color = color[0].replace('*','')
+        color = Color[i].replace('*','')
         
         if  color == '' :
             color_list.append("#aaaaaa")
+            loop_color="#aaaaaa"
            
         else:
-            c = str(Set_Color(int(color)))
-            color_list.append(c)
+            color = (color.split('('))[-1].replace(')','')
+ 
+            loop_color = str(Set_Color((color)))
+            color_list.append(loop_color)
         
         message = "Time : "+str(Time[i])+"//"+"Loc : ("+str(latitude[i])+"/"+str(longitude[i])+")"+"//"+"Node id : "+str(Node[i])+"//"+"-------------------------------"+"//"+"Technology : "+str(technology[i])+"//"+"ARFCN : "+ARFCN[i]+"//"+"Code : "+code[i]+"//"+"PLMNID : "+PLMNID[i]+"//"+"LAC : "+LAC[i]+"//"+"Cell id : "+str(CellID[i])+"//"+"Scan Tech : "+str(Scan[i])+"//"+"Power : "+str(Power[i])+"//"+"Quality : "+str(Quality[i])+"//"+"-------------------------------"+"//"+"Color : "+str(Color[i])
         # l.append(format(float(point.latitude),".6f"))
@@ -120,7 +123,7 @@ def Map(request):
         "regions":regions,
         "range" :range(len(regions)),
     }
-    
+    print(len([points_list]))
     return render(request,'map.html',contex)
 
 
@@ -150,8 +153,8 @@ def Data(request):
     # result = sr.str.decode(encoding = 'ASCII')
 
     # get position and some parameter of points in database as model points info
-    dict_from_csv_points = pd.read_csv('map//data.csv', header=None, index_col=0, squeeze=True).to_dict()
-
+    dict_from_csv_points = pd.read_csv('data//RSSI.csv', header=None, index_col=0, squeeze=True).to_dict()
+    # print(dict_from_csv_points)
     Time = list(dict_from_csv_points[1].keys())
     Node = list(dict_from_csv_points[1].values())
     latitude = list(dict_from_csv_points[2].values())
@@ -169,21 +172,24 @@ def Data(request):
     region = Region.objects.get(region_name = "tehranpars")
 
     for i in range(1,len(latitude)) :
-        l = []
+        loop_color = ''
+        if '*' in Power[i]:
+            continue
+        # color = Color[i].split(' ')
         
-        color = Color[i].split(' ')
-        
-        color = color[0].replace('*','')
+        color = Color[i].replace('*','')
         
         if  color == '' :
             color_list.append("#aaaaaa")
+            loop_color="#aaaaaa"
            
         else:
-            c = str(Set_Color(int(color)))
-            color_list.append(c)
+            color = (color.split('('))[-1].replace(')','')
+            loop_color = str(Set_Color((color)))
+            color_list.append(loop_color)
 
-        Point_Info.objects.create(time = Time[i],node = Node[i],latitude = latitude[i],longitude = longitude[i],technology = technology[i],arfcn = ARFCN[i],code = code[i],plmnId = PLMNID[i],
-        lac = LAC[i],color = Color[i],cellId = CellID[i],scan = Scan[i],power = Power[i],quality = Quality[i],region =region)
+        Point_Info.objects.create(parameter="RSSI",time = Time[i],node = Node[i],latitude = latitude[i],longitude = longitude[i],technology = technology[i],arfcn = ARFCN[i],code = code[i],plmnId = PLMNID[i],
+        lac = LAC[i],color = loop_color,cellId = CellID[i],scan = Scan[i],power = Power[i],quality = Quality[i],region =region)
     return HttpResponse("done")
     
 
@@ -239,15 +245,15 @@ def Data(request):
 #           key_list = list(condition.keys())
 #           c = key_list[info["color"]]
 #     return c
-
+import re
 def Set_Color(color_val):
-    color_val = int(color_val)
-    
-    conditions = Ranges.objects.all()
-    for con in conditions:
-        if color_val in range(con.min,con.max):
-            return con.color
-    return None
+    colors_dict = {"#00703c":"Excellent","#00a032":"Very Good","#00d228":"Good","#ffff00":"Fair",
+    "#ffaa00":"Poor","#fa6400":"Very Poor","#ff0000":"Bad",
+    "#dc143c":"Very Bad","#820000":"Awful","#aaaaaa":"No Coverage","#000000":"Null","#ffffff":"Total"}
+    keys = [k for k, v in colors_dict.items() if v == color_val]
+    print(keys)
+    print(color_val)
+    return keys[0]
 
 def test(request):
     return render(request,'index.html')
@@ -255,25 +261,60 @@ def test(request):
 
 def RSRP(request):
     
-
+    colors = []
     points = Point_Popup("RSRP")
+    # print(len(points["circule_poses"][0]))
     # Set_Color_info(color_list)
     # data = pd.read_csv('map//RSRP.csv', header=None, index_col=0, squeeze=True).to_dict()
-    l = [1]
+   
+     # fix len should be filter\
+    #
+    #
     statics = Static_Info.objects.filter(parameter = "RSRP")
     context = {
-        'info' :Color_Info.objects.filter(parameter = "RSRP").distinct(),
+        'info' : Color_Info.objects.filter(parameter = "RSRP").distinct(),
         'len': len(list(Color_Info.objects.all())),
         'statics': statics,
-        'object':Region.objects.all(),
-        'l':l
+        'ranges':Ranges.objects.filter(parameter = "RSRP"),
+        "marker_poses":[35.7600,51.5200],
        
         
     }
     # context.update('rsrp_static','dscvfcd')
     # temp = send_data()
     context.update(points)
+    temp =points["circule_poses"][0]
+    context.update({"circule_poses":[temp]})
+    # print(context["circule_poses"])
     return render(request, 'RSRP.html',context=context)
+def RSSI(request):
+    
+    colors = []
+    points = Point_Popup("RSSI")
+    # print(len(points["circule_poses"][0]))
+    # Set_Color_info(color_list)
+    # data = pd.read_csv('map//RSRP.csv', header=None, index_col=0, squeeze=True).to_dict()
+   
+     # fix len s    hould be filter\
+    #
+    #
+    statics = Static_Info.objects.filter(parameter = "RSSI")
+    context = {
+        'info' : Color_Info.objects.filter(parameter = "RSSI").distinct(),
+        'len': len(list(Color_Info.objects.all())),
+        'statics': statics,
+        'ranges':Ranges.objects.filter(parameter = "RSSI"),
+        "marker_poses":[35.7600,51.5200],
+       
+        
+    }
+    # context.update('rsrp_static','dscvfcd')
+    # temp = send_data()
+    context.update(points)
+    temp =points["circule_poses"][0]
+    context.update({"circule_poses":[temp]})
+    # print(context["circule_poses"])
+    return render(request, 'RSSI.html',context=context)
 
 def PingTest(request):
     
@@ -282,6 +323,10 @@ def PingTest(request):
     # Set_Color_info(color_list)
     # data = pd.read_csv('map//RSRP.csv', header=None, index_col=0, squeeze=True).to_dict()
     l = [1]
+    # fix len should be filter\
+    #
+    #
+    #
     statics = Static_Info.objects.filter(parameter = "test-ping")
     context = {
         'info' :Color_Info.objects.filter(parameter = "test-ping").distinct(),
@@ -308,9 +353,7 @@ def QoE(request):
     context = {
         'info' :Color_Info.objects.filter(parameter = "test-QoE").distinct(),
         'len': len(list(Color_Info.objects.all())),
-        'statics': statics,
-        'l':l
-       
+        'statics': statics,      
         
     }
     # context.update('rsrp_static','dscvfcd')
@@ -323,7 +366,7 @@ def Technology(request):
     points_list = []
     Messages = []
     list_color = []
-
+    print((points_info))
     # create location list
     for i in range(len(points_info)) :
         l = []
@@ -446,7 +489,25 @@ def Code(request):
     
     return render(request, 'Code.html',context=context)
 
-
+def DNS(request):
+    points = Point_Popup("RSRP")
+    # Set_Color_info(color_list)
+    # data = pd.read_csv('map//RSRP.csv', header=None, index_col=0, squeeze=True).to_dict()
+    l = [1]
+    statics = Static_Info.objects.filter(parameter = "RSRP")
+    context = {
+        'info' :Color_Info.objects.filter(parameter = "RSRP").distinct(),
+        'len': len(list(Color_Info.objects.all())),
+        'statics': statics,
+        'object':Region.objects.all(),
+        'l':l
+       
+        
+    }
+    # context.update('rsrp_static','dscvfcd')
+    # temp = send_data()
+    context.update(points)
+    return render(request, 'DNS.html',context=context)
 
 def Set_Color_info(color_list):
     # color_count = Color.objects.all()
@@ -478,9 +539,11 @@ def Set_Color_info(color_list):
 
         Color_Info.objects.filter(id = i.id).update(distribution = distribution,count = count)
    
-
-   
-
+def set_color_info(request):
+    data = pd.read_csv('data//Ping.csv',header=None,squeeze=True,index_col=0).to_dict()
+    for i in data.values():
+        break
+    return HttpResponse(data)
    
 
 def send_data(prameter):
@@ -557,42 +620,92 @@ def update_points(request):
     # points = Point_Info.objects.all().update(region = "tehranpars")
     points = Table.objects.filter(parameter = "Code").update(parameter = "CellId")
     return HttpResponse("updated")
-
+import pickle
 
 def Point_Popup(prameter):
-    points_info = Point_Info.objects.filter(parameter = prameter)
+    
     points_list = []
     Messages = []
-
-
-    # create location list
-    for i in range(len(points_info)) :
-        l = []
-        # print(points_info[i].color)
-        color = points_info[i].color.split(' ')
+    color_list = []
+    contex = {}
+    r = redis.Redis(host='localhost', port=6379, db=0)
+    if r.get("context"+prameter) == None:  
+        points_info = Point_Info.objects.filter(parameter = prameter)     
+         # create location list with messages
+        for i in range(len(points_info)) :
+            l = []
+            color_list.append(points_info[i].color)
         
-        color = color[0].replace('*','')
-        
-        if  color == '' :
-            color_list.append("#aaaaaa")
-           
-        else:
-            c = str(Set_Color(int(color)))
-            color_list.append(c)
-        
-        message = "Time : "+str(points_info[i].time)+"//"+"Loc : ("+str(points_info[i].latitude)+"/"+str(points_info[i].longitude)+")"+"//"+"Node id : "+str(points_info[i].node)+"//"+"-------------------------------"+"//"+"Technology : "+str(points_info[i].technology)+"//"+"ARFCN : "+str(points_info[i].arfcn)+"//"+"Code : "+str(points_info[i].code)+"//"+"PLMNID : "+str(points_info[i].plmnId)+"//"+"LAC : "+str(points_info[i].lac)+"//"+"Cell id : "+str(points_info[i].cellId)+"//"+"Scan Tech : "+str(points_info[i].scan)+"//"+"Power : "+str(points_info[i].power)+"//"+"Quality : "+str(points_info[i].quality)+"//"+"-------------------------------"+"//"+"Color : "+str(points_info[i].color)
-        l.append(float(points_info[i].latitude))
-        l.append(float(points_info[i].longitude))
-        points_list.append(l)
-        Messages.append(message)
-    
-    # Set_Color_info(color_list)
-    contex = {
+            message = "Time : "+str(points_info[i].time)+"//"+"Loc : ("+str(points_info[i].latitude)+"/"+str(points_info[i].longitude)+")"+"//"+"Node id : "+str(points_info[i].node)+"//"+"-------------------------------"+"//"+"Technology : "+str(points_info[i].technology)+"//"+"ARFCN : "+str(points_info[i].arfcn)+"//"+"Code : "+str(points_info[i].code)+"//"+"PLMNID : "+str(points_info[i].plmnId)+"//"+"LAC : "+str(points_info[i].lac)+"//"+"Cell id : "+str(points_info[i].cellId)+"//"+"Scan Tech : "+str(points_info[i].scan)+"//"+"Power : "+str(points_info[i].power)+"//"+"Quality : "+str(points_info[i].quality)+"//"+"-------------------------------"+"//"+"Color : "+str(points_info[i].color)
+            l.append(float(points_info[i].latitude))
+            l.append(float(points_info[i].longitude))
+            points_list.append(l)
+            Messages.append(message)
+        contex = {
         "popup_message" :'hello world',
         "circule_poses":[points_list],
         "circule_color":color_list,
         "circule_messages" : Messages, 
         "marker_poses":[35.7600,51.5200]
+        
     }
-   
+        # r.set("Messages",''.join(map(str,Messages)))
+        # t = ''.join(map(str,Messages))
+        # temp_str_Messages = "Messages"+prameter
+        # temp_str_pints = "points"+prameter
+        # temp_str_color = "color"+prameter
+        # r.set(temp_str_Messages,str(Messages))
+        # r.set(temp_str_pints,str(points_list))
+        # r.set(temp_str_color,str(color_list))
+        # print()
+        # l = bytes([Messages,points_list,color_list])
+        # print(r.get(temp_str_Messages))
+        # print(r.get(temp_str_color))
+        # r.lpush(prameter,r.lpop("Messages"))
+        r.set("context"+prameter,pickle.dumps(contex))
+        print("from DB")
+    else:
+        # print(r.lpop("Messages"))
+
+        # Messages = list(r.get("Messages"+prameter))
+        # points_list = list(r.get("points"+prameter))
+        # color_list = list(r.get("color"+prameter))
+        # print(Messages)
+    # Set_Color_info(color_list)
+        contex = pickle.loads(r.get("context"+prameter))
     return contex
+
+
+def Redis(request):
+    r = redis.Redis(host='localhost', port=6379, db=0)
+    # pipe = r.pipeline()
+    # pipe.set('foo', 'bar')
+    # pipe.get('foo')
+    # context =  Point_Popup("RSRP")
+    # print(context)
+    # print((r.get("Messages").decode('UTF-8')))
+    # r.delete("RSRP")
+    # st = str(r.get("pointsRSRP"))
+    # op = st.strip('][').split(', ')
+    # print(op[1])
+    print(pickle.loads(r.get("contextRSRP"))["circule_messages"][2])
+    return HttpResponse(pickle.loads(r.get("contextRSRP")))
+
+
+
+def update(request):
+    names = ["EXCELLENT","VERY GOOD","GOOD","FAIR","POOR","VERY POOR","BAD",
+    "Very Bad","Awful","No Coverage","Null","Total"]
+    ranges = Ranges.objects.filter(parameter="RSRP")
+    j = 0
+    for i in ranges:
+        i.name = names[j]
+        j+=1
+        # Ranges.objects.update(i)
+        i.save()
+    return HttpResponse("done")
+
+def insert_static_info(request):
+    dict_from_csv = pd.read_csv('data//info_SigRSSI.csv', header=None, index_col=0, squeeze=True).to_dict()
+    print(dict_from_csv)
+    return HttpResponse("done")

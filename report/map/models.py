@@ -48,6 +48,7 @@ class Ranges(models.Model):
    min = models.IntegerField()
    tech = models.CharField(max_length=50,blank=True,null=True)
    color = models.CharField(max_length=200)
+   name = models.CharField(max_length=100,blank=True,null=True)
 
 # class Color_Info(models.Model):
 #    # paraeter = models.CharField(max_length=100)
@@ -68,7 +69,6 @@ class Color_Info(models.Model):
       region = models.ForeignKey(Region, on_delete=models.CASCADE,max_length=100,blank=True,null=True)
       name = models.CharField(max_length=100)
       count =models.IntegerField()
-      color_range =  models.OneToOneField("Ranges",on_delete=models.CASCADE,blank=True,null=True)
       color_range =  models.CharField(max_length = 100,blank=True,null=True)
       distance = models.IntegerField()
       distribution = models.DecimalField(
