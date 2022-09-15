@@ -1,5 +1,6 @@
 
 from operator import truediv
+from sqlite3 import Timestamp
 from statistics import mode, variance
 from django.db import models
 from numpy import blackman
@@ -44,8 +45,7 @@ class Point_Info(models.Model):
     
 class Ranges(models.Model):
    parameter = models.CharField(max_length=100,blank=True,null=True)
-   max = models.IntegerField()
-   min = models.IntegerField()
+   rang = models.CharField(max_length=100,blank=True,null=True)
    tech = models.CharField(max_length=50,blank=True,null=True)
    color = models.CharField(max_length=200)
    name = models.CharField(max_length=100,blank=True,null=True)
@@ -74,6 +74,7 @@ class Color_Info(models.Model):
       distribution = models.DecimalField(
          max_digits=8, decimal_places=2,blank=True,null=True
       )
+      tech = models.CharField(max_length=100,blank=True,null=True)
 class Static_Info(models.Model):
    parameter = models.CharField(max_length=100,blank=True,null=True)
    region = models.CharField(max_length=100,blank=True,null=True)
@@ -96,15 +97,8 @@ class Static_Info(models.Model):
    std = models.DecimalField(
          max_digits=8, decimal_places=2,blank=True,null=True
       )
-   variance = models.DecimalField(
-         max_digits=8, decimal_places=2,blank=True,null=True
-      )
-   ci_min = models.DecimalField(
-         max_digits=8, decimal_places=2,blank=True,null=True
-      )
-   ci_max = models.DecimalField(
-         max_digits=8, decimal_places=2,blank=True,null=True
-      )
+   variance = models.CharField(max_length=200,blank=True,null=True)
+   ci = models.CharField(max_length=200,blank=True,null=True)
 
 
 class Table(models.Model):
@@ -123,3 +117,24 @@ class Table(models.Model):
       tech = models.CharField(max_length=2,blank=True,null=True)
       band = models.CharField(max_length=100,blank=True,null=True)
       freq = models.CharField(max_length=100,blank=True,null=True)
+
+
+class Result_Table(models.Model):
+   parameter = models.CharField(max_length=100,blank=True,null=True) #if param is cell that means first table in page 70 second means neighber
+   count =models.CharField(
+      max_length =100,blank=True,null=True
+   )
+   timestamp = models.CharField(max_length=100)
+   tech = models.CharField(max_length=2,blank=True,null=True)
+   band = models.CharField(max_length = 100,blank=True,null=True)
+   plmn_id = models.IntegerField(blank=True,null=True)
+   arfcn = models.IntegerField(blank=True,null=True)
+   rsrp_color = models.CharField(max_length = 100,blank=True,null=True)
+   rsrp_result = models.CharField(max_length = 100,blank=True,null=True)
+   rsrq_color = models.CharField(max_length = 100,blank=True,null=True)
+   rsrq_result = models.CharField(max_length = 100,blank=True,null=True)
+   rssi_color = models.CharField(max_length = 100,blank=True,null=True)
+   rssi_result = models.CharField(max_length = 100,blank=True,null=True)
+   pci = models.CharField(max_length=100,blank=True,null=False)
+   sinr_result = models.IntegerField(blank=True,null=True)
+   sinr_color = models.CharField(max_length = 100,blank=True,null=True)

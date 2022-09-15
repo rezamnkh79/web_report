@@ -154,12 +154,36 @@ input[type="checkbox"]:checked ~ label .middle {
   font-size: 2em;
   z-index: 2;
 }
+table th , table td{
+    text-align: center;
+}
+
+table tr:nth-child(even){
+    background-color: #BEF2F5
+}
+.pagination {
+  display: inline-block;
+}
+.pagination .active{
+  color: blue;
+}
+.pagination a:hover{
+    cursor: pointer;
+
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    }
+  table tbody tr {
+    display: none;
+  }
 
 body {
     padding: 0;
     margin: 0;
   }
-
+#catTable{
+  position: absolute;
+}
   
   
   /* Customise Zoom Controls */

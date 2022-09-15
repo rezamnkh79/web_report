@@ -1,0 +1,12 @@
+Color@Name@Range
+#aaaaaa @No Coverage@2000≤X
+#820000 @Awful@1000≤X<2000
+#dc143c @Very Bad@300≤X<1000
+#ff0000 @Bad@200≤X<300
+#fa6400 @Very Poor@180≤X<200
+#ffaa00 @Poor@140≤X<180
+#ffff00 @Fair@100≤X<140
+#00d228 @Good@50≤X<100
+#00a032 @Very Good@30≤X<50
+#00703c @Excellent@0≤X<30
+#1e90ff @Unsuccess@-10≤X<0
