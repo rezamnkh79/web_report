@@ -5,7 +5,7 @@
 <head>
 <title>Leaflet sample</title>
 <link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
-<link rel="stylesheet" href="{% static 'RDRP.css' %}"/>
+<link rel="stylesheet" href="{% static 'map/Scans_on_map.css' %}"/>
 <script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="viewport" content="width=device-width">
@@ -30,16 +30,16 @@
     <table id = "color_info"  style = "">
 
        <tr>
-        <td >Color</td>
-        <td>Name</td>
-        <td>Count</td>
-        <td>Distance </td>
-        <td>Distribution </td>
+        <td bgcolor=#DFDBF8>Color</td>
+        <td bgcolor=#DFDBF8>Name</td>
+        <td bgcolor=#DFDBF8>Count</td>
+        <td bgcolor=#DFDBF8>Distance </td>
+        <td bgcolor=#DFDBF8>Distribution </td>
     </tr>
        {% for color in info %}
                     
                      <tr>
-                        <td bgcolor ="{{color.color_range.color}}" ></td>
+                        <td bgcolor ="{{color.color_range}}" ></td>
                         <td> {{ color.name }}</td>
                         <td> {{ color.count }}</td>
                         <td>{{ color.distance }} </td>
@@ -55,34 +55,31 @@
       <table id = "ranges"  style = "">
 
             <tr>
-            <td >Color</td>
-            <td>Name</td>
-            <td>Tech</td>
-            <td>Range </td>
+            <td bgcolor=#DFDBF8 >Color</td>
+            <td bgcolor=#DFDBF8>Name</td>
+            <td bgcolor=#DFDBF8>Tech</td>
+            <td bgcolor=#DFDBF8>Range </td>
             
             </tr>
-            {% for color in info %}
+            
+            {% for color in ranges %}
                         {% if color.name != "Null" and color.name != "Total" %}
                         
+
+                             
                         <tr>
-                            <td bgcolor ="{{color.color_range.color}}" ></td>
+                            
+                            <td bgcolor ="{{color.color}}" ></td>
                             <td> {{ color.name }}</td>
-                            <td> {{ color.color_range.tech }}</td>
-                            {% if color.color_range.min == -1000 %}
-
-                                <td>X<span>&#60;</span> {{color.color_range.max}} </td>
-                        
-                            {% elif color.color_range.max == 1000%}
-                        
-                                <td>{{ color.color_range.min }} ≤ X </td>
-
-                            {% else %}
-                                
-                                <td>{{ color.color_range.min }} ≤  X <span>&#60;</span> {{color.color_range.max}} </td>
-                            {% endif %}
+                            <td> {{ color.tech }}</td>
+                            <td> {{color.rang}}</td>
                         </tr>
 
+
+
                         {% endif %}
+                       
+                       
                         
                         
             {% endfor %}
@@ -94,15 +91,15 @@
        <table id = "static"  style = "">
 
         <tr>
-        <td >Count</td>
-        <td>Mean</td>
-        <td>Max</td>
-        <td>Min</td>
-        <td>Median</td>
-        <td>Mode</td>
-        <td>Std</td>
-        <td>Variance</td>
-        <td>CI[95%]</td>   
+        <td bgcolor=#DFDBF8 >Count</td>
+        <td bgcolor=#DFDBF8>Mean</td>
+        <td bgcolor=#DFDBF8>Max</td>
+        <td bgcolor=#DFDBF8>Min</td>
+        <td bgcolor=#DFDBF8>Median</td>
+        <td bgcolor=#DFDBF8>Mode</td>
+        <td bgcolor=#DFDBF8>Std</td>
+        <td bgcolor=#DFDBF8>Variance</td>
+        <td bgcolor=#DFDBF8>CI[95%]</td>   
             
         </tr>
             {% for data in statics %}
@@ -117,7 +114,7 @@
                     <td>{{ data.mode }} </td>
                     <td>{{ data.std }} </td>
                     <td>{{ data.variance }} </td>
-                    <td>[{{ data.ci_min}},{{data.ci_max}}] </td>
+                    <td>{{ data.ci}} </td>
                 </tr>
             {% endfor %}
                 
@@ -125,7 +122,6 @@
   
    <div>
     
-
     {% comment %} {% for i in object.filter.region_name = "fdcx"  %}
             {{i}}
     {% endfor %} {% endcomment %}

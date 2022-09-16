@@ -154,36 +154,12 @@ input[type="checkbox"]:checked ~ label .middle {
   font-size: 2em;
   z-index: 2;
 }
-table th , table td{
-    text-align: center;
-}
-
-table tr:nth-child(even){
-    background-color: #BEF2F5
-}
-.pagination {
-  display: inline-block;
-}
-.pagination .active{
-  color: blue;
-}
-.pagination a:hover{
-    cursor: pointer;
-
-    padding: 8px 16px;
-    border: 1px solid #ddd;
-    }
-  table tbody tr {
-    display: none;
-  }
 
 body {
     padding: 0;
     margin: 0;
   }
-#catTable{
-  position: absolute;
-}
+
   
   
   /* Customise Zoom Controls */
@@ -1104,19 +1080,34 @@ table tr
 #title-info  {
     
   position:absolute;
-  top:95%;
-  right:40%;
-  width: 30%;
+  top:12%;
+  right:15%;
+  width: 20%;
 }
 
 #color_info  {
   border:ridge 5px rgb(30, 255, 0);
   position:absolute;
-  top:100%;
-  right:30%;
-  width: 40%;
+  top:16%;
+  right:5%;
+  width: 30%;
 }
 
+
+#compute  {
+  border:ridge 5px rgb(30, 255, 0);
+  position:absolute;
+  top:80%;
+  left:5%;
+  width: 50%;
+}
+#static{
+  border:ridge 5px rgb(30, 255, 0);
+  position:absolute;
+  top:92%;
+  left:13%;
+  width: 35%;
+}
 
 table td       
 {
@@ -1129,7 +1120,7 @@ table tr
 }
 #map {
    
-  position:absolute; width: 50%; height:70% ;left:25%;top:20%;
+  position:absolute; width: 50%; height:70% ;left:13%;top:20%;
 
   
 }

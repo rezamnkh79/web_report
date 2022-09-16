@@ -20,7 +20,7 @@
   }
 
   .ct-series-d .ct-slice-pie {
-    fill: hsl(90, 70%, 30%);
+    fill: hsl(90, 91%, 46%);
     stroke: white;
     stroke-width: 5px;
   }
@@ -29,7 +29,16 @@
     stroke: white;
     stroke-width: 5px;
   }
-
+  .ct-series-f .ct-slice-pie {
+    fill: hsl(100, 140%, 20%);
+    stroke: white;
+    stroke-width: 5px;
+  }
+  .ct-series-g .ct-slice-pie {
+    fill: hsl(227, 100%, 20%);
+    stroke: white;
+    stroke-width: 5px;
+  }
   
   @media (min-width: 1601px) and ( max-width: 2200px) {
 

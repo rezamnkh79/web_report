@@ -25,6 +25,7 @@ urlpatterns = [
     path("cell_id/", views.Cell_Id),
     path('dns/',views.DNS),
     path("qoe/",views.QoE),
+    path("downlink/",views.DownLink),
     path("cell_result_table/", views.Scan_result_cell),
     path("cell_result_neighbor/", views.Scan_result_neighbor),
     path('update/',views.update_points),
@@ -36,7 +37,10 @@ urlpatterns = [
     path("readcolor/",views.ReadColorInfoData),
     path("readtest/",views.ReadTestTableData),
     path("readstatic/",views.ReadStaticData),
-    path("readrange/",views.ReadRangeData)
+    path("readrange/",views.ReadRangeData),
+    path("power_pie_chart/",views.PowerPieChart),
+    path("quality_pie_chart/",views.QualityPieChart)
+    
     
     
 ]

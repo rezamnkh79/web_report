@@ -1,7 +1,6 @@
-from statistics import variance
 import redis
 from time import time
-
+from typing import List
 
 from django.http import HttpResponse
 from django.shortcuts import render,get_object_or_404
@@ -263,12 +262,19 @@ def RSRP(request):
      # fix len should be filter\
     #
     #
-    statics = Static_Info.objects.filter(parameter = "RSRP")
+    statics = Static_Info.objects.filter(parameter = "Map-Scan-Neighbor-SigPow-4G-Avg.csv")
+    info_list:List(Color_Info) = []
+    names = []
+    infos = Color_Info.objects.filter(parameter = "Map-Scan-Neighbor-SigPow-4G-Avg.csv").distinct()
+    for info in infos:
+        if info.name not in names:
+            info_list.append(info)
+            names.append(info.name)
     context = {
-        'info' : Color_Info.objects.filter(parameter = "RSRP").distinct(),
+        'info' :info_list,
         'len': len(list(Color_Info.objects.all())),
         'statics': statics,
-        'ranges':Ranges.objects.filter(parameter = "RSRP"),
+        'ranges':Ranges.objects.filter(parameter = "Map-Scan-Neighbor-SigPow-4G-Avg.csv"),
         "marker_poses":[35.7600,51.5200],
        
         
@@ -279,16 +285,24 @@ def RSRP(request):
     temp =points["circule_poses"][0]
     context.update({"circule_poses":[temp]})
     # print(context["circule_poses"])
-    return render(request, 'RSRP.html',context=context)
+    return render(request, 'map/Scans_on_map.html',context=context)
 
 def RSRQ(request):
     points = Point_Popup("RSRQ")
-    statics = Static_Info.objects.filter(parameter = "RSRQ")
+
+    info_list:List(Color_Info) = []
+    names = []
+    infos = Color_Info.objects.filter(parameter = "Map-Scan-Neighbor-SigQual-4G-Avg.csv").distinct()
+    for info in infos:
+        if info.name not in names:
+            info_list.append(info)
+            names.append(info.name)
+            
+    statics = Static_Info.objects.filter(parameter = "Map-Scan-Neighbor-SigQual-4G-Avg.csv")
     context = {
-        'info' : Color_Info.objects.filter(parameter = "RSRQ").distinct(),
-        'len': len(list(Color_Info.objects.all())),
+        'info' : info_list,
         'statics': statics,
-        'ranges':Ranges.objects.filter(parameter = "RSRQ"),
+        'ranges':Ranges.objects.filter(parameter = "Map-Scan-Neighbor-SigQual-4G-Avg.csv"),
         "marker_poses":[35.7600,51.5200],
        
         
@@ -296,7 +310,7 @@ def RSRQ(request):
     context.update(points)
     temp =points["circule_poses"][0]
     context.update({"circule_poses":[temp]})
-    return render(request, 'map/RSRQ.html',context=context)
+    return render(request, 'map/Scans_on_map.html',context=context)
     
 def RSSI(request):
 
@@ -314,59 +328,15 @@ def RSSI(request):
     context.update(points)
     temp =points["circule_poses"][0]
     context.update({"circule_poses":[temp]})
-    return render(request, 'RSSI.html',context=context)
-
-def PingTest(request):
-    
-    
-    points = Point_Popup("test-ping")
-    # Set_Color_info(color_list)
-    # data = pd.read_csv('map//RSRP.csv', header=None, index_col=0, squeeze=True).to_dict()
-    l = [1]
-    # fix len should be filter\
-    #
-    #
-    #
-    statics = Static_Info.objects.filter(parameter = "test-ping")
-    context = {
-        'info' :Color_Info.objects.filter(parameter = "test-ping").distinct(),
-        'len': len(list(Color_Info.objects.all())),
-        'statics': statics,
-        'l':l
-       
-        
-    }
-    # context.update('rsrp_static','dscvfcd')
-    # temp = send_data()
-    context.update(points)
-    return render(request, 'test//ping.html',context=context)
+    return render(request, 'map/Scans_on_map.html',context=context)
 
 
-def QoE(request):
-    
-    
-    points = Point_Popup("test-QoE")
-    # Set_Color_info(color_list)
-    # data = pd.read_csv('map//RSRP.csv', header=None, index_col=0, squeeze=True).to_dict()
-    l = [1]
-    statics = Static_Info.objects.filter(parameter = "test-QoE")
-    context = {
-        'info' :Color_Info.objects.filter(parameter = "test-QoE").distinct(),
-        'len': len(list(Color_Info.objects.all())),
-        'statics': statics,      
-        
-    }
-    # context.update('rsrp_static','dscvfcd')
-    # temp = send_data()
-    context.update(points)
-    return render(request, 'test//ping.html',context=context)
 def Technology(request):
     color_list_technology = []
     points_info = Point_Info.objects.all().distinct()
     points_list = []
     Messages = []
     list_color = []
-    print((points_info))
     # create location list
     for i in range(len(points_info)) :
         l = []
@@ -389,7 +359,8 @@ def Technology(request):
         points_list.append(l)
         Messages.append(message)
     l = [1]
-
+    
+    #TODO change parameter to file name Map-Serving "Cell-Technology---.csv"
     context = {
         'info' :Color_Info.objects.filter(parameter = "technology").distinct(),
         'len': len(list(Color_Info.objects.all())),
@@ -438,7 +409,7 @@ def ARFCN(request):
         "circule_poses":[points_list],
         "circule_color":list_color,
         "circule_messages" : Messages, 
-       "marker_poses":[35.7600,51.5200],
+        "marker_poses":[35.7600,51.5200],
         
     }
     return render(request, 'ARFCN.html',context=context)
@@ -479,7 +450,7 @@ def Code(request):
        "marker_poses":[35.7600,51.5200],
         
     }  
-    return render(request, 'Code.html',context=context)
+    return render(request, 'map/Code.html',context=context)
 def ARFCN_Code(request):
     points_info = Point_Info.objects.all().distinct()
     points_list = []
@@ -529,30 +500,15 @@ def Cell_Id(request):
 
     for i in range(len(points_info)) :
         l = []
-        if points_info[i].technology == "4G":
-
-            list_color.append("#0008ff")
-        elif points_info[i].technology == "3G":
-
-            list_color.append("#ff00e6")
-        elif points_info[i].technology == "2G":
-
-            list_color.append("#00ffff")
-        else:
-            list_color.append("#32cd32")
-            
-
         message = "Time : "+str(points_info[i].time)+"//"+"Loc : ("+str(points_info[i].latitude)+"/"+str(points_info[i].longitude)+")"+"//"+"Node id : "+str(points_info[i].node)+"//"+"-------------------------------"+"//"+"Technology : "+str(points_info[i].technology)+"//"+"ARFCN : "+str(points_info[i].arfcn)+"//"+"Code : "+str(points_info[i].code)+"//"+"PLMNID : "+str(points_info[i].plmnId)+"//"+"LAC : "+str(points_info[i].lac)+"//"+"Cell id : "+str(points_info[i].cellId)+"//"+"Scan Tech : "+str(points_info[i].scan)+"//"+"Power : "+str(points_info[i].power)+"//"+"Quality : "+str(points_info[i].quality)+"//"+"-------------------------------"+"//"+"Color : "+str(points_info[i].color)
         l.append(float(points_info[i].latitude))
         l.append(float(points_info[i].longitude))
         points_list.append(l)
         Messages.append(message)
-    l = [1]
 
     context = {
         'info' :Table.objects.filter(parameter = "Cell_Id").distinct(),
         'len': len(list(Color_Info.objects.all())),
-        'l':l,
         "circule_poses":[points_list],
         "circule_color":list_color,
         "circule_messages" : Messages, 
@@ -570,19 +526,7 @@ def PLMN_Id(request):
 
     for i in range(len(points_info)) :
         l = []
-        if points_info[i].technology == "4G":
-
-            list_color.append("#0008ff")
-        elif points_info[i].technology == "3G":
-
-            list_color.append("#ff00e6")
-        elif points_info[i].technology == "2G":
-
-            list_color.append("#00ffff")
-        else:
-            list_color.append("#32cd32")
-            
-
+       
         message = "Time : "+str(points_info[i].time)+"//"+"Loc : ("+str(points_info[i].latitude)+"/"+str(points_info[i].longitude)+")"+"//"+"Node id : "+str(points_info[i].node)+"//"+"-------------------------------"+"//"+"Technology : "+str(points_info[i].technology)+"//"+"ARFCN : "+str(points_info[i].arfcn)+"//"+"Code : "+str(points_info[i].code)+"//"+"PLMNID : "+str(points_info[i].plmnId)+"//"+"LAC : "+str(points_info[i].lac)+"//"+"Cell id : "+str(points_info[i].cellId)+"//"+"Scan Tech : "+str(points_info[i].scan)+"//"+"Power : "+str(points_info[i].power)+"//"+"Quality : "+str(points_info[i].quality)+"//"+"-------------------------------"+"//"+"Color : "+str(points_info[i].color)
         l.append(float(points_info[i].latitude))
         l.append(float(points_info[i].longitude))
@@ -593,18 +537,16 @@ def PLMN_Id(request):
     context = {
         'info' :Table.objects.filter(parameter = "PLMN_Id").distinct(),
         'len': len(list(Color_Info.objects.all())),
-        'l':l,
         "circule_poses":[points_list],
         "circule_color":list_color,
         "circule_messages" : Messages, 
        "marker_poses":[35.7600,51.5200],
         
     }
-    return render(request, 'map/PLMN.html',context=context)    
-def DNS(request):
-    points = Point_Popup("RSRP")
-    # Set_Color_info(color_list)
-    # data = pd.read_csv('map//RSRP.csv', header=None, index_col=0, squeeze=True).to_dict()
+    return render(request, 'map/ARFCN_Code.html',context=context)    
+
+def LAC(request):
+    points = Point_Popup("LAC")
     l = [1]
     statics = Static_Info.objects.filter(parameter = "RSRP")
     context = {
@@ -619,7 +561,129 @@ def DNS(request):
     # context.update('rsrp_static','dscvfcd')
     # temp = send_data()
     context.update(points)
-    return render(request, 'DNS.html',context=context)
+    return render(request, 'LAC.html',context=context)
+
+
+
+# TEST
+def PingTest(request):
+    
+    
+    points = Point_Popup("test-ping")
+    # Set_Color_info(color_list)
+    # data = pd.read_csv('map//RSRP.csv', header=None, index_col=0, squeeze=True).to_dict()
+    l = [1]
+    info_list:List(Color_Info) = []
+    names = []
+    infos = Color_Info.objects.filter(parameter = "Map-Data Test-Delay-Ping--.csv").distinct()
+    for info in infos:
+        if info.name not in names:
+            info_list.append(info)
+            names.append(info.name)
+    statics = Static_Info.objects.filter(parameter = "Map-Data Test-Delay-Ping--.csv")
+    context = {
+        'info' :info_list,
+        'ranges':Ranges.objects.filter(parameter = "Map-Data Test-Delay-Ping--.csv"),
+        'len': len(list(Color_Info.objects.all())),
+        'statics': statics,
+        'l':l
+       
+        
+    }
+    # context.update('rsrp_static','dscvfcd')
+    # temp = send_data()
+    context.update(points)
+    return render(request, 'test//test_map.html',context=context)
+
+def QoE(request):
+    points = Point_Popup("test-ping")
+    # Set_Color_info(color_list)
+    # data = pd.read_csv('map//RSRP.csv', header=None, index_col=0, squeeze=True).to_dict()
+    l = [1]
+    info_list:List(Color_Info) = []
+    names = []
+    infos = Color_Info.objects.filter(parameter = "Map-Data Test-Delay-Jitter--.csv").distinct()
+    for info in infos:
+        if info.name not in names:
+            info_list.append(info)
+            names.append(info.name)
+    statics = Static_Info.objects.filter(parameter = "Map-Data Test-Delay-Jitter--.csv")
+    context = {
+        'info' :info_list,
+        'ranges':Ranges.objects.filter(parameter = "Map-Data Test-Delay-Jitter--.csv"),
+        'len': len(list(Color_Info.objects.all())),
+        'statics': statics,
+        'l':l
+       
+        
+    }
+    # context.update('rsrp_static','dscvfcd')
+    # temp = send_data()
+    context.update(points)
+    return render(request, 'test//test_map.html',context=context)
+def DownLink(request):
+    points = Point_Popup("test-ping")
+    # Set_Color_info(color_list)
+    # data = pd.read_csv('map//RSRP.csv', header=None, index_col=0, squeeze=True).to_dict()
+    l = [1]
+    info_list:List(Color_Info) = []
+    names = []
+    infos = Color_Info.objects.filter(parameter = "Map-Data Test-Throughput-Download--.csv").distinct()
+    for info in infos:
+        if info.name not in names:
+            info_list.append(info)
+            names.append(info.name)
+    statics = Static_Info.objects.filter(parameter = "Map-Data Test-Throughput-Download--.csv")
+    context = {
+        'info' :info_list,
+        'ranges':Ranges.objects.filter(parameter = "Map-Data Test-Throughput-Download--.csv"),
+        'len': len(list(Color_Info.objects.all())),
+        'statics': statics,
+        'l':l
+       
+        
+    }
+    # context.update('rsrp_static','dscvfcd')
+    # temp = send_data()
+    context.update(points)
+    return render(request, 'test//test_map.html',context=context)
+
+def DNS(request):
+    points = Point_Popup("test-ping")
+    # Set_Color_info(color_list)
+    # data = pd.read_csv('map//RSRP.csv', header=None, index_col=0, squeeze=True).to_dict()
+    l = [1]
+    info_list:List(Color_Info) = []
+    names = []
+    infos = Color_Info.objects.filter(parameter = "Map-Data Test-DNS-A Records--.csv").distinct()
+    for info in infos:
+        if info.name not in names:
+            info_list.append(info)
+            names.append(info.name)
+    statics = Static_Info.objects.filter(parameter = "Map-Data Test-DNS-A Records--.csv")
+    context = {
+        'info' :info_list,
+        'ranges':Ranges.objects.filter(parameter = "Map-Data Test-DNS-A Records--.csv"),
+        'len': len(list(Color_Info.objects.all())),
+        'statics': statics,
+        'l':l
+       
+        
+    }
+    # context.update('rsrp_static','dscvfcd')
+    # temp = send_data()
+    context.update(points)
+    return render(request, 'test//test_map.html',context=context)
+
+
+
+
+
+
+
+
+
+
 def Scan_result_cell(request):
    
     
@@ -731,6 +795,10 @@ def setting(request):
     return render(request,'map/index.html')
 
 def test_line_chart(request):
+    context={
+        "Exelent":[]
+        
+    }
     return render(request,'test_line_chart.html')
 
 def test_circle_chart(request):
@@ -745,6 +813,22 @@ def test_circle_chart(request):
     }
     return render(request,'test_circle_chart.html',context)
 
+def PowerPieChart(request):
+
+    context =computepiechert("RSRP")
+    context.update({
+        "ranges":Ranges.objects.filter(parameter="Map-Scan-Neighbor-SigPow-4G-Avg.csv")
+    })
+    return render(request,'scan_chart/pie_chart.html',context)
+
+def QualityPieChart(request):
+
+    context =computepiechert("RSRQ")
+    context.update({
+        "ranges":Ranges.objects.filter(parameter="Map-Scan-Neighbor-SigQual-4G-Avg.csv")
+    })
+    return render(request,'scan_chart/pie_chart.html',context)
+    
 def update_points(request):
     # points = Point_Info.objects.all().update(region = "tehranpars")
     points = Table.objects.filter(parameter = "Code").update(parameter = "CellId")
@@ -760,6 +844,7 @@ def Point_Popup(prameter):
     contex = {}
     r = redis.Redis(host='localhost', port=6379, db=0)
     if r.get("context"+prameter) == None:  
+        
         points_info = Point_Info.objects.filter(parameter = prameter)     
          # create location list with messages
         for i in range(len(points_info)) :
@@ -802,6 +887,7 @@ def Point_Popup(prameter):
         # color_list = list(r.get("color"+prameter))
         # print(Messages)
     # Set_Color_info(color_list)
+        print("redis")
         contex = pickle.loads(r.get("context"+prameter))
     return contex
 
@@ -872,9 +958,12 @@ def insert_table_result(request):
 
 def ReadPointInfoData(request):
     directory = os.path.join(os.getcwd(),"data/datas")
+    # r = redis.Redis(host='localhost', port=6379, db=0)
     for root,dirs,files in os.walk(directory):
         for file in files:
             if file.endswith(".csv"):
+                #TODO delete file name from catch
+                # r.delete(file)
                 f=open(os.path.join(directory,file), 'r')
                 for data in f :
                     data = data.split('@')
@@ -922,6 +1011,7 @@ def ReadColorInfoData(request):
     for root,dirs,files in os.walk(directory):
         for file in files:
             if file.endswith(".csv"):
+                #TODO delete file name from catch
                 f=open(os.path.join(directory,file), 'r')
                 for data in f :
                     data = data.split('@')
@@ -957,6 +1047,7 @@ def ReadTestTableData(request):
     for root,dirs,files in os.walk(directory):
         for file in files:
             if file.endswith(".csv"):
+                #TODO delete file name from catch
                 f=open(os.path.join(directory,file), 'r')
                 for data in f :
                     data = data.split('@')
@@ -1039,3 +1130,27 @@ def ReadRangeData(request):
 
                 f.close()
     return HttpResponse("done")
+
+def computepiechert(parameter):
+    total_points = Point_Info.objects.filter(parameter=parameter)
+    Very_Good =len( Point_Info.objects.filter(parameter=parameter,color="#00a032 ").values_list('color'))/len(total_points)
+    Good = len(Point_Info.objects.filter(parameter=parameter,color="#00d228").values_list('color'))/len(total_points)
+    Fair = len(Point_Info.objects.filter(parameter=parameter,color="#ffff00").values_list('color'))/len(total_points)
+    Poor = len(Point_Info.objects.filter(parameter=parameter,color="#ffaa00").values_list('color'))/len(total_points)
+    Bad = len(Point_Info.objects.filter(parameter=parameter,color="#ff0000").values_list('color'))/len(total_points)
+    Very_Bad = len(Point_Info.objects.filter(parameter=parameter,color="#dc143c").values_list('color'))/len(total_points)
+    Awful = len(Point_Info.objects.filter(parameter=parameter,color="#820000 ").values_list('color'))/len(total_points)
+    No_Coverage = len(Point_Info.objects.filter(parameter=parameter,color="#aaaaaa ").values_list('color'))/len(total_points)
+    print(Very_Good)
+    result = {
+        "Very_Good":round(Very_Good*100, 2),
+        "Good":round(Good*100, 2),
+        "Fair":round(Fair*100, 2),
+        "Poor":round(Poor*100, 2),
+        "Bad":round(Bad*100, 2),
+        "Very_Bad":round(Very_Bad*100, 2),
+        "Awful":round(Awful*100, 2),
+        "No_Coverage":round(No_Coverage*100, 2),
+        "Total":total_points,
+    }
+    return result  

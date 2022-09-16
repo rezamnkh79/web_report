@@ -75,6 +75,7 @@ class Color_Info(models.Model):
          max_digits=8, decimal_places=2,blank=True,null=True
       )
       tech = models.CharField(max_length=100,blank=True,null=True)
+      
 class Static_Info(models.Model):
    parameter = models.CharField(max_length=100,blank=True,null=True)
    region = models.CharField(max_length=100,blank=True,null=True)

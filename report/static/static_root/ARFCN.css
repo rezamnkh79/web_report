@@ -164,6 +164,9 @@ table tr:nth-child(even){
 .pagination {
   display: inline-block;
 }
+.pagination .active{
+  color: blue;
+}
 .pagination a:hover{
     cursor: pointer;
 

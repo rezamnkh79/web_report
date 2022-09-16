@@ -1,7 +1,7 @@
 
 @import "menu.css";
 body { 
-  background: #ccc;
+  background: rgb(235, 234, 234);
   font-family: helvetica, arial, serif;
   font-size: 13px;
   text-transform: uppercase;
@@ -40,6 +40,15 @@ label {
   transition: background-color .5s ease-in, transform .5s ease-in, width .5s ease-in;
 }
 
+.pagination{
+  display:flex;
+}
+.pagination li{
+  margin:10px;
+}
+.active{
+  color:bule;
+}
 .content {
   top: 0;
   bottom: 0;
@@ -1079,7 +1088,7 @@ table tr
 }
 #map {
    
-  position:absolute; width: 50%; height:70% ;left:13%;top:20%;
+  position:absolute; width: 50%; height:70% ;left:10%;top:20%;
 
   
 }
@@ -1133,7 +1142,7 @@ table tr
 }
 #map {
    
-  position:absolute; width: 50%; height:70% ;left:25%;top:20%;
+  position:absolute; width: 50%; height:70% ;left:10%;top:20%;
 
   
 }
