@@ -98,7 +98,7 @@ $(table + ' tr:gt(0)').each(function() {
 }); // end of on click pagination list
 limitPagging();
 })
-.val(5)
+.val(10)
 .change();
 
 // end of on select change
