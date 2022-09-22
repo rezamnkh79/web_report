@@ -20,8 +20,10 @@ from django.urls.conf import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('map/',include('map.urls')),
-    path('test/',include('tests.urls')),
-    path('result/',include('scan_result.urls'))
-    
+    path('map/', include('map.urls')),
+    path('test/', include('tests.urls')),
+    path('result/', include('scan_result.urls')),
+    path('introduction/', include('base.urls')),
+    path('producer/', include('procedures.urls')),
+
 ]

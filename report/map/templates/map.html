@@ -1,66 +1,47 @@
-
 <!DOCTYPE html>
 {% load static %}
 <html>
 <head>
-<title>Leaflet sample</title>
-<link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
-<link rel="stylesheet" href="{% static 'map.css' %}"/>
-<script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-<meta name="viewport" content="width=device-width">
+    <title>Leaflet sample</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+    <link rel="stylesheet" href="{% static 'map.css' %}"/>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <meta name="viewport" content="width=device-width">
 </head>
-<style type="text/css">
-    /* A simple, css only, (some-what) responsive menu */
+<style>
+ #map{
+     position: relative;
+     top: 10%;
+     width: 150%;
+ }
 
-
-  </style>
+</style>
 <body>
-  {% include "base/menu.html" %}  
-    <div id = "map" style = "" ></div>
-    
-    <p id="demo">
-        
-    </p>
+{% include "base/menu.html" %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leaflet sample</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+</head>
+<body>
+<div id="map" ></div>
+<script>
+    // Creating map options
+    var mapOptions = {
+        center: [32.4279,  65.6880],
+        zoom: 6
+    }
+    // Creating a map object
+    var map = new L.map('map', mapOptions);
+    // Creating a Layer object
+    var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+    // Adding layer to the map
+    map.addLayer(layer);
+</script>
+</body>
+</html>
 
-    <p id="demo1">
-        
-    </p>
- 
-
-	
-    <script  src="{% static 'map.js' %}" >
-
-      
-    </script>
-    <script>  
-      //map variable
-        let messages = [];
-        var circule_poses = [];
-        var circule_color = [];
-        var marker_poses = [];
-        var region_lat = 17.385044
-        var region_lon = 78.486671
-        CreateMap(circule_poses,messages,circule_color,marker_poses,region_lat,region_lon)
-     
-        let flag = false;
-        function myFunction() {
-             if(flag ==true){
-              console.log(flag)
-             var layer = new L.TileLayer('http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/ {y}.png');
-             map.addLayer(layer);
-              flag = false
-              }
-             else{
-
-             var layer = new L.TileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png');
-             map.addLayer(layer);
-             flag = true
-
-
-             }
-            
-            console.log("dsacfsacdx")
-         }
-    </script>
 </body>
 </html>

@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'map',
     'tests',
     'scan_result',
+    'procedures',
+    'base'
 ]
 
 MIDDLEWARE = [
