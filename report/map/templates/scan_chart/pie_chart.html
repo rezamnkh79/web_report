@@ -47,11 +47,6 @@
            </table>
         </div>
 
-        
-        {% comment %} <canvas id="myChart" ></canvas> {% endcomment %}
-
-
-
        <script >
         
               
@@ -68,7 +63,6 @@
             series: ["{{Very_Good}}","{{Good}}","{{Fair}}","{{Poor}}","{{Bad}}","{{Very_Bad}}",
             "{{Awful}}","{{No_Coverage}}"]
           };
-          console.log("{{Good}}")
           new Chartist.Pie('#chart5', data1,options);
     </script>
 </body>

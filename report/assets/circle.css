@@ -1,8 +1,14 @@
 @import "menu.css";
-
+body { 
+  background: rgb(235, 234, 234);
+  font-family: helvetica, arial, serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: center;
+}
 
   .ct-series-a .ct-slice-pie {
-    fill: hsl(100, 20%, 50%); /* filling pie slices */
+    fill: hsl(227, 100%, 20%);
     stroke: white; /*giving pie slices outline */          
     stroke-width: 5px;  /* outline width */
   }
@@ -35,7 +41,7 @@
     stroke-width: 5px;
   }
   .ct-series-g .ct-slice-pie {
-    fill: hsl(227, 100%, 20%);
+    fill: hsl(100, 20%, 50%);
     stroke: white;
     stroke-width: 5px;
   }
@@ -81,8 +87,8 @@
     width: 40%;
     height: 50%;
     top: 30%;
-    left: 10%;
-    background-color: white;
+    left: 30%;
+  
 }
 
 #chart5{

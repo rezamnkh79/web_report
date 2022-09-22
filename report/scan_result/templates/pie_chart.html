@@ -34,34 +34,18 @@
                 <td>Range </td>
                 
                 </tr>
-                {% for color in info %}
+                {% for color in ranges %}
                             
                             <tr>
-                                <td bgcolor ="{{color.color_range.color}}" ></td>
+                                <td bgcolor ="{{color.color}}" ></td>
                                 <td> {{ color.name }}</td>
-                                <td> {{ color.color_range.tech }}</td>
-                                {% if color.color_range.min == -1000 %}
-    
-                                    <td>X<span>&#60;</span> {{color.color_range.max}} </td>
-                            
-                                {% elif color.color_range.max == 1000%}
-                            
-                                    <td>{{ color.color_range.min }} ≤ X </td>
-    
-                                {% else %}
-                                    
-                                    <td>{{ color.color_range.min }} ≤  X <span>&#60;</span> {{color.color_range.max}} </td>
-                                {% endif %}
+                                <td> {{ color.tech }}</td>
+                                <td>{{color.rang}}</td>
                             </tr>
                 {% endfor %}
                         
            </table>
         </div>
-
-        
-        {% comment %} <canvas id="myChart" ></canvas> {% endcomment %}
-
-
 
        <script >
         
@@ -69,20 +53,16 @@
     </script>
 
     <script>  
-        let G3 =  "{{3G}}";
-        let G2 =  "{{2G}}";
-        let G4 =  "{{4G}}";
-        let G5 =  "{{5G}}";
-        console.log(G4)
+        {% comment %} console.log(G4) {% endcomment %}
         var options = {
             width: '400px',
             height: '600px'
           };
         var data1 = {
-            labels: ['2G', '3G', '4G','5G'],
-            series: [G2, G3, G4, G5]
+            {% comment %} labels: ['Very Good', 'Good', 'Fair','Poor','Bad','Very Bad','Awful','No Coverage'], {% endcomment %}
+            series: ["{{Very_Good}}","{{Good}}","{{Fair}}","{{Poor}}","{{Bad}}","{{Very_Bad}}",
+            "{{Awful}}","{{No_Coverage}}"]
           };
-          
           new Chartist.Pie('#chart5', data1,options);
     </script>
 </body>

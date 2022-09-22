@@ -15,12 +15,13 @@ body {
 }
 
 /* a little "umph" */
+/*menu width*/
 .decor {
  
  
   padding: 2px;
   display: block;
-  width: 95%;
+  width: 70%;
   
 }
 

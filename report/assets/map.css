@@ -156,6 +156,7 @@ input[type="checkbox"]:checked ~ label .middle {
 body {
     padding: 0;
     margin: 0;
+    background-color: rgb(235, 234, 234);
   }
 
   #map {

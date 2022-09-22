@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+<title>Web Report</title>
+<link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+<link rel="stylesheet" href="{% static 'circle.css' %}"/>
+<script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<meta name="viewport" content="width=device-width">
+
+
+
+</head>
+<style type="text/css">
+    
+</style>
+<body>
+    {% include "base/menu.html" %}
+        <script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+        
+       
+        <div id = "circle">
+            
+            <div id="chart5" class="ct-chart ct-major-tenth" style="position:absolute;width:500px"></div>
+        </div>
+        <div>
+            <table id = "ranges"  style = "">
+
+                <tr>
+                <td>Tech</td>
+                <td>Count </td>
+                
+                </tr>
+                            
+                    <tr>
+                        <td>2G</td>
+                        <td>{{2G}}</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>3G</td>
+                        <td>{{3G}}</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>4G</td>
+                        <td>{{4G}}</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>5G</td>
+                        <td>{{5G}}</td>
+                       
+                    </tr>
+                        
+           </table>
+        </div>
+
+       <script >
+        
+              
+    </script>
+
+    <script>  
+        let G3 =  "{{3G}}";
+        let G2 =  "{{2G}}";
+        let G4 =  "{{4G}}";
+        let G5 =  "{{5G}}";
+        console.log(G4)
+        var options = {
+            width: '400px',
+            height: '600px'
+          };
+        var data1 = {
+            labels: ['2G', '3G', '4G','5G'],
+            series: [G2, G3, G4, G5]
+          };
+          
+          new Chartist.Pie('#chart5', data1,options);
+    </script>
+</body>
+</html>
