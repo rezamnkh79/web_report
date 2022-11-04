@@ -1,0 +1,14 @@
+Color@Name@Count@Distance@Distribution
+#00703c @Excellent@0@0@0.00
+#00a032 @Very Good@143@2014@3.18
+#00d228 @Good@702@9509@15.61
+#ffff00 @Fair@1662@21971@36.95
+#ffaa00 @Poor@952@12744@21.16
+#fa6400 @Very Poor@591@7799@13.14
+#ff0000 @Bad@232@3140@5.16
+#dc143c @Very Bad@116@1505@2.58
+#820000 @Awful@0@0@0.00
+#aaaaaa @No Coverage@0@0@0.00
+#1e90ff @Unsuccess@0@0@0.00
+#000000 @Null@100@1352@2.22
+#ffffff @Total@4498 [#]@60034 [m]@100.00 [%]

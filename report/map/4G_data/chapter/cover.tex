@@ -1,0 +1,38 @@
+\newpage
+\begingroup
+\vfill
+
+\thispagestyle{empty} % Suppress headers and footers on the title page
+
+\makeatletter
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth]{./style/background.pdf}};
+\draw (current page.center) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}
+{\centering Drive Test Report\\[10pt]
+\LARGE \@TestName\\[10pt]
+{\Large Generated at \today\ at \currenttime}}};\\[20pt] % Subtitle
+\end{tikzpicture}
+\makeatother
+\vfill
+\endgroup
+
+\makeatletter
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt,xshift=-60mm,yshift=35mm] (background) at (current page.south east)
+{%
+\IfFileExists{\@CompanyIcon}
+{\includegraphics[width=2.1cm]{\@CompanyIcon}}
+{\fbox{\parbox[c][2.1cm][c]{2.1cm}{\centering Icon doesn't exist}}}
+};
+\node[inner sep=0pt,xshift=-25mm,yshift=35mm] (background) at (current page.south east)
+{%
+\IfFileExists{\@EmployerIcon}
+{\includegraphics[width=2.5cm]{\@EmployerIcon}}
+{\fbox{\parbox[c][2.1cm][c]{2.1cm}{\centering Icon doesn't exist}}}
+};
+\end{tikzpicture}
+
+\fontsize{12}{14}\selectfont
+\noindent \textit{\@CompanyName}\\
+\noindent \textit{\@CompanyAddr}\\
+\makeatother

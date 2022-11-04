@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+<title>Web Report</title>
+<link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+<link rel="stylesheet" href="{% static 'map/Scans_on_map.css' %}"/>
+<script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width">
+</head>
+<style type="text/css">
+    #ranges{
+        position: absolute;
+        left: 60%;
+        top: 25%;
+    }
+    #color_info{
+        position: relative;
+        left: 10%;
+    }
+    #static{
+        position: relative;
+        top: 25%;
+        left: 30%;
+    }
+  </style>
+<body>
+
+   {% include "base/menu.html" %}
+
+
+    <table id = "color_info"  style = "">
+
+       <tr>
+        <td bgcolor=#DFDBF8>Color</td>
+        <td bgcolor=#DFDBF8>Name</td>
+        <td bgcolor=#DFDBF8>Count</td>
+        <td bgcolor=#DFDBF8>Distance </td>
+        <td bgcolor=#DFDBF8>Distribution </td>
+    </tr>
+       {% for inf in info %}
+
+                     <tr>
+                        <td bgcolor ="{{inf.Color}}" ></td>
+                        <td> {{ inf.Name }}</td>
+                        <td> {{ inf.Count }}</td>
+                        <td>{{ inf.Distance }} </td>
+                        <td>{{ inf.Distribution }} </td>
+                    </tr>
+        {% endfor %}
+
+      </table>
+
+
+
+
+      <table id = "ranges"  style = "">
+
+            <tr>
+            <td bgcolor=#DFDBF8 >Color</td>
+            <td bgcolor=#DFDBF8>Name</td>
+            <td bgcolor=#DFDBF8>Range </td>
+
+            </tr>
+
+            {% for range in ranges %}
+
+
+
+
+                        <tr>
+
+                            <td bgcolor ="{{range.Color}}" ></td>
+                            <td> {{ range.Name }}</td>
+                            <td> {{range.Range}}</td>
+                        </tr>
+
+
+
+
+
+            {% endfor %}
+
+       </table>
+
+       <table id = "static"  style = "">
+
+        <tr>
+        <td bgcolor=#DFDBF8 >Sample Num</td>
+        <td bgcolor=#DFDBF8>Average</td>
+        <td bgcolor=#DFDBF8>Std</td>
+        <td bgcolor=#DFDBF8>Variance</td>
+        <td bgcolor=#DFDBF8>Median</td>
+        <td bgcolor=#DFDBF8>Maximum</td>
+        <td bgcolor=#DFDBF8>Minimum</td>
+
+
+        </tr>
+            {% for data in static %}
+
+                <tr>
+                    <td >{{ data.Sample_Num }}</td>
+                    <td> {{ data.Average }}</td>
+                    <td>{{ data.Std }} </td>
+                    <td>{{ data.Variance }} </td>
+                    <td>{{ data.Median }} </td>
+                    <td>{{ data.Maximum }} </td>
+                    <td>{{ data.Minimum }} </td>
+                </tr>
+            {% endfor %}
+
+   </table>
+
+   <div>
+
+   </div>
+
+</body>
+</html>

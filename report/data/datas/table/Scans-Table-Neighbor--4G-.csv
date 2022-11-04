@@ -1,0 +1,989 @@
+Count@Timestamp@T@Band@ARFCN@PCI@PLMN Id@RSRP@RSRQ@RSSI@SINR@Info
+7498@2022-02-24 18:02:42.840@@Band 7 (IMT-E 2600)@3300@375@43211@#fa6400 -104.25   Very Poor   @#aaaaaa -24.04    No Coverage @#00a032 -69.81    Very Good   @#ffffff 0@
+6855@2022-02-24 18:09:27.934@@Band 7 (IMT-E 2600)@3300@376@43211@#ffaa00 -99.84    Poor        @#aaaaaa -25.86    No Coverage @#00703c -63.85    Excellent   @#ffffff 0@
+6423@2022-02-24 15:28:07.749@@Band 7 (IMT-E 2600)@3300@440@43211@#fa6400 -103.11   Very Poor   @#aaaaaa -23.6     No Coverage @#00a032 -69.18    Very Good   @#ffffff 0@
+5743@2022-02-24 17:27:58.885@@Band 7 (IMT-E 2600)@3300@419@43211@#fa6400 -103.83   Very Poor   @#aaaaaa -24.57    No Coverage @#00a032 -68.98    Very Good   @#ffffff 0@
+5069@2022-02-24 18:09:51.247@@Band 7 (IMT-E 2600)@3300@189@43211@#ffaa00 -97.54    Poor        @#aaaaaa -24.75    No Coverage @#00703c -62.53    Excellent   @#ffffff 0@
+4999@2022-02-24 18:09:48.812@@Band 7 (IMT-E 2600)@3300@191@43211@#ffaa00 -98.43    Poor        @#aaaaaa -26.04    No Coverage @#00703c -62.54    Excellent   @#ffffff 0@
+4475@2022-02-24 17:11:16.091@@Band 7 (IMT-E 2600)@3300@300@43211@#ffaa00 -97.04    Poor        @#aaaaaa -24.4     No Coverage @#00703c -62.36    Excellent   @#ffffff 0@
+4357@2022-02-24 16:27:18.410@@Band 7 (IMT-E 2600)@3300@483@43211@#fa6400 -102.74   Very Poor   @#aaaaaa -23.58    No Coverage @#00a032 -68.88    Very Good   @#ffffff 0@
+4336@2022-02-24 17:44:12.165@@Band 7 (IMT-E 2600)@3300@59@43211@#fa6400 -104.46   Very Poor   @#aaaaaa -23.88    No Coverage @#00d228 -70.12    Good        @#ffffff 0@
+4329@2022-02-24 18:03:28.944@@Band 7 (IMT-E 2600)@3300@222@43211@#fa6400 -103.1    Very Poor   @#aaaaaa -26.48    No Coverage @#00a032 -66.85    Very Good   @#ffffff 0@
+4277@2022-02-24 17:31:37.783@@Band 7 (IMT-E 2600)@3300@485@43211@#ffaa00 -99.54    Poor        @#aaaaaa -23.77    No Coverage @#00a032 -65.24    Very Good   @#ffffff 0@
+4084@2022-02-24 18:09:51.247@@Band 7 (IMT-E 2600)@3300@98@43211@#fa6400 -101.75   Very Poor   @#aaaaaa -24.65    No Coverage @#00a032 -66.96    Very Good   @#ffffff 0@
+3950@2022-02-24 17:20:25.568@@Band 7 (IMT-E 2600)@3300@133@43211@#fa6400 -104.27   Very Poor   @#aaaaaa -24.6     No Coverage @#00a032 -69.43    Very Good   @#ffffff 0@
+3769@2022-02-24 18:09:52.690@@Band 7 (IMT-E 2600)@3300@97@43211@#ffaa00 -98.35    Poor        @#aaaaaa -24.38    No Coverage @#00703c -63.69    Excellent   @#ffffff 0@
+3763@2022-02-24 18:09:53.317@@Band 7 (IMT-E 2600)@3300@190@43211@#ffaa00 -97.56    Poor        @#aaaaaa -24.19    No Coverage @#00703c -62.77    Excellent   @#ffffff 0@
+3514@2022-02-24 18:08:29.334@@Band 7 (IMT-E 2600)@3300@96@43211@#ffaa00 -96.21    Poor        @#aaaaaa -25.15    No Coverage @#00703c -60.84    Excellent   @#ffffff 0@
+3203@2022-02-24 14:57:03.304@@Band 7 (IMT-E 2600)@3300@57@43211@#fa6400 -102.85   Very Poor   @#aaaaaa -26.01    No Coverage @#00a032 -66.66    Very Good   @#ffffff 0@
+3147@2022-02-24 17:02:27.145@@Band 7 (IMT-E 2600)@3300@302@43211@#ffaa00 -98.28    Poor        @#aaaaaa -24.5     No Coverage @#00703c -63.5     Excellent   @#ffffff 0@
+2942@2022-02-24 17:28:01.155@@Band 7 (IMT-E 2600)@3300@218@43211@#ffaa00 -96.86    Poor        @#aaaaaa -23.25    No Coverage @#00703c -63.21    Excellent   @#ffffff 0@
+2899@2022-02-24 18:01:05.163@@Band 7 (IMT-E 2600)@3300@377@43211@#ffaa00 -97.17    Poor        @#aaaaaa -25.55    No Coverage @#00703c -61.66    Excellent   @#ffffff 0@
+2869@2022-02-24 17:27:52.278@@Band 7 (IMT-E 2600)@3300@216@43211@#fa6400 -101.3    Very Poor   @#aaaaaa -25.84    No Coverage @#00a032 -65.26    Very Good   @#ffffff 0@
+2747@2022-02-24 18:09:21.276@@Band 7 (IMT-E 2600)@3300@484@43211@#ffaa00 -97.46    Poor        @#aaaaaa -25.73    No Coverage @#00703c -61.73    Excellent   @#ffffff 0@
+2735@2022-02-24 17:59:52.058@@Band 7 (IMT-E 2600)@3300@446@43211@#fa6400 -100.09   Very Poor   @#aaaaaa -24.14    No Coverage @#00a032 -65.74    Very Good   @#ffffff 0@
+2667@2022-02-24 18:09:47.679@@Band 7 (IMT-E 2600)@3300@444@43211@#ffaa00 -98.99    Poor        @#aaaaaa -23.86    No Coverage @#00703c -64.57    Excellent   @#ffffff 0@
+2629@2022-02-24 18:03:07.343@@Band 7 (IMT-E 2600)@3300@315@43211@#ffaa00 -97.94    Poor        @#aaaaaa -23.05    No Coverage @#00703c -64.46    Excellent   @#ffffff 0@
+2626@2022-02-24 14:55:13.991@@Band 7 (IMT-E 2600)@3300@454@43211@#ffff00 -93.24    Fair        @#aaaaaa -22.71    No Coverage @#00703c -60.14    Excellent   @#ffffff 0@
+2576@2022-02-24 14:58:23.210@@Band 7 (IMT-E 2600)@3300@438@43211@#fa6400 -103.08   Very Poor   @#aaaaaa -25.49    No Coverage @#00a032 -67.63    Very Good   @#ffffff 0@
+2501@2022-02-24 16:14:55.721@@Band 7 (IMT-E 2600)@3300@456@43211@#ffff00 -94.98    Fair        @#aaaaaa -22.79    No Coverage @#00703c -61.85    Excellent   @#ffffff 0@
+2338@2022-02-24 15:48:11.826@@Band 7 (IMT-E 2600)@3300@289@43211@#ffaa00 -97.76    Poor        @#820000 -21.91    Awful       @#00a032 -65.23    Very Good   @#ffffff 0@
+2332@2022-02-24 14:57:56.440@@Band 7 (IMT-E 2600)@3300@301@43211@#fa6400 -100.84   Very Poor   @#aaaaaa -23.66    No Coverage @#00a032 -67.23    Very Good   @#ffffff 0@
+2257@2022-02-24 17:46:55.508@@Band 7 (IMT-E 2600)@3300@439@43211@#fa6400 -100.05   Very Poor   @#aaaaaa -25.89    No Coverage @#00703c -64.01    Excellent   @#ffffff 0@
+2174@2022-02-24 14:55:07.191@@Band 7 (IMT-E 2600)@3300@411@43211@#ffaa00 -99.19    Poor        @#aaaaaa -24.43    No Coverage @#00703c -64.44    Excellent   @#ffffff 0@
+2169@2022-02-24 17:06:59.162@@Band 7 (IMT-E 2600)@3300@255@43211@#ff0000 -109.68   Bad         @#aaaaaa -27.19    No Coverage @#00d228 -72.59    Good        @#ffffff 0@
+2160@2022-02-24 16:46:48.630@@Band 7 (IMT-E 2600)@3300@134@43211@#ff0000 -106.36   Bad         @#aaaaaa -27.31    No Coverage @#00a032 -69.13    Very Good   @#ffffff 0@
+2061@2022-02-24 17:49:46.862@@Band 7 (IMT-E 2600)@3300@342@43211@#ffaa00 -95.83    Poor        @#aaaaaa -22.91    No Coverage @#00703c -62.89    Excellent   @#ffffff 0@
+2011@2022-02-24 15:39:37.436@@Band 7 (IMT-E 2600)@3300@417@43211@#fa6400 -100.82   Very Poor   @#aaaaaa -24.46    No Coverage @#00a032 -66.04    Very Good   @#ffffff 0@
+1741@2022-02-24 17:58:05.240@@Band 7 (IMT-E 2600)@3300@445@43211@#ffaa00 -99.45    Poor        @#aaaaaa -24.8     No Coverage @#00703c -64.6     Excellent   @#ffffff 0@
+1711@2022-02-24 17:15:09.811@@Band 7 (IMT-E 2600)@3300@217@43211@#ffaa00 -96.05    Poor        @#aaaaaa -23.41    No Coverage @#00703c -62.07    Excellent   @#ffffff 0@
+1664@2022-02-24 17:23:04.928@@Band 7 (IMT-E 2600)@3300@412@43211@#ffaa00 -98.01    Poor        @#aaaaaa -26.05    No Coverage @#00703c -61.73    Excellent   @#ffffff 0@
+1513@2022-02-24 17:46:20.122@@Band 7 (IMT-E 2600)@3300@344@43211@#ffaa00 -99.54    Poor        @#aaaaaa -25.88    No Coverage @#00703c -63.6     Excellent   @#ffffff 0@
+1495@2022-02-24 16:52:12.049@@Band 7 (IMT-E 2600)@3300@132@43211@#ff0000 -106.7    Bad         @#aaaaaa -25.88    No Coverage @#00d228 -70.83    Good        @#ffffff 0@
+1468@2022-02-24 17:16:57.604@@Band 7 (IMT-E 2600)@3300@437@43211@#fa6400 -102.11   Very Poor   @#aaaaaa -24.89    No Coverage @#00a032 -66.96    Very Good   @#ffffff 0@
+1429@2022-02-24 17:57:38.658@@Band 7 (IMT-E 2600)@3300@418@43211@#fa6400 -100.62   Very Poor   @#aaaaaa -24.3     No Coverage @#00a032 -66.18    Very Good   @#ffffff 0@
+1428@2022-02-24 16:45:09.872@@Band 7 (IMT-E 2600)@3300@61@43211@#ffaa00 -97.98    Poor        @#aaaaaa -24.72    No Coverage @#00703c -62.63    Excellent   @#ffffff 0@
+1416@2022-02-24 17:02:58.555@@Band 7 (IMT-E 2600)@3300@380@43211@#ff0000 -106.15   Bad         @#aaaaaa -29.83    No Coverage @#00a032 -67.23    Very Good   @#ffffff 0@
+1379@2022-02-24 14:55:31.124@@Band 7 (IMT-E 2600)@3102@300@43211@#ffaa00 -96.84    Poor        @#aaaaaa -24.18    No Coverage @#00703c -63.42    Excellent   @#ffffff 0@
+1264@2022-02-24 17:27:53.552@@Band 7 (IMT-E 2600)@3300@316@43211@#ffaa00 -97.49    Poor        @#aaaaaa -23.33    No Coverage @#00703c -63.87    Excellent   @#ffffff 0@
+1264@2022-02-24 17:27:57.068@@Band 7 (IMT-E 2600)@3300@215@43211@#ff0000 -107.37   Bad         @#aaaaaa -28.5     No Coverage @#00a032 -69.3     Very Good   @#ffffff 0@
+1250@2022-02-24 17:47:24.169@@Band 7 (IMT-E 2600)@3300@50@43211@#fa6400 -103.2    Very Poor   @#aaaaaa -25.2     No Coverage @#00a032 -68.03    Very Good   @#ffffff 0@
+1205@2022-02-24 18:01:04.178@@Band 7 (IMT-E 2600)@3300@314@43211@#ff0000 -106.45   Bad         @#aaaaaa -29.35    No Coverage @#00a032 -67.78    Very Good   @#ffffff 0@
+1183@2022-02-24 16:22:51.377@@Band 7 (IMT-E 2600)@3300@58@43211@#ffaa00 -97.89    Poor        @#aaaaaa -24.18    No Coverage @#00703c -63.25    Excellent   @#ffffff 0@
+1178@2022-02-24 15:29:22.052@@Band 1 (IMT 2100)@550@375@43211@#ffaa00 -96.61    Poor        @#fa6400 -17.95    Bad         @#00a032 -68.37    Very Good   @#ffffff 0@
+1149@2022-02-24 17:17:47.173@@Band 7 (IMT-E 2600)@3300@317@43211@#ffaa00 -96.86    Poor        @#aaaaaa -24.14    No Coverage @#00703c -62.55    Excellent   @#ffffff 0@
+1133@2022-02-24 16:23:43.845@@Band 7 (IMT-E 2600)@3300@290@43211@#ffaa00 -96.44    Poor        @#aaaaaa -23.11    No Coverage @#00703c -62.69    Excellent   @#ffffff 0@
+1101@2022-02-24 17:31:39.213@@Band 1 (IMT 2100)@550@485@43211@#ffff00 -92.17    Fair        @#fa6400 -17.78    Bad         @#00703c -64.28    Excellent   @#ffffff 0@
+1083@2022-02-24 15:27:29.920@@Band 3 (DCS 1800)@1423@375@43211@#ffff00 -93.02    Fair        @#dc143c -18.11    Very Bad    @#00703c -64.71    Excellent   @#ffffff 0@
+1071@2022-02-24 17:27:55.404@@Band 7 (IMT-E 2600)@3300@117@43211@#dc143c -110.58   Very Bad    @#aaaaaa -28.68    No Coverage @#00d228 -72.5     Good        @#ffffff 0@
+1046@2022-02-24 18:01:01.036@@Band 7 (IMT-E 2600)@3300@455@43211@#ffaa00 -98.5     Poor        @#aaaaaa -24.07    No Coverage @#00703c -64.45    Excellent   @#ffffff 0@
+1032@2022-02-24 17:58:03.925@@Band 7 (IMT-E 2600)@3102@191@43211@#ffff00 -92.43    Fair        @#dc143c -20       Very Bad    @#00703c -61.92    Excellent   @#ffffff 0@
+1022@2022-02-24 17:13:26.303@@Band 7 (IMT-E 2600)@3300@48@43211@#fa6400 -104.35   Very Poor   @#aaaaaa -27.86    No Coverage @#00a032 -66.92    Very Good   @#ffffff 0@
+1010@2022-02-24 17:57:05.666@@Band 7 (IMT-E 2600)@3300@309@43211@#ff0000 -107.59   Bad         @#aaaaaa -29.08    No Coverage @#00a032 -69.15    Very Good   @#ffffff 0@
+1008@2022-02-24 14:45:20.096@@Band 7 (IMT-E 2600)@3300@453@43211@#ffff00 -93.42    Fair        @#aaaaaa -24.66    No Coverage @#00703c -58.04    Excellent   @#ffffff 0@
+995@2022-02-24 18:06:24.903@@Band 7 (IMT-E 2600)@3102@444@43211@#ffff00 -91.35    Fair        @#820000 -20.23    Awful       @#00703c -61.55    Excellent   @#ffffff 0@
+973@2022-02-24 17:51:11.016@@Band 7 (IMT-E 2600)@3300@109@43211@#ffaa00 -99.8     Poor        @#aaaaaa -28.44    No Coverage @#00703c -61.96    Excellent   @#ffffff 0@
+969@2022-02-24 18:09:52.052@@Band 3 (DCS 1800)@1423@189@43211@#00a032 -83.93    Very Good   @#fa6400 -16.24    Bad         @#00703c -57.2     Excellent   @#ffffff 0@
+951@2022-02-24 15:26:12.508@@Band 1 (IMT 2100)@550@483@43211@#ffaa00 -95.73    Poor        @#fa6400 -17.84    Bad         @#00a032 -68.32    Very Good   @#ffffff 0@
+943@2022-02-24 18:07:27.723@@Band 7 (IMT-E 2600)@3102@190@43211@#00d228 -88.05    Good        @#dc143c -19.52    Very Bad    @#00703c -57.4     Excellent   @#ffffff 0@
+931@2022-02-24 17:43:38.076@@Band 7 (IMT-E 2600)@3300@108@43211@#fa6400 -102.78   Very Poor   @#aaaaaa -26.96    No Coverage @#00a032 -65.74    Very Good   @#ffffff 0@
+923@2022-02-24 17:51:13.198@@Band 7 (IMT-E 2600)@3300@343@43211@#ffaa00 -95.14    Poor        @#820000 -21.05    Awful       @#00703c -63.69    Excellent   @#ffffff 0@
+897@2022-02-24 17:58:15.388@@Band 7 (IMT-E 2600)@3102@445@43211@#ffff00 -93.26    Fair        @#820000 -21.23    Awful       @#00703c -62.14    Excellent   @#ffffff 0@
+867@2022-02-24 14:52:58.026@@Band 7 (IMT-E 2600)@3300@137@43211@#ff0000 -108.03   Bad         @#aaaaaa -27.23    No Coverage @#00d228 -71.02    Good        @#ffffff 0@
+854@2022-02-24 17:48:38.748@@Band 7 (IMT-E 2600)@3300@373@43211@#fa6400 -102.3    Very Poor   @#aaaaaa -29.41    No Coverage @#00703c -63.59    Excellent   @#ffffff 0@
+849@2022-02-24 17:17:18.357@@Band 7 (IMT-E 2600)@3300@435@43211@#ff0000 -106.46   Bad         @#aaaaaa -27.96    No Coverage @#00a032 -68.71    Very Good   @#ffffff 0@
+840@2022-02-24 18:09:53.502@@Band 7 (IMT-E 2600)@3102@189@43211@#00d228 -86.11    Good        @#fa6400 -17.83    Bad         @#00703c -58.47    Excellent   @#ffffff 0@
+829@2022-02-24 17:18:58.000@@Band 7 (IMT-E 2600)@3300@361@43211@#ffaa00 -98.21    Poor        @#aaaaaa -27.93    No Coverage @#00703c -60.61    Excellent   @#ffffff 0@
+804@2022-02-24 16:47:29.034@@Band 1 (IMT 2100)@550@98@43211@#ffff00 -92.51    Fair        @#ffaa00 -15.35    Poor        @#00a032 -66.4     Very Good   @#ffffff 0@
+797@2022-02-24 18:09:52.664@@Band 1 (IMT 2100)@550@444@43211@#00d228 -89.03    Good        @#dc143c -18.59    Very Bad    @#00703c -59.62    Excellent   @#ffffff 0@
+792@2022-02-24 14:58:46.750@@Band 7 (IMT-E 2600)@3102@375@43211@#ffaa00 -96.48    Poor        @#dc143c -19.55    Very Bad    @#00a032 -66.78    Very Good   @#ffffff 0@
+776@2022-02-24 18:09:52.664@@Band 1 (IMT 2100)@550@189@43211@#00a032 -84.96    Very Good   @#fa6400 -16.55    Bad         @#00703c -57.76    Excellent   @#ffffff 0@
+759@2022-02-24 15:38:24.189@@Band 7 (IMT-E 2600)@3300@288@43211@#ffff00 -92.72    Fair        @#aaaaaa -22.11    No Coverage @#00703c -60.21    Excellent   @#ffffff 0@
+746@2022-02-24 17:51:51.334@@Band 7 (IMT-E 2600)@3102@376@43211@#00d228 -89.82    Good        @#fa6400 -17.59    Bad         @#00703c -61.79    Excellent   @#ffffff 0@
+734@2022-02-24 17:15:15.747@@Band 7 (IMT-E 2600)@3300@280@43211@#dc143c -110.15   Very Bad    @#aaaaaa -28.55    No Coverage @#00d228 -72.17    Good        @#ffffff 0@
+730@2022-02-24 17:58:45.122@@Band 3 (DCS 1800)@1423@191@43211@#00d228 -89.17    Good        @#dc143c -19.08    Very Bad    @#00703c -59.81    Excellent   @#ffffff 0@
+728@2022-02-24 14:53:27.234@@Band 7 (IMT-E 2600)@3300@338@43211@#fa6400 -103.16   Very Poor   @#aaaaaa -29.89    No Coverage @#00703c -64.14    Excellent   @#ffffff 0@
+727@2022-02-24 14:51:52.456@@Band 7 (IMT-E 2600)@3102@59@43211@#ffff00 -93.79    Fair        @#820000 -20.85    Awful       @#00703c -63.55    Excellent   @#ffffff 0@
+723@2022-02-24 17:17:18.559@@Band 7 (IMT-E 2600)@3300@125@43211@#dc143c -111.01   Very Bad    @#aaaaaa -28.28    No Coverage @#00d228 -73.1     Good        @#ffffff 0@
+716@2022-02-24 18:07:28.720@@Band 3 (DCS 1800)@1423@190@43211@#00a032 -80.32    Very Good   @#fa6400 -16.62    Bad         @#00703c -53.43    Excellent   @#ffffff 0@
+710@2022-02-24 17:51:09.579@@Band 7 (IMT-E 2600)@3102@342@43211@#ffff00 -93.83    Fair        @#dc143c -18.96    Very Bad    @#00703c -63.68    Excellent   @#ffffff 0@
+708@2022-02-24 16:05:28.319@@Band 7 (IMT-E 2600)@3300@138@43211@#dc143c -110.17   Very Bad    @#aaaaaa -29.4     No Coverage @#00d228 -71.51    Good        @#ffffff 0@
+696@2022-02-24 16:44:37.266@@Band 7 (IMT-E 2600)@3300@256@43211@#ff0000 -108.69   Bad         @#aaaaaa -28.44    No Coverage @#00d228 -70.46    Good        @#ffffff 0@
+692@2022-02-24 14:55:18.554@@Band 7 (IMT-E 2600)@3102@456@43211@#ffff00 -90.6     Fair        @#dc143c -18.43    Very Bad    @#00703c -62.31    Excellent   @#ffffff 0@
+692@2022-02-24 15:52:29.139@@Band 3 (DCS 1800)@1423@483@43211@#ffff00 -90.86    Fair        @#ffaa00 -14.98    Poor        @#00a032 -65.46    Very Good   @#ffffff 0@
+672@2022-02-24 17:25:18.067@@Band 7 (IMT-E 2600)@3300@378@43211@#fa6400 -101.15   Very Poor   @#aaaaaa -29.78    No Coverage @#00703c -62.27    Excellent   @#ffffff 0@
+664@2022-02-24 17:31:45.098@@Band 3 (DCS 1800)@1423@485@43211@#00d228 -86.67    Good        @#ffaa00 -15.55    Poor        @#00703c -60.79    Excellent   @#ffffff 0@
+663@2022-02-24 14:54:15.608@@Band 7 (IMT-E 2600)@3102@412@43211@#ffff00 -93.22    Fair        @#aaaaaa -22.23    No Coverage @#00703c -61.12    Excellent   @#ffffff 0@
+662@2022-02-24 17:44:40.281@@Band 1 (IMT 2100)@550@376@43211@#ffff00 -92.23    Fair        @#dc143c -18.62    Very Bad    @#00703c -63.34    Excellent   @#ffffff 0@
+653@2022-02-24 14:52:27.833@@Band 7 (IMT-E 2600)@3102@57@43211@#ffff00 -94.98    Fair        @#aaaaaa -24.37    No Coverage @#00703c -61.92    Excellent   @#ffffff 0@
+649@2022-02-24 18:09:52.664@@Band 1 (IMT 2100)@550@96@43211@#00d228 -88.4     Good        @#fa6400 -17.19    Bad         @#00703c -60.36    Excellent   @#ffffff 0@
+646@2022-02-24 18:09:47.262@@Band 3 (DCS 1800)@1423@444@43211@#00d228 -85.22    Good        @#ffaa00 -15.94    Poor        @#00703c -58.84    Excellent   @#ffffff 0@
+644@2022-02-24 17:49:53.667@@Band 1 (IMT 2100)@550@342@43211@#00d228 -88.93    Good        @#ffff00 -13.96    Fair        @#00703c -64.62    Excellent   @#ffffff 0@
+618@2022-02-24 17:45:08.678@@Band 3 (DCS 1800)@1423@376@43211@#00d228 -87.82    Good        @#fa6400 -17.55    Bad         @#00703c -59.85    Excellent   @#ffffff 0@
+615@2022-02-24 17:49:45.715@@Band 3 (DCS 1800)@1423@342@43211@#00d228 -87.89    Good        @#fa6400 -16.4     Bad         @#00703c -60.93    Excellent   @#ffffff 0@
+609@2022-02-24 18:02:52.399@@Band 1 (IMT 2100)@550@191@43211@#00d228 -89.8     Good        @#fa6400 -17.06    Bad         @#00703c -61.96    Excellent   @#ffffff 0@
+595@2022-02-24 14:58:29.957@@Band 7 (IMT-E 2600)@3102@440@43211@#ffaa00 -97.21    Poor        @#820000 -20.54    Awful       @#00a032 -66.01    Very Good   @#ffffff 0@
+589@2022-02-24 16:01:39.282@@Band 7 (IMT-E 2600)@3300@336@43211@#fa6400 -102.08   Very Poor   @#aaaaaa -29.83    No Coverage @#00703c -63.23    Excellent   @#ffffff 0@
+585@2022-02-24 14:58:46.750@@Band 7 (IMT-E 2600)@3102@419@43211@#ffaa00 -95.77    Poor        @#820000 -20.63    Awful       @#00a032 -65.73    Very Good   @#ffffff 0@
+580@2022-02-24 17:58:09.764@@Band 3 (DCS 1800)@1423@445@43211@#00d228 -89.41    Good        @#dc143c -18.96    Very Bad    @#00703c -59.98    Excellent   @#ffffff 0@
+577@2022-02-24 14:56:07.446@@Band 7 (IMT-E 2600)@3102@302@43211@#ffff00 -91.52    Fair        @#dc143c -18.01    Very Bad    @#00703c -62.89    Excellent   @#ffffff 0@
+561@2022-02-24 14:52:35.982@@Band 7 (IMT-E 2600)@3300@497@43211@#ff0000 -105.13   Bad         @#aaaaaa -27.42    No Coverage @#00a032 -68.05    Very Good   @#ffffff 0@
+556@2022-02-24 14:23:51.158@@Band 7 (IMT-E 2600)@3102@454@43211@#ffff00 -91.04    Fair        @#820000 -20.54    Awful       @#00703c -60       Excellent   @#ffffff 0@
+546@2022-02-24 14:58:23.001@@Band 3 (DCS 1800)@1423@440@43211@#ffff00 -91.14    Fair        @#dc143c -18.09    Very Bad    @#00703c -63.31    Excellent   @#ffffff 0@
+545@2022-02-24 14:52:49.886@@Band 3 (DCS 1800)@1423@438@43211@#ffff00 -93.17    Fair        @#820000 -20.17    Awful       @#00703c -62.64    Excellent   @#ffffff 0@
+545@2022-02-24 17:59:34.788@@Band 7 (IMT-E 2600)@3102@446@43211@#ffff00 -92.99    Fair        @#dc143c -19.69    Very Bad    @#00703c -64.36    Excellent   @#ffffff 0@
+544@2022-02-24 14:55:42.954@@Band 3 (DCS 1800)@1423@300@43211@#00d228 -88.86    Good        @#fa6400 -16.25    Bad         @#00703c -62.3     Excellent   @#ffffff 0@
+541@2022-02-24 17:51:28.021@@Band 7 (IMT-E 2600)@3102@343@43211@#ffaa00 -96.47    Poor        @#820000 -20.27    Awful       @#00a032 -65.54    Very Good   @#ffffff 0@
+534@2022-02-24 14:55:06.994@@Band 7 (IMT-E 2600)@3102@411@43211@#ffff00 -92.81    Fair        @#820000 -20.16    Awful       @#00703c -62.76    Excellent   @#ffffff 0@
+530@2022-02-24 15:57:58.437@@Band 7 (IMT-E 2600)@3300@326@43211@#fa6400 -101.97   Very Poor   @#aaaaaa -29.95    No Coverage @#00703c -62.95    Excellent   @#ffffff 0@
+529@2022-02-24 14:55:31.613@@Band 1 (IMT 2100)@550@300@43211@#ffff00 -91.57    Fair        @#fa6400 -16.15    Bad         @#00703c -64.68    Excellent   @#ffffff 0@
+525@2022-02-24 17:28:54.976@@Band 3 (DCS 1800)@1423@97@43211@#00d228 -86.53    Good        @#ffaa00 -15.11    Poor        @#00703c -61.04    Excellent   @#ffffff 0@
+522@2022-02-24 15:44:35.165@@Band 7 (IMT-E 2600)@3300@476@43211@#dc143c -111.9    Very Bad    @#aaaaaa -28.45    No Coverage @#00d228 -74.04    Good        @#ffffff 0@
+522@2022-02-24 17:29:05.575@@Band 1 (IMT 2100)@550@97@43211@#00d228 -89.62    Good        @#ffaa00 -14.36    Poor        @#00703c -64.48    Excellent   @#ffffff 0@
+516@2022-02-24 17:31:15.304@@Band 7 (IMT-E 2600)@3102@485@43211@#00d228 -89.19    Good        @#fa6400 -16.1     Bad         @#00703c -62.32    Excellent   @#ffffff 0@
+506@2022-02-24 14:23:31.817@@Band 7 (IMT-E 2600)@3102@290@43211@#00d228 -89.31    Good        @#dc143c -18.38    Very Bad    @#00703c -60.71    Excellent   @#ffffff 0@
+502@2022-02-24 14:14:50.430@@Band 7 (IMT-E 2600)@3102@61@43211@#ffff00 -92.86    Fair        @#aaaaaa -23.07    No Coverage @#00703c -60.01    Excellent   @#ffffff 0@
+496@2022-02-24 17:51:09.189@@Band 7 (IMT-E 2600)@3102@377@43211@#ffaa00 -97.8     Poor        @#aaaaaa -22.42    No Coverage @#00703c -63.86    Excellent   @#ffffff 0@
+491@2022-02-24 16:45:46.112@@Band 7 (IMT-E 2600)@3300@47@43211@#fa6400 -104.13   Very Poor   @#aaaaaa -29.54    No Coverage @#00a032 -65.55    Very Good   @#ffffff 0@
+489@2022-02-24 17:51:13.229@@Band 7 (IMT-E 2600)@3102@288@43211@#ffff00 -94.17    Fair        @#aaaaaa -24.45    No Coverage @#00703c -60.02    Excellent   @#ffffff 0@
+482@2022-02-24 16:48:09.374@@Band 3 (DCS 1800)@1423@98@43211@#00d228 -87.02    Good        @#ffaa00 -15.39    Poor        @#00703c -61.16    Excellent   @#ffffff 0@
+481@2022-02-24 18:02:53.438@@Band 7 (IMT-E 2600)@3102@315@43211@#00d228 -89.12    Good        @#ffaa00 -15.63    Poor        @#00703c -63.02    Excellent   @#ffffff 0@
+480@2022-02-24 13:02:17.106@@Band 3 (DCS 1800)@1423@455@43211@#ffff00 -93.54    Fair        @#820000 -20.27    Awful       @#00703c -62.94    Excellent   @#ffffff 0@
+477@2022-02-24 14:59:23.044@@Band 7 (IMT-E 2600)@3102@483@43211@#ffff00 -93.55    Fair        @#ffaa00 -15.76    Poor        @#00a032 -67.27    Very Good   @#ffffff 0@
+473@2022-02-24 14:58:23.462@@Band 1 (IMT 2100)@550@440@43211@#ffaa00 -95.61    Poor        @#fa6400 -17.74    Bad         @#00a032 -67.72    Very Good   @#ffffff 0@
+470@2022-02-24 17:49:27.373@@Band 1 (IMT 2100)@550@484@43211@#ffff00 -91.6     Fair        @#fa6400 -17.8     Bad         @#00703c -63.27    Excellent   @#ffffff 0@
+467@2022-02-24 18:09:52.052@@Band 3 (DCS 1800)@1423@96@43211@#00a032 -83.33    Very Good   @#ffaa00 -15.29    Poor        @#00703c -57.42    Excellent   @#ffffff 0@
+462@2022-02-24 14:44:01.247@@Band 7 (IMT-E 2600)@3300@46@43211@#fa6400 -103.18   Very Poor   @#aaaaaa -29.21    No Coverage @#00703c -64.77    Excellent   @#ffffff 0@
+462@2022-02-24 14:58:19.091@@Band 3 (DCS 1800)@1423@419@43211@#ffff00 -90.84    Fair        @#dc143c -18.96    Very Bad    @#00703c -61.6     Excellent   @#ffffff 0@
+457@2022-02-24 16:47:21.395@@Band 7 (IMT-E 2600)@3102@98@43211@#00d228 -89       Good        @#fa6400 -16.17    Bad         @#00703c -62.23    Excellent   @#ffffff 0@
+450@2022-02-24 18:02:58.425@@Band 3 (DCS 1800)@1423@315@43211@#00d228 -86.7     Good        @#ffaa00 -15.35    Poor        @#00703c -60.99    Excellent   @#ffffff 0@
+446@2022-02-24 18:02:46.587@@Band 1 (IMT 2100)@550@315@43211@#ffff00 -91.76    Fair        @#fa6400 -16.42    Bad         @#00703c -64.68    Excellent   @#ffffff 0@
+439@2022-02-24 14:56:24.573@@Band 1 (IMT 2100)@550@302@43211@#00d228 -88.98    Good        @#ffaa00 -15.8     Poor        @#00703c -62.26    Excellent   @#ffffff 0@
+438@2022-02-24 14:57:35.085@@Band 7 (IMT-E 2600)@3102@417@43211@#00d228 -89.56    Good        @#dc143c -19.45    Very Bad    @#00703c -61.53    Excellent   @#ffffff 0@
+428@2022-02-24 14:52:06.417@@Band 3 (DCS 1800)@1423@59@43211@#00d228 -88.37    Good        @#fa6400 -17.35    Bad         @#00703c -60.85    Excellent   @#ffffff 0@
+424@2022-02-24 18:09:53.502@@Band 7 (IMT-E 2600)@3102@96@43211@#00d228 -85.93    Good        @#fa6400 -16.19    Bad         @#00703c -59.05    Excellent   @#ffffff 0@
+422@2022-02-24 17:54:23.188@@Band 7 (IMT-E 2600)@3102@222@43211@#ffaa00 -96.89    Poor        @#dc143c -18.84    Very Bad    @#00a032 -68.49    Very Good   @#ffffff 0@
+416@2022-02-24 14:53:44.286@@Band 7 (IMT-E 2600)@3102@289@43211@#ffff00 -91.68    Fair        @#fa6400 -17.77    Bad         @#00703c -64.36    Excellent   @#ffffff 0@
+414@2022-02-24 16:46:52.398@@Band 7 (IMT-E 2600)@3102@133@43211@#ffaa00 -96.84    Poor        @#820000 -20.27    Awful       @#00a032 -66.14    Very Good   @#ffffff 0@
+413@2022-02-24 14:55:17.193@@Band 1 (IMT 2100)@550@456@43211@#00d228 -88.6     Good        @#ffaa00 -14.34    Poor        @#00703c -63.6     Excellent   @#ffffff 0@
+410@2022-02-24 17:03:06.246@@Band 7 (IMT-E 2600)@3300@119@43211@#dc143c -112.3    Very Bad    @#aaaaaa -28.63    No Coverage @#00d228 -74.1     Good        @#ffffff 0@
+408@2022-02-24 14:56:13.316@@Band 3 (DCS 1800)@1423@302@43211@#00d228 -87.31    Good        @#fa6400 -16.17    Bad         @#00703c -59.98    Excellent   @#ffffff 0@
+408@2022-02-24 14:57:12.109@@Band 7 (IMT-E 2600)@3102@418@43211@#00d228 -89.25    Good        @#ffaa00 -15.28    Poor        @#00a032 -65.37    Very Good   @#ffffff 0@
+405@2022-02-24 17:28:54.462@@Band 7 (IMT-E 2600)@3102@97@43211@#00d228 -88.56    Good        @#ffaa00 -14.49    Poor        @#00703c -63.35    Excellent   @#ffffff 0@
+404@2022-02-24 14:58:20.513@@Band 7 (IMT-E 2600)@3300@175@43211@#ff0000 -106.75   Bad         @#aaaaaa -29.54    No Coverage @#00a032 -68.04    Very Good   @#ffffff 0@
+402@2022-02-24 14:56:44.078@@Band 3 (DCS 1800)@1423@301@43211@#ffff00 -91.11    Fair        @#ffaa00 -15.82    Poor        @#00703c -64.66    Excellent   @#ffffff 0@
+402@2022-02-24 17:59:43.168@@Band 1 (IMT 2100)@550@446@43211@#ffff00 -90.59    Fair        @#ffaa00 -15.01    Poor        @#00703c -64.92    Excellent   @#ffffff 0@
+390@2022-02-24 14:55:15.436@@Band 3 (DCS 1800)@1423@456@43211@#00a032 -84.12    Very Good   @#ffaa00 -14.2     Poor        @#00703c -59.27    Excellent   @#ffffff 0@
+376@2022-02-24 17:59:35.223@@Band 3 (DCS 1800)@1423@446@43211@#00d228 -88.88    Good        @#fa6400 -16.56    Bad         @#00703c -61.91    Excellent   @#ffffff 0@
+374@2022-02-24 14:56:48.245@@Band 7 (IMT-E 2600)@3102@301@43211@#ffff00 -92.28    Fair        @#ffaa00 -15.48    Poor        @#00a032 -66.56    Very Good   @#ffffff 0@
+374@2022-02-24 18:07:28.299@@Band 1 (IMT 2100)@550@190@43211@#00703c -76.61    Excellent   @#ffff00 -13.88    Fair        @#00703c -51.82    Excellent   @#ffffff 0@
+372@2022-02-24 17:58:14.735@@Band 1 (IMT 2100)@550@445@43211@#00d228 -86.81    Good        @#ffaa00 -14.74    Poor        @#00703c -61.6     Excellent   @#ffffff 0@
+369@2022-02-24 17:21:03.509@@Band 7 (IMT-E 2600)@3102@484@43211@#ffff00 -91.72    Fair        @#dc143c -19.17    Very Bad    @#00703c -61.75    Excellent   @#ffffff 0@
+361@2022-02-24 18:03:30.403@@Band 7 (IMT-E 2600)@3300@87@43211@#ff0000 -107.73   Bad         @#aaaaaa -29.08    No Coverage @#00a032 -69.37    Very Good   @#ffffff 0@
+359@2022-02-24 16:46:37.189@@Band 3 (DCS 1800)@1423@133@43211@#ffff00 -92.72    Fair        @#fa6400 -16.04    Bad         @#00a032 -66.44    Very Good   @#ffffff 0@
+358@2022-02-24 13:03:29.796@@Band 7 (IMT-E 2600)@3102@438@43211@#ffff00 -94.82    Fair        @#dc143c -18.25    Very Bad    @#00a032 -66.19    Very Good   @#ffffff 0@
+352@2022-02-24 14:16:26.321@@Band 7 (IMT-E 2600)@3102@361@43211@#ffaa00 -97.59    Poor        @#aaaaaa -27.47    No Coverage @#00703c -60.59    Excellent   @#ffffff 0@
+352@2022-02-24 17:49:34.855@@Band 3 (DCS 1800)@1423@377@43211@#00d228 -88.94    Good        @#dc143c -18.98    Very Bad    @#00703c -59.19    Excellent   @#ffffff 0@
+351@2022-02-24 17:39:49.257@@Band 3 (DCS 1800)@1423@484@43211@#00d228 -87.08    Good        @#fa6400 -17.09    Bad         @#00703c -59.64    Excellent   @#ffffff 0@
+347@2022-02-24 17:28:03.750@@Band 3 (DCS 1800)@1423@218@43211@#00d228 -86.45    Good        @#ffaa00 -15.88    Poor        @#00703c -60.03    Excellent   @#ffffff 0@
+344@2022-02-24 14:50:46.204@@Band 7 (IMT-E 2600)@3300@324@43211@#fa6400 -103.47   Very Poor   @#aaaaaa -29.61    No Coverage @#00703c -64.8     Excellent   @#ffffff 0@
+338@2022-02-24 18:08:32.755@@Band 7 (IMT-E 2600)@3300@152@43211@#fa6400 -101.6    Very Poor   @#aaaaaa -29.7     No Coverage @#00703c -62.73    Excellent   @#ffffff 0@
+334@2022-02-24 16:44:46.485@@Band 3 (DCS 1800)@1423@217@43211@#00d228 -85.11    Good        @#ffaa00 -14.53    Poor        @#00703c -60       Excellent   @#ffffff 0@
+330@2022-02-24 17:51:13.582@@Band 3 (DCS 1800)@1423@343@43211@#00d228 -89.75    Good        @#fa6400 -16.42    Bad         @#00703c -63.09    Excellent   @#ffffff 0@
+329@2022-02-24 17:49:48.643@@Band 7 (IMT-E 2600)@3102@439@43211@#fa6400 -100.05   Very Poor   @#aaaaaa -22.78    No Coverage @#00a032 -66.37    Very Good   @#ffffff 0@
+325@2022-02-24 14:51:20.978@@Band 1 (IMT 2100)@550@59@43211@#ffff00 -92.03    Fair        @#ffaa00 -14.65    Poor        @#00a032 -66.51    Very Good   @#ffffff 0@
+324@2022-02-24 14:58:19.703@@Band 1 (IMT 2100)@550@419@43211@#ffff00 -91.72    Fair        @#ffaa00 -15.58    Poor        @#00a032 -65.37    Very Good   @#ffffff 0@
+322@2022-02-24 14:54:13.742@@Band 3 (DCS 1800)@1423@289@43211@#00d228 -86.33    Good        @#ffaa00 -14.02    Poor        @#00703c -61.89    Excellent   @#ffffff 0@
+315@2022-02-24 14:45:16.186@@Band 3 (DCS 1800)@1423@57@43211@#ffff00 -91.24    Fair        @#dc143c -18.56    Very Bad    @#00703c -62.37    Excellent   @#ffffff 0@
+313@2022-02-24 14:56:49.494@@Band 1 (IMT 2100)@550@301@43211@#00d228 -89.23    Good        @#ffff00 -12.45    Fair        @#00a032 -66.05    Very Good   @#ffffff 0@
+309@2022-02-24 14:57:59.147@@Band 1 (IMT 2100)@550@438@43211@#ffff00 -93.14    Fair        @#ffaa00 -15.63    Poor        @#00a032 -67.25    Very Good   @#ffffff 0@
+309@2022-02-24 17:28:02.959@@Band 7 (IMT-E 2600)@3102@218@43211@#ffff00 -90.67    Fair        @#fa6400 -17.11    Bad         @#00703c -62.98    Excellent   @#ffffff 0@
+300@2022-02-24 15:31:30.925@@Band 7 (IMT-E 2600)@3300@207@43211@#fa6400 -103.96   Very Poor   @#aaaaaa -26.74    No Coverage @#00a032 -67.5     Very Good   @#ffffff 0@
+300@2022-02-24 17:46:03.383@@Band 7 (IMT-E 2600)@3300@372@43211@#fa6400 -103.32   Very Poor   @#aaaaaa -29.63    No Coverage @#00703c -64.65    Excellent   @#ffffff 0@
+297@2022-02-24 15:54:49.299@@Band 7 (IMT-E 2600)@3300@248@43211@#fa6400 -100.71   Very Poor   @#aaaaaa -29.93    No Coverage @#00703c -61.78    Excellent   @#ffffff 0@
+294@2022-02-24 14:55:07.598@@Band 1 (IMT 2100)@550@454@43211@#00d228 -86.48    Good        @#ffaa00 -14.88    Poor        @#00703c -61.04    Excellent   @#ffffff 0@
+290@2022-02-24 14:57:13.150@@Band 3 (DCS 1800)@1423@418@43211@#ffff00 -90.98    Fair        @#fa6400 -17       Bad         @#00703c -63.06    Excellent   @#ffffff 0@
+290@2022-02-24 14:12:04.467@@Band 7 (IMT-E 2600)@3102@58@43211@#ffff00 -93.07    Fair        @#aaaaaa -23.06    No Coverage @#00703c -60.25    Excellent   @#ffffff 0@
+290@2022-02-24 17:44:43.815@@Band 1 (IMT 2100)@550@377@43211@#ffff00 -92.64    Fair        @#aaaaaa -22.65    No Coverage @#00703c -60.18    Excellent   @#ffffff 0@
+288@2022-02-24 17:55:52.904@@Band 7 (IMT-E 2600)@3102@309@43211@#fa6400 -103.45   Very Poor   @#aaaaaa -29.06    No Coverage @#00a032 -65.6     Very Good   @#ffffff 0@
+281@2022-02-24 17:44:37.393@@Band 7 (IMT-E 2600)@3300@345@43211@#fa6400 -104.42   Very Poor   @#aaaaaa -29.68    No Coverage @#00a032 -65.37    Very Good   @#ffffff 0@
+279@2022-02-24 16:49:35.033@@Band 1 (IMT 2100)@550@216@43211@#ffff00 -92.98    Fair        @#ffaa00 -15.02    Poor        @#00a032 -67.21    Very Good   @#ffffff 0@
+274@2022-02-24 14:45:27.193@@Band 1 (IMT 2100)@550@289@43211@#00d228 -89       Good        @#ffff00 -13.8     Fair        @#00703c -64.46    Excellent   @#ffffff 0@
+274@2022-02-24 16:46:39.909@@Band 1 (IMT 2100)@550@133@43211@#ffaa00 -96.14    Poor        @#fa6400 -17.18    Bad         @#00a032 -68.95    Very Good   @#ffffff 0@
+273@2022-02-24 16:41:59.629@@Band 7 (IMT-E 2600)@3102@217@43211@#00d228 -87.14    Good        @#ffaa00 -14.74    Poor        @#00703c -61.89    Excellent   @#ffffff 0@
+268@2022-02-24 14:57:13.362@@Band 1 (IMT 2100)@550@418@43211@#ffff00 -92.38    Fair        @#ffff00 -13.56    Fair        @#00a032 -68.35    Very Good   @#ffffff 0@
+266@2022-02-24 17:46:43.149@@Band 7 (IMT-E 2600)@3300@495@43211@#fa6400 -104.05   Very Poor   @#aaaaaa -28.51    No Coverage @#00a032 -65.8     Very Good   @#ffffff 0@
+266@2022-02-24 15:46:45.906@@Band 7 (IMT-E 2600)@3300@110@43211@#ff0000 -106.25   Bad         @#aaaaaa -28.46    No Coverage @#00a032 -67.93    Very Good   @#ffffff 0@
+266@2022-02-24 17:17:21.890@@Band 3 (DCS 1800)@1423@216@43211@#00d228 -88.84    Good        @#ffaa00 -14.73    Poor        @#00703c -63.8     Excellent   @#ffffff 0@
+265@2022-02-24 18:07:40.264@@Band 7 (IMT-E 2600)@3300@362@43211@#fa6400 -100.07   Very Poor   @#aaaaaa -29.09    No Coverage @#00703c -61.71    Excellent   @#ffffff 0@
+264@2022-02-24 17:02:19.640@@Band 7 (IMT-E 2600)@3300@414@43211@#ff0000 -105.14   Bad         @#aaaaaa -29.81    No Coverage @#00a032 -66.31    Very Good   @#ffffff 0@
+264@2022-02-24 16:48:12.466@@Band 7 (IMT-E 2600)@3300@247@43211@#ffaa00 -99.75    Poor        @#aaaaaa -30       No Coverage @#00703c -60.74    Excellent   @#ffffff 0@
+258@2022-02-24 17:51:19.253@@Band 7 (IMT-E 2600)@3102@109@43211@#fa6400 -103.96   Very Poor   @#aaaaaa -28.39    No Coverage @#00a032 -65.98    Very Good   @#ffffff 0@
+254@2022-02-24 17:09:10.496@@Band 7 (IMT-E 2600)@3300@224@43211@#fa6400 -100.91   Very Poor   @#aaaaaa -29.93    No Coverage @#00703c -61.79    Excellent   @#ffffff 0@
+253@2022-02-24 14:54:53.526@@Band 1 (IMT 2100)@550@411@43211@#00d228 -88.45    Good        @#ffaa00 -14.82    Poor        @#00703c -62.47    Excellent   @#ffffff 0@
+251@2022-02-24 16:24:02.009@@Band 7 (IMT-E 2600)@3300@323@43211@#ff0000 -108.49   Bad         @#aaaaaa -28.88    No Coverage @#00d228 -70.24    Good        @#ffffff 0@
+250@2022-02-24 14:55:07.714@@Band 3 (DCS 1800)@1423@411@43211@#00d228 -86.41    Good        @#fa6400 -16.31    Bad         @#00703c -59.41    Excellent   @#ffffff 0@
+246@2022-02-24 14:42:12.046@@Band 3 (DCS 1800)@1423@132@43211@#ffff00 -92.36    Fair        @#ffaa00 -15.25    Poor        @#00a032 -67.48    Very Good   @#ffffff 0@
+242@2022-02-24 14:52:51.111@@Band 7 (IMT-E 2600)@3102@50@43211@#ffaa00 -95.81    Poor        @#820000 -20.19    Awful       @#00a032 -65.53    Very Good   @#ffffff 0@
+242@2022-02-24 14:57:13.150@@Band 3 (DCS 1800)@1423@417@43211@#00d228 -86.08    Good        @#ffaa00 -15.37    Poor        @#00703c -60.38    Excellent   @#ffffff 0@
+237@2022-02-24 16:42:00.266@@Band 1 (IMT 2100)@550@217@43211@#00d228 -88.07    Good        @#ffff00 -13.73    Fair        @#00703c -63.62    Excellent   @#ffffff 0@
+234@2022-02-24 17:43:07.710@@Band 7 (IMT-E 2600)@3300@240@43211@#fa6400 -103.82   Very Poor   @#aaaaaa -29.5     No Coverage @#00703c -65       Excellent   @#ffffff 0@
+234@2022-02-24 14:51:58.555@@Band 1 (IMT 2100)@550@57@43211@#ffff00 -92.31    Fair        @#fa6400 -17.02    Bad         @#00703c -64.38    Excellent   @#ffffff 0@
+233@2022-02-24 16:38:09.720@@Band 7 (IMT-E 2600)@3300@449@43211@#ff0000 -105.55   Bad         @#aaaaaa -29.48    No Coverage @#00a032 -66.71    Very Good   @#ffffff 0@
+232@2022-02-24 14:14:54.025@@Band 3 (DCS 1800)@1423@61@43211@#00a032 -83.45    Very Good   @#fa6400 -17.5     Bad         @#00703c -56.03    Excellent   @#ffffff 0@
+230@2022-02-24 14:45:03.948@@Band 3 (DCS 1800)@1423@290@43211@#00a032 -80.65    Very Good   @#ffaa00 -14.56    Poor        @#00703c -55.86    Excellent   @#ffffff 0@
+230@2022-02-24 14:41:36.993@@Band 7 (IMT-E 2600)@3102@132@43211@#ffaa00 -97.87    Poor        @#820000 -20.16    Awful       @#00a032 -68.12    Very Good   @#ffffff 0@
+227@2022-02-24 17:51:23.175@@Band 7 (IMT-E 2600)@3102@314@43211@#fa6400 -103.17   Very Poor   @#aaaaaa -28.95    No Coverage @#00a032 -65.01    Very Good   @#ffffff 0@
+225@2022-02-24 14:45:16.179@@Band 3 (DCS 1800)@1423@454@43211@#00a032 -83       Very Good   @#fa6400 -17.03    Bad         @#00703c -54.95    Excellent   @#ffffff 0@
+224@2022-02-24 17:17:50.753@@Band 1 (IMT 2100)@550@218@43211@#ffff00 -91.24    Fair        @#dc143c -18.14    Very Bad    @#00703c -62.09    Excellent   @#ffffff 0@
+222@2022-02-24 13:02:17.127@@Band 3 (DCS 1800)@1423@497@43211@#fa6400 -101.09   Very Poor   @#aaaaaa -28.4     No Coverage @#00703c -63.44    Excellent   @#ffffff 0@
+222@2022-02-24 16:46:28.162@@Band 1 (IMT 2100)@550@134@43211@#ffff00 -93.32    Fair        @#820000 -20.17    Awful       @#00703c -63.66    Excellent   @#ffffff 0@
+220@2022-02-24 14:42:07.392@@Band 1 (IMT 2100)@550@132@43211@#ffaa00 -97.11    Poor        @#ffaa00 -14.66    Poor        @#00d228 -71.39    Good        @#ffffff 0@
+219@2022-02-24 17:09:29.201@@Band 7 (IMT-E 2600)@3300@223@43211@#ffaa00 -98.34    Poor        @#aaaaaa -29.84    No Coverage @#00703c -59.11    Excellent   @#ffffff 0@
+216@2022-02-24 17:49:47.264@@Band 1 (IMT 2100)@550@343@43211@#ffff00 -90.75    Fair        @#ffaa00 -15.52    Poor        @#00703c -64.39    Excellent   @#ffffff 0@
+215@2022-02-24 14:57:13.362@@Band 1 (IMT 2100)@550@417@43211@#ffff00 -90.66    Fair        @#ffaa00 -15.27    Poor        @#00703c -64.52    Excellent   @#ffffff 0@
+210@2022-02-24 17:13:09.182@@Band 7 (IMT-E 2600)@3102@437@43211@#ffaa00 -95.91    Poor        @#ffaa00 -15.73    Poor        @#00a032 -69.85    Very Good   @#ffffff 0@
+208@2022-02-24 12:54:37.457@@Band 1 (IMT 2100)@550@439@43211@#00d228 -89.69    Good        @#fa6400 -17.47    Bad         @#00703c -60.85    Excellent   @#ffffff 0@
+206@2022-02-24 13:02:20.222@@Band 1 (IMT 2100)@550@455@43211@#ffff00 -94.95    Fair        @#ffaa00 -15.69    Poor        @#00a032 -68.64    Very Good   @#ffffff 0@
+206@2022-02-24 17:25:21.286@@Band 7 (IMT-E 2600)@3300@420@43211@#ff0000 -109.48   Bad         @#aaaaaa -29.5     No Coverage @#00d228 -70.67    Good        @#ffffff 0@
+202@2022-02-24 16:01:35.727@@Band 7 (IMT-E 2600)@3300@135@43211@#ffaa00 -98.19    Poor        @#aaaaaa -29.66    No Coverage @#00703c -59.18    Excellent   @#ffffff 0@
+198@2022-02-24 17:27:02.474@@Band 7 (IMT-E 2600)@3300@321@43211@#ff0000 -106.17   Bad         @#aaaaaa -29.65    No Coverage @#00a032 -67.45    Very Good   @#ffffff 0@
+192@2022-02-24 17:55:57.319@@Band 3 (DCS 1800)@1423@222@43211@#ffff00 -93.92    Fair        @#dc143c -18.28    Very Bad    @#00a032 -65.39    Very Good   @#ffffff 0@
+191@2022-02-24 14:23:23.584@@Band 1 (IMT 2100)@550@290@43211@#00a032 -81.67    Very Good   @#ffff00 -12.48    Fair        @#00703c -58.14    Excellent   @#ffffff 0@
+190@2022-02-24 18:08:48.994@@Band 7 (IMT-E 2600)@3300@102@43211@#fa6400 -102.54   Very Poor   @#aaaaaa -29.85    No Coverage @#00703c -63.77    Excellent   @#ffffff 0@
+188@2022-02-24 17:20:38.273@@Band 7 (IMT-E 2600)@3300@330@43211@#ff0000 -105.74   Bad         @#aaaaaa -29.91    No Coverage @#00a032 -66.62    Very Good   @#ffffff 0@
+186@2022-02-24 15:29:39.312@@Band 7 (IMT-E 2600)@3300@136@43211@#ff0000 -109.54   Bad         @#aaaaaa -28.56    No Coverage @#00d228 -71.4     Good        @#ffffff 0@
+185@2022-02-24 17:17:23.749@@Band 7 (IMT-E 2600)@3102@316@43211@#ffff00 -93.11    Fair        @#dc143c -18.51    Very Bad    @#00703c -63.46    Excellent   @#ffffff 0@
+182@2022-02-24 16:23:52.156@@Band 7 (IMT-E 2600)@3300@170@43211@#fa6400 -104.39   Very Poor   @#aaaaaa -29.78    No Coverage @#00a032 -65.57    Very Good   @#ffffff 0@
+179@2022-02-24 13:01:16.370@@Band 7 (IMT-E 2600)@3102@455@43211@#ffff00 -90.28    Fair        @#ffaa00 -15.58    Poor        @#00703c -63.96    Excellent   @#ffffff 0@
+173@2022-02-24 17:17:15.658@@Band 3 (DCS 1800)@1423@316@43211@#00d228 -87.2     Good        @#ffaa00 -15.3     Poor        @#00703c -61.75    Excellent   @#ffffff 0@
+163@2022-02-24 14:52:49.886@@Band 3 (DCS 1800)@1423@50@43211@#ffff00 -93.83    Fair        @#dc143c -18.57    Very Bad    @#00a032 -65.18    Very Good   @#ffffff 0@
+163@2022-02-24 17:44:31.402@@Band 3 (DCS 1800)@1423@439@43211@#ffff00 -91.17    Fair        @#aaaaaa -23.44    No Coverage @#00703c -58.09    Excellent   @#ffffff 0@
+162@2022-02-24 11:21:48.274@@Band 7 (IMT-E 2600)@3102@362@43211@#fa6400 -100.41   Very Poor   @#aaaaaa -29.78    No Coverage @#00703c -61.6     Excellent   @#ffffff 0@
+160@2022-02-24 13:00:17.726@@Band 3 (DCS 1800)@1423@453@43211@#00a032 -82.8     Very Good   @#820000 -20.61    Awful       @#00703c -51.41    Excellent   @#ffffff 0@
+158@2022-02-24 17:11:17.100@@Band 7 (IMT-E 2600)@3300@489@43211@#dc143c -111.05   Very Bad    @#aaaaaa -29.11    No Coverage @#00d228 -72.69    Good        @#ffffff 0@
+157@2022-02-24 17:44:45.872@@Band 7 (IMT-E 2600)@3300@5@43211@#fa6400 -103.47   Very Poor   @#aaaaaa -29.82    No Coverage @#00703c -64.27    Excellent   @#ffffff 0@
+157@2022-02-24 14:11:13.193@@Band 7 (IMT-E 2600)@3102@255@43211@#ff0000 -105.7    Bad         @#aaaaaa -28.67    No Coverage @#00a032 -67.63    Very Good   @#ffffff 0@
+154@2022-02-24 17:23:08.862@@Band 7 (IMT-E 2600)@3300@257@43211@#ff0000 -109.06   Bad         @#aaaaaa -28.98    No Coverage @#00d228 -70.41    Good        @#ffffff 0@
+154@2022-02-24 16:46:34.323@@Band 3 (DCS 1800)@1423@134@43211@#ffff00 -91.6     Fair        @#fa6400 -17.14    Bad         @#00703c -63.99    Excellent   @#ffffff 0@
+152@2022-02-24 17:57:39.744@@Band 7 (IMT-E 2600)@3300@114@43211@#ff0000 -106.88   Bad         @#aaaaaa -29.76    No Coverage @#00a032 -67.96    Very Good   @#ffffff 0@
+152@2022-02-24 17:13:16.778@@Band 3 (DCS 1800)@1423@437@43211@#ffff00 -92       Fair        @#ffaa00 -15.41    Poor        @#00a032 -66.27    Very Good   @#ffffff 0@
+151@2022-02-24 17:09:30.206@@Band 7 (IMT-E 2600)@3300@28@43211@#dc143c -111.69   Very Bad    @#aaaaaa -29.26    No Coverage @#00d228 -73.06    Good        @#ffffff 0@
+149@2022-02-24 17:10:10.985@@Band 1 (IMT 2100)@550@222@43211@#ffff00 -94.3     Fair        @#ffff00 -13.92    Fair        @#00a032 -69.41    Very Good   @#ffffff 0@
+147@2022-02-24 16:41:20.795@@Band 7 (IMT-E 2600)@3102@216@43211@#ffff00 -90.46    Fair        @#fa6400 -17.55    Bad         @#00703c -62.35    Excellent   @#ffffff 0@
+144@2022-02-24 17:15:54.285@@Band 1 (IMT 2100)@550@316@43211@#ffff00 -91.94    Fair        @#fa6400 -16.2     Bad         @#00703c -64.86    Excellent   @#ffffff 0@
+142@2022-02-24 15:24:05.935@@Band 7 (IMT-E 2600)@3300@213@43211@#fa6400 -102.98   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.78    Excellent   @#ffffff 0@
+141@2022-02-24 14:52:51.299@@Band 1 (IMT 2100)@550@50@43211@#ffaa00 -97.17    Poor        @#fa6400 -17.21    Bad         @#00a032 -69.57    Very Good   @#ffffff 0@
+138@2022-02-24 18:08:06.250@@Band 7 (IMT-E 2600)@3300@474@43211@#fa6400 -101.01   Very Poor   @#aaaaaa -29.33    No Coverage @#00703c -62.31    Excellent   @#ffffff 0@
+134@2022-02-24 17:46:43.162@@Band 7 (IMT-E 2600)@3300@93@43211@#ff0000 -106.88   Bad         @#aaaaaa -29.89    No Coverage @#00a032 -67.81    Very Good   @#ffffff 0@
+134@2022-02-24 14:16:08.916@@Band 3 (DCS 1800)@1423@288@43211@#00a032 -81.6     Very Good   @#ffaa00 -14.98    Poor        @#00703c -56.7     Excellent   @#ffffff 0@
+133@2022-02-24 14:14:53.740@@Band 1 (IMT 2100)@550@61@43211@#00d228 -89.69    Good        @#fa6400 -16.44    Bad         @#00703c -62.29    Excellent   @#ffffff 0@
+127@2022-02-24 14:12:40.417@@Band 1 (IMT 2100)@550@58@43211@#00d228 -86.71    Good        @#ffaa00 -14.62    Poor        @#00703c -61.56    Excellent   @#ffffff 0@
+126@2022-02-24 17:44:00.992@@Band 7 (IMT-E 2600)@3300@104@43211@#fa6400 -104.2    Very Poor   @#aaaaaa -29.77    No Coverage @#00703c -64.96    Excellent   @#ffffff 0@
+125@2022-02-24 15:51:05.573@@Band 7 (IMT-E 2600)@3300@413@43211@#fa6400 -100.42   Very Poor   @#aaaaaa -24.25    No Coverage @#00a032 -66.77    Very Good   @#ffffff 0@
+120@2022-02-24 17:51:31.545@@Band 7 (IMT-E 2600)@3102@373@43211@#fa6400 -102.56   Very Poor   @#aaaaaa -29.89    No Coverage @#00703c -63.7     Excellent   @#ffffff 0@
+118@2022-02-24 17:18:13.270@@Band 7 (IMT-E 2600)@3300@246@43211@#ffaa00 -99.4     Poor        @#aaaaaa -30       No Coverage @#00703c -60.37    Excellent   @#ffffff 0@
+114@2022-02-24 17:46:16.271@@Band 7 (IMT-E 2600)@3300@386@43211@#ff0000 -109.42   Bad         @#aaaaaa -29.9     No Coverage @#00d228 -70.66    Good        @#ffffff 0@
+112@2022-02-24 17:47:23.088@@Band 7 (IMT-E 2600)@3300@197@43211@#ffaa00 -99.2     Poor        @#aaaaaa -29.85    No Coverage @#00703c -60.41    Excellent   @#ffffff 0@
+112@2022-02-24 14:16:11.958@@Band 1 (IMT 2100)@550@288@43211@#00a032 -82.76    Very Good   @#ffaa00 -14.08    Poor        @#00703c -58.04    Excellent   @#ffffff 0@
+109@2022-02-24 17:45:59.536@@Band 1 (IMT 2100)@550@344@43211@#ffaa00 -96.12    Poor        @#aaaaaa -22.76    No Coverage @#00703c -63.64    Excellent   @#ffffff 0@
+104@2022-02-24 16:14:27.093@@Band 7 (IMT-E 2600)@3300@83@43211@#ff0000 -105.69   Bad         @#aaaaaa -29.35    No Coverage @#00a032 -66.94    Very Good   @#ffffff 0@
+104@2022-02-24 14:12:40.119@@Band 3 (DCS 1800)@1423@58@43211@#00a032 -83.5     Very Good   @#ffaa00 -15.67    Poor        @#00703c -57.94    Excellent   @#ffffff 0@
+102@2022-02-24 17:11:53.687@@Band 7 (IMT-E 2600)@3300@465@43211@#ff0000 -108.38   Bad         @#aaaaaa -29.03    No Coverage @#00d228 -70.13    Good        @#ffffff 0@
+101@2022-02-24 16:35:07.509@@Band 7 (IMT-E 2600)@3300@252@43211@#fa6400 -104.12   Very Poor   @#aaaaaa -29.89    No Coverage @#00a032 -65.38    Very Good   @#ffffff 0@
+101@2022-02-24 14:53:42.807@@Band 3 (DCS 1800)@1423@412@43211@#00d228 -88.19    Good        @#fa6400 -16.93    Bad         @#00703c -60.7     Excellent   @#ffffff 0@
+100@2022-02-24 15:59:16.276@@Band 7 (IMT-E 2600)@3300@20@43211@#fa6400 -101.01   Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.65    Excellent   @#ffffff 0@
+98@2022-02-24 15:26:21.728@@Band 7 (IMT-E 2600)@3300@238@43211@#fa6400 -103.15   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.06    Excellent   @#ffffff 0@
+98@2022-02-24 14:53:43.019@@Band 1 (IMT 2100)@550@412@43211@#00d228 -87.95    Good        @#ffaa00 -15.48    Poor        @#00703c -61.14    Excellent   @#ffffff 0@
+97@2022-02-24 17:45:49.124@@Band 3 (DCS 1800)@1423@344@43211@#ffff00 -90.36    Fair        @#820000 -21.71    Awful       @#00703c -59.05    Excellent   @#ffffff 0@
+96@2022-02-24 11:00:19.768@@Band 7 (IMT-E 2600)@3102@336@43211@#ff0000 -105.91   Bad         @#aaaaaa -29.44    No Coverage @#00a032 -67.17    Very Good   @#ffffff 0@
+96@2022-02-24 18:03:04.255@@Band 7 (IMT-E 2600)@3300@128@43211@#fa6400 -103.35   Very Poor   @#aaaaaa -29.47    No Coverage @#00703c -64.75    Excellent   @#ffffff 0@
+93@2022-02-24 17:51:13.582@@Band 3 (DCS 1800)@1423@109@43211@#ffff00 -94.53    Fair        @#aaaaaa -25.4     No Coverage @#00703c -59.74    Excellent   @#ffffff 0@
+92@2022-02-24 17:37:39.183@@Band 7 (IMT-E 2600)@3102@413@43211@#ffaa00 -96.77    Poor        @#aaaaaa -22.89    No Coverage @#00703c -64.56    Excellent   @#ffffff 0@
+92@2022-02-24 15:56:40.364@@Band 7 (IMT-E 2600)@3300@320@43211@#ff0000 -105.77   Bad         @#aaaaaa -29.75    No Coverage @#00a032 -66.97    Very Good   @#ffffff 0@
+92@2022-02-24 17:45:48.525@@Band 7 (IMT-E 2600)@3102@344@43211@#ffaa00 -98.75    Poor        @#aaaaaa -22.22    No Coverage @#00a032 -65.94    Very Good   @#ffffff 0@
+91@2022-02-24 17:14:54.547@@Band 3 (DCS 1800)@1423@317@43211@#00a032 -82.26    Very Good   @#ffaa00 -14.42    Poor        @#00703c -57.37    Excellent   @#ffffff 0@
+90@2022-02-24 15:18:59.680@@Band 7 (IMT-E 2600)@3300@127@43211@#ff0000 -106.37   Bad         @#aaaaaa -29.72    No Coverage @#00a032 -67.46    Very Good   @#ffffff 0@
+90@2022-02-24 17:23:51.403@@Band 7 (IMT-E 2600)@3300@294@43211@#ff0000 -106.07   Bad         @#aaaaaa -28.37    No Coverage @#00a032 -67.93    Very Good   @#ffffff 0@
+88@2022-02-24 16:24:09.882@@Band 7 (IMT-E 2600)@3300@36@43211@#fa6400 -101.62   Very Poor   @#aaaaaa -29.4     No Coverage @#00703c -62.56    Excellent   @#ffffff 0@
+87@2022-02-24 17:22:22.116@@Band 7 (IMT-E 2600)@3300@49@43211@#fa6400 -102.12   Very Poor   @#aaaaaa -29.88    No Coverage @#00703c -62.85    Excellent   @#ffffff 0@
+86@2022-02-24 18:07:14.658@@Band 7 (IMT-E 2600)@3300@201@43211@#fa6400 -104.74   Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.88    Very Good   @#ffffff 0@
+85@2022-02-24 17:21:48.292@@Band 7 (IMT-E 2600)@3300@392@43211@#fa6400 -103.11   Very Poor   @#aaaaaa -29.87    No Coverage @#00703c -63.95    Excellent   @#ffffff 0@
+84@2022-02-24 15:45:55.119@@Band 7 (IMT-E 2600)@3300@161@43211@#ff0000 -107.35   Bad         @#aaaaaa -29.84    No Coverage @#00a032 -68.69    Very Good   @#ffffff 0@
+84@2022-02-24 18:09:16.821@@Band 7 (IMT-E 2600)@3300@298@43211@#ffaa00 -99.9     Poor        @#aaaaaa -29.17    No Coverage @#00703c -61.66    Excellent   @#ffffff 0@
+82@2022-02-24 17:28:00.014@@Band 7 (IMT-E 2600)@3300@41@43211@#ff0000 -105.54   Bad         @#aaaaaa -29.63    No Coverage @#00a032 -66.78    Very Good   @#ffffff 0@
+82@2022-02-24 14:43:56.625@@Band 1 (IMT 2100)@550@48@43211@#ffaa00 -97.96    Poor        @#dc143c -19.25    Very Bad    @#00a032 -67.82    Very Good   @#ffffff 0@
+82@2022-02-24 17:21:45.579@@Band 7 (IMT-E 2600)@3300@72@43211@#fa6400 -103.31   Very Poor   @#aaaaaa -29.86    No Coverage @#00703c -64.21    Excellent   @#ffffff 0@
+82@2022-02-24 17:15:25.311@@Band 7 (IMT-E 2600)@3300@214@43211@#ff0000 -105.26   Bad         @#aaaaaa -29.15    No Coverage @#00a032 -66.97    Very Good   @#ffffff 0@
+81@2022-02-24 18:02:39.539@@Band 7 (IMT-E 2600)@3300@332@43211@#ff0000 -105.09   Bad         @#aaaaaa -30       No Coverage @#00a032 -65.43    Very Good   @#ffffff 0@
+80@2022-02-24 17:44:58.412@@Band 7 (IMT-E 2600)@3300@99@43211@#fa6400 -102.53   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.7     Excellent   @#ffffff 0@
+80@2022-02-24 17:46:23.008@@Band 7 (IMT-E 2600)@3300@374@43211@#ff0000 -108.96   Bad         @#aaaaaa -30       No Coverage @#00a032 -69.82    Very Good   @#ffffff 0@
+80@2022-02-24 15:39:21.940@@Band 7 (IMT-E 2600)@3300@318@43211@#dc143c -112.16   Very Bad    @#aaaaaa -29.4     No Coverage @#00d228 -73.25    Good        @#ffffff 0@
+80@2022-02-24 16:08:22.423@@Band 7 (IMT-E 2600)@3300@498@43211@#fa6400 -102.56   Very Poor   @#aaaaaa -29.81    No Coverage @#00703c -63.67    Excellent   @#ffffff 0@
+80@2022-02-24 14:11:17.188@@Band 7 (IMT-E 2600)@3102@207@43211@#fa6400 -104.57   Very Poor   @#aaaaaa -29.58    No Coverage @#00a032 -65.87    Very Good   @#ffffff 0@
+78@2022-02-24 17:02:15.917@@Band 7 (IMT-E 2600)@3300@121@43211@#fa6400 -103.7    Very Poor   @#aaaaaa -29.85    No Coverage @#00703c -64.92    Excellent   @#ffffff 0@
+78@2022-02-24 17:14:20.738@@Band 1 (IMT 2100)@550@317@43211@#00d228 -89.05    Good        @#ffff00 -13.75    Fair        @#00703c -64.51    Excellent   @#ffffff 0@
+76@2022-02-24 17:12:17.785@@Band 7 (IMT-E 2600)@3300@149@43211@#ff0000 -106.51   Bad         @#aaaaaa -29.77    No Coverage @#00a032 -67.78    Very Good   @#ffffff 0@
+76@2022-02-24 17:44:24.247@@Band 7 (IMT-E 2600)@3300@131@43211@#ff0000 -106.44   Bad         @#aaaaaa -30       No Coverage @#00a032 -67.42    Very Good   @#ffffff 0@
+76@2022-02-24 17:23:54.475@@Band 7 (IMT-E 2600)@3300@354@43211@#fa6400 -104.94   Very Poor   @#aaaaaa -29.68    No Coverage @#00a032 -66.1     Very Good   @#ffffff 0@
+76@2022-02-24 17:27:47.761@@Band 7 (IMT-E 2600)@3300@490@43211@#fa6400 -104.89   Very Poor   @#aaaaaa -29.34    No Coverage @#00a032 -66.13    Very Good   @#ffffff 0@
+74@2022-02-24 13:00:05.309@@Band 7 (IMT-E 2600)@3102@453@43211@#00a032 -83.83    Very Good   @#820000 -20.47    Awful       @#00703c -52.6     Excellent   @#ffffff 0@
+74@2022-02-24 16:34:25.396@@Band 7 (IMT-E 2600)@3300@496@43211@#fa6400 -104.81   Very Poor   @#aaaaaa -29.55    No Coverage @#00a032 -65.94    Very Good   @#ffffff 0@
+74@2022-02-24 15:26:39.464@@Band 7 (IMT-E 2600)@3300@423@43211@#fa6400 -103.06   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.89    Excellent   @#ffffff 0@
+73@2022-02-24 15:43:24.196@@Band 7 (IMT-E 2600)@3300@239@43211@#ffaa00 -98.68    Poor        @#aaaaaa -30       No Coverage @#00703c -58.8     Excellent   @#ffffff 0@
+72@2022-02-24 17:19:48.026@@Band 7 (IMT-E 2600)@3300@312@43211@#ff0000 -107.25   Bad         @#aaaaaa -29.31    No Coverage @#00a032 -68.75    Very Good   @#ffffff 0@
+72@2022-02-24 16:47:40.488@@Band 7 (IMT-E 2600)@3300@38@43211@#ff0000 -107.2    Bad         @#aaaaaa -29.8     No Coverage @#00a032 -68.52    Very Good   @#ffffff 0@
+72@2022-02-24 17:27:20.743@@Band 7 (IMT-E 2600)@3300@267@43211@#fa6400 -103.34   Very Poor   @#aaaaaa -29.38    No Coverage @#00703c -64.5     Excellent   @#ffffff 0@
+72@2022-02-24 17:44:52.569@@Band 7 (IMT-E 2600)@3300@233@43211@#fa6400 -102.7    Very Poor   @#aaaaaa -29.45    No Coverage @#00703c -64.19    Excellent   @#ffffff 0@
+72@2022-02-24 17:11:54.940@@Band 7 (IMT-E 2600)@3102@317@43211@#00d228 -86.95    Good        @#ffff00 -12.95    Fair        @#00703c -63.62    Excellent   @#ffffff 0@
+70@2022-02-24 15:48:05.887@@Band 7 (IMT-E 2600)@3300@470@43211@#fa6400 -103.37   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.54    Excellent   @#ffffff 0@
+70@2022-02-24 18:05:12.866@@Band 7 (IMT-E 2600)@3300@393@43211@#fa6400 -102.11   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.2     Excellent   @#ffffff 0@
+70@2022-02-24 17:25:50.958@@Band 7 (IMT-E 2600)@3300@339@43211@#fa6400 -104.92   Very Poor   @#aaaaaa -29.44    No Coverage @#00a032 -66.11    Very Good   @#ffffff 0@
+70@2022-02-24 18:01:08.518@@Band 7 (IMT-E 2600)@3300@118@43211@#ffaa00 -99.3     Poor        @#aaaaaa -30       No Coverage @#00703c -60.11    Excellent   @#ffffff 0@
+70@2022-02-24 16:07:57.474@@Band 7 (IMT-E 2600)@3300@130@43211@#ffaa00 -98.72    Poor        @#aaaaaa -29.44    No Coverage @#00703c -60.11    Excellent   @#ffffff 0@
+70@2022-02-24 18:03:43.153@@Band 7 (IMT-E 2600)@3300@78@43211@#fa6400 -102.64   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.54    Excellent   @#ffffff 0@
+70@2022-02-24 16:54:35.659@@Band 7 (IMT-E 2600)@3300@37@43211@#fa6400 -100.42   Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.77    Excellent   @#ffffff 0@
+70@2022-02-24 18:03:57.467@@Band 7 (IMT-E 2600)@3300@193@43211@#fa6400 -102.71   Very Poor   @#aaaaaa -29.8     No Coverage @#00703c -63.88    Excellent   @#ffffff 0@
+68@2022-02-24 15:39:11.408@@Band 7 (IMT-E 2600)@3300@468@43211@#ff0000 -107.94   Bad         @#aaaaaa -30       No Coverage @#00a032 -68.88    Very Good   @#ffffff 0@
+68@2022-02-24 15:38:54.460@@Band 7 (IMT-E 2600)@3300@206@43211@#ff0000 -106.47   Bad         @#aaaaaa -29.61    No Coverage @#00a032 -68.48    Very Good   @#ffffff 0@
+67@2022-02-24 17:28:06.868@@Band 7 (IMT-E 2600)@3300@31@43211@#ff0000 -105.88   Bad         @#aaaaaa -30       No Coverage @#00a032 -66.82    Very Good   @#ffffff 0@
+67@2022-02-24 16:46:29.442@@Band 7 (IMT-E 2600)@3102@134@43211@#00d228 -89.79    Good        @#fa6400 -17.11    Bad         @#00703c -61.49    Excellent   @#ffffff 0@
+66@2022-02-24 18:09:52.395@@Band 7 (IMT-E 2600)@3300@1@43211@#fa6400 -100.56   Very Poor   @#aaaaaa -29.84    No Coverage @#00703c -61.72    Excellent   @#ffffff 0@
+66@2022-02-24 18:08:45.412@@Band 7 (IMT-E 2600)@3300@163@43211@#fa6400 -100.45   Very Poor   @#aaaaaa -29.4     No Coverage @#00703c -62.27    Excellent   @#ffffff 0@
+66@2022-02-24 16:48:52.256@@Band 7 (IMT-E 2600)@3300@44@43211@#fa6400 -103.34   Very Poor   @#aaaaaa -29.5     No Coverage @#00703c -64.6     Excellent   @#ffffff 0@
+66@2022-02-24 18:08:59.482@@Band 7 (IMT-E 2600)@3300@319@43211@#fa6400 -101.95   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.42    Excellent   @#ffffff 0@
+66@2022-02-24 11:00:57.346@@Band 7 (IMT-E 2600)@3102@324@43211@#fa6400 -103.13   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.87    Excellent   @#ffffff 0@
+66@2022-02-24 16:12:17.176@@Band 7 (IMT-E 2600)@3300@303@43211@#ffaa00 -98.87    Poor        @#aaaaaa -30       No Coverage @#00703c -59.9     Excellent   @#ffffff 0@
+66@2022-02-24 16:14:08.025@@Band 7 (IMT-E 2600)@3300@167@43211@#fa6400 -104.34   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.93    Excellent   @#ffffff 0@
+66@2022-02-24 17:15:58.132@@Band 7 (IMT-E 2600)@3300@479@43211@#ff0000 -107.83   Bad         @#aaaaaa -28.95    No Coverage @#00a032 -69.9     Very Good   @#ffffff 0@
+65@2022-02-24 12:59:59.836@@Band 1 (IMT 2100)@550@453@43211@#00703c -79.2     Excellent   @#ffaa00 -15.49    Poor        @#00703c -53.24    Excellent   @#ffffff 0@
+64@2022-02-24 17:45:42.014@@Band 7 (IMT-E 2600)@3300@355@43211@#fa6400 -103.09   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.25    Excellent   @#ffffff 0@
+64@2022-02-24 17:20:05.257@@Band 7 (IMT-E 2600)@3300@230@43211@#fa6400 -103.79   Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.03    Very Good   @#ffffff 0@
+64@2022-02-24 17:18:30.295@@Band 7 (IMT-E 2600)@3300@9@43211@#fa6400 -102.75   Very Poor   @#aaaaaa -29.64    No Coverage @#00703c -63.62    Excellent   @#ffffff 0@
+62@2022-02-24 15:37:26.554@@Band 7 (IMT-E 2600)@3300@401@43211@#ff0000 -107.93   Bad         @#aaaaaa -29.11    No Coverage @#00a032 -69.54    Very Good   @#ffffff 0@
+62@2022-02-24 16:51:49.541@@Band 7 (IMT-E 2600)@3300@398@43211@#fa6400 -104.69   Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.7     Very Good   @#ffffff 0@
+62@2022-02-24 17:46:58.173@@Band 7 (IMT-E 2600)@3300@452@43211@#fa6400 -102.03   Very Poor   @#aaaaaa -29.27    No Coverage @#00703c -63.29    Excellent   @#ffffff 0@
+62@2022-02-24 16:03:55.114@@Band 7 (IMT-E 2600)@3300@225@43211@#ff0000 -109.19   Bad         @#aaaaaa -28.14    No Coverage @#00d228 -71.45    Good        @#ffffff 0@
+62@2022-02-24 17:08:23.233@@Band 7 (IMT-E 2600)@3300@325@43211@#fa6400 -102.82   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.77    Excellent   @#ffffff 0@
+61@2022-02-24 14:43:57.231@@Band 3 (DCS 1800)@1423@48@43211@#ffff00 -92.85    Fair        @#dc143c -19.27    Very Bad    @#00703c -63.3     Excellent   @#ffffff 0@
+60@2022-02-24 18:04:12.364@@Band 7 (IMT-E 2600)@3300@291@43211@#fa6400 -101.86   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.83    Excellent   @#ffffff 0@
+60@2022-02-24 15:35:45.689@@Band 7 (IMT-E 2600)@3300@254@43211@#ff0000 -109.6    Bad         @#aaaaaa -29.61    No Coverage @#00d228 -70.73    Good        @#ffffff 0@
+60@2022-02-24 18:08:19.404@@Band 7 (IMT-E 2600)@3300@7@43211@#fa6400 -102.46   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.66    Excellent   @#ffffff 0@
+60@2022-02-24 17:04:29.960@@Band 7 (IMT-E 2600)@3300@74@43211@#ff0000 -109.71   Bad         @#aaaaaa -30       No Coverage @#00d228 -70.73    Good        @#ffffff 0@
+60@2022-02-24 15:22:34.668@@Band 7 (IMT-E 2600)@3300@293@43211@#fa6400 -103.3    Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.46    Excellent   @#ffffff 0@
+60@2022-02-24 16:45:04.066@@Band 7 (IMT-E 2600)@3300@21@43211@#fa6400 -104.18   Very Poor   @#aaaaaa -29.83    No Coverage @#00703c -64.96    Excellent   @#ffffff 0@
+60@2022-02-24 17:20:27.668@@Band 7 (IMT-E 2600)@3300@363@43211@#fa6400 -101.85   Very Poor   @#aaaaaa -29.76    No Coverage @#00703c -62.76    Excellent   @#ffffff 0@
+60@2022-02-24 15:31:50.574@@Band 7 (IMT-E 2600)@3300@421@43211@#ff0000 -105.38   Bad         @#aaaaaa -30       No Coverage @#00a032 -66.23    Very Good   @#ffffff 0@
+60@2022-02-24 16:28:12.302@@Band 7 (IMT-E 2600)@3300@88@43211@#fa6400 -100.63   Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.46    Excellent   @#ffffff 0@
+60@2022-02-24 17:31:30.752@@Band 7 (IMT-E 2600)@3300@150@43211@#fa6400 -102.7    Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.8     Excellent   @#ffffff 0@
+60@2022-02-24 16:00:31.780@@Band 7 (IMT-E 2600)@3300@260@43211@#ff0000 -108.83   Bad         @#aaaaaa -30       No Coverage @#00a032 -69.9     Very Good   @#ffffff 0@
+60@2022-02-24 16:06:45.553@@Band 7 (IMT-E 2600)@3300@347@43211@#fa6400 -102.75   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.46    Excellent   @#ffffff 0@
+60@2022-02-24 16:28:44.417@@Band 7 (IMT-E 2600)@3300@101@43211@#fa6400 -102.66   Very Poor   @#aaaaaa -29.81    No Coverage @#00703c -63.76    Excellent   @#ffffff 0@
+60@2022-02-24 18:00:06.830@@Band 7 (IMT-E 2600)@3300@299@43211@#fa6400 -103      Very Poor   @#aaaaaa -29.31    No Coverage @#00703c -64.46    Excellent   @#ffffff 0@
+60@2022-02-24 14:42:33.181@@Band 7 (IMT-E 2600)@3300@360@43211@#ff0000 -108.63   Bad         @#aaaaaa -29.65    No Coverage @#00a032 -69.7     Very Good   @#ffffff 0@
+60@2022-02-24 17:41:46.157@@Band 7 (IMT-E 2600)@3300@356@43211@#fa6400 -101.55   Very Poor   @#aaaaaa -29.81    No Coverage @#00703c -62.66    Excellent   @#ffffff 0@
+60@2022-02-24 17:12:55.279@@Band 1 (IMT 2100)@550@437@43211@#ffaa00 -99.45    Poor        @#ffff00 -13.76    Fair        @#ffff00 -75.31    Fair        @#ffffff 0@
+58@2022-02-24 17:19:26.248@@Band 7 (IMT-E 2600)@3300@486@43211@#ff0000 -106.31   Bad         @#aaaaaa -30       No Coverage @#00a032 -67.17    Very Good   @#ffffff 0@
+57@2022-02-24 14:59:38.027@@Band 7 (IMT-E 2600)@3300@188@43211@#ff0000 -106.75   Bad         @#aaaaaa -30       No Coverage @#00a032 -68.26    Very Good   @#ffffff 0@
+57@2022-02-24 12:01:02.150@@Band 1 (IMT 2100)@550@108@43211@#ffaa00 -95.29    Poor        @#aaaaaa -27.31    No Coverage @#00703c -58.4     Excellent   @#ffffff 0@
+57@2022-02-24 15:43:53.554@@Band 3 (DCS 1800)@1423@125@43211@#fa6400 -100.57   Very Poor   @#dc143c -19       Very Bad    @#00d228 -71.59    Good        @#ffffff 0@
+56@2022-02-24 17:16:08.324@@Band 7 (IMT-E 2600)@3300@473@43211@#ff0000 -106.92   Bad         @#aaaaaa -29.39    No Coverage @#00a032 -68.6     Very Good   @#ffffff 0@
+56@2022-02-24 17:09:13.217@@Band 7 (IMT-E 2600)@3300@183@43211@#ffaa00 -99.92    Poor        @#aaaaaa -30       No Coverage @#00703c -60.25    Excellent   @#ffffff 0@
+56@2022-02-24 16:49:29.591@@Band 7 (IMT-E 2600)@3300@139@43211@#fa6400 -101.48   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.78    Excellent   @#ffffff 0@
+56@2022-02-24 16:21:50.337@@Band 7 (IMT-E 2600)@3300@211@43211@#ff0000 -106.8    Bad         @#aaaaaa -30       No Coverage @#00a032 -67.75    Very Good   @#ffffff 0@
+56@2022-02-24 16:46:23.748@@Band 7 (IMT-E 2600)@3300@45@43211@#fa6400 -104.23   Very Poor   @#aaaaaa -28.53    No Coverage @#00a032 -66.11    Very Good   @#ffffff 0@
+55@2022-02-24 12:54:36.439@@Band 7 (IMT-E 2600)@3102@108@43211@#ffaa00 -97.27    Poor        @#aaaaaa -22.12    No Coverage @#00703c -64.83    Excellent   @#ffffff 0@
+54@2022-02-24 16:48:12.466@@Band 7 (IMT-E 2600)@3300@86@43211@#ffaa00 -99.53    Poor        @#aaaaaa -30       No Coverage @#00703c -60.62    Excellent   @#ffffff 0@
+54@2022-02-24 17:30:55.049@@Band 7 (IMT-E 2600)@3300@51@43211@#fa6400 -101.03   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.03    Excellent   @#ffffff 0@
+54@2022-02-24 14:29:52.631@@Band 7 (IMT-E 2600)@3300@333@43211@#fa6400 -104.48   Very Poor   @#aaaaaa -28.98    No Coverage @#00a032 -66.48    Very Good   @#ffffff 0@
+54@2022-02-24 17:22:57.276@@Band 7 (IMT-E 2600)@3300@381@43211@#fa6400 -101.22   Very Poor   @#aaaaaa -29.38    No Coverage @#00703c -62.81    Excellent   @#ffffff 0@
+54@2022-02-24 18:00:02.942@@Band 7 (IMT-E 2600)@3300@204@43211@#fa6400 -103.07   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.03    Excellent   @#ffffff 0@
+53@2022-02-24 14:47:17.428@@Band 7 (IMT-E 2600)@3102@338@43211@#ffaa00 -99.66    Poor        @#aaaaaa -28.45    No Coverage @#00703c -63.39    Excellent   @#ffffff 0@
+52@2022-02-24 17:19:29.345@@Band 7 (IMT-E 2600)@3300@261@43211@#ff0000 -105.65   Bad         @#aaaaaa -29.82    No Coverage @#00a032 -66.69    Very Good   @#ffffff 0@
+52@2022-02-24 17:00:07.889@@Band 7 (IMT-E 2600)@3300@155@43211@#ff0000 -106.34   Bad         @#aaaaaa -30       No Coverage @#00a032 -67.26    Very Good   @#ffffff 0@
+52@2022-02-24 16:46:28.584@@Band 7 (IMT-E 2600)@3300@245@43211@#ff0000 -105.86   Bad         @#aaaaaa -30       No Coverage @#00a032 -66.53    Very Good   @#ffffff 0@
+52@2022-02-24 17:17:07.593@@Band 7 (IMT-E 2600)@3300@15@43211@#fa6400 -102.23   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.19    Excellent   @#ffffff 0@
+52@2022-02-24 16:23:44.880@@Band 7 (IMT-E 2600)@3300@14@43211@#ff0000 -107.65   Bad         @#aaaaaa -29.38    No Coverage @#00a032 -69.07    Very Good   @#ffffff 0@
+52@2022-02-24 17:35:09.830@@Band 7 (IMT-E 2600)@3102@209@43211@#ffaa00 -99.07    Poor        @#aaaaaa -30       No Coverage @#00703c -60.07    Excellent   @#ffffff 0@
+52@2022-02-24 15:40:46.629@@Band 7 (IMT-E 2600)@3300@469@43211@#ff0000 -107      Bad         @#aaaaaa -29.71    No Coverage @#00a032 -67.88    Very Good   @#ffffff 0@
+52@2022-02-24 17:41:44.960@@Band 7 (IMT-E 2600)@3300@471@43211@#ffaa00 -98.32    Poor        @#aaaaaa -30       No Coverage @#00703c -59.38    Excellent   @#ffffff 0@
+52@2022-02-24 18:01:43.995@@Band 7 (IMT-E 2600)@3300@348@43211@#fa6400 -101.73   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.8     Excellent   @#ffffff 0@
+52@2022-02-24 16:56:06.807@@Band 7 (IMT-E 2600)@3300@198@43211@#fa6400 -100.13   Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.42    Excellent   @#ffffff 0@
+52@2022-02-24 17:51:25.402@@Band 3 (DCS 1800)@1423@373@43211@#ffaa00 -97.07    Poor        @#aaaaaa -26.34    No Coverage @#00703c -60.73    Excellent   @#ffffff 0@
+51@2022-02-24 16:12:02.625@@Band 7 (IMT-E 2600)@3300@3@43211@#fa6400 -104.68   Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.67    Very Good   @#ffffff 0@
+51@2022-02-24 17:15:14.386@@Band 7 (IMT-E 2600)@3300@111@43211@#ff0000 -109.11   Bad         @#aaaaaa -30       No Coverage @#00a032 -68.72    Very Good   @#ffffff 0@
+51@2022-02-24 17:56:30.793@@Band 3 (DCS 1800)@1423@309@43211@#fa6400 -101.86   Very Poor   @#aaaaaa -26.8     No Coverage @#00a032 -65.78    Very Good   @#ffffff 0@
+50@2022-02-24 17:06:11.974@@Band 7 (IMT-E 2600)@3300@147@43211@#ff0000 -107.24   Bad         @#aaaaaa -28.22    No Coverage @#00a032 -69.64    Very Good   @#ffffff 0@
+50@2022-02-24 16:01:59.682@@Band 7 (IMT-E 2600)@3300@249@43211@#ff0000 -107.74   Bad         @#aaaaaa -30       No Coverage @#00a032 -68.56    Very Good   @#ffffff 0@
+50@2022-02-24 16:23:20.260@@Band 7 (IMT-E 2600)@3300@264@43211@#fa6400 -102.62   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.6     Excellent   @#ffffff 0@
+50@2022-02-24 18:07:41.741@@Band 7 (IMT-E 2600)@3300@448@43211@#fa6400 -100.76   Very Poor   @#aaaaaa -29.24    No Coverage @#00703c -62.44    Excellent   @#ffffff 0@
+50@2022-02-24 15:56:09.233@@Band 7 (IMT-E 2600)@3300@164@43211@#ff0000 -107.62   Bad         @#aaaaaa -30       No Coverage @#00a032 -68.28    Very Good   @#ffffff 0@
+50@2022-02-24 15:55:56.697@@Band 7 (IMT-E 2600)@3300@394@43211@#ff0000 -109.28   Bad         @#aaaaaa -29.22    No Coverage @#00d228 -70.48    Good        @#ffffff 0@
+50@2022-02-24 15:57:29.462@@Band 7 (IMT-E 2600)@3300@145@43211@#fa6400 -100.22   Very Poor   @#aaaaaa -29.52    No Coverage @#00703c -61.88    Excellent   @#ffffff 0@
+50@2022-02-24 17:24:50.223@@Band 7 (IMT-E 2600)@3300@395@43211@#fa6400 -104.36   Very Poor   @#aaaaaa -28.78    No Coverage @#00a032 -65.88    Very Good   @#ffffff 0@
+50@2022-02-24 17:26:39.801@@Band 7 (IMT-E 2600)@3300@199@43211@#fa6400 -102.44   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.16    Excellent   @#ffffff 0@
+50@2022-02-24 16:00:11.085@@Band 7 (IMT-E 2600)@3300@400@43211@#ff0000 -106.66   Bad         @#aaaaaa -30       No Coverage @#00a032 -67.72    Very Good   @#ffffff 0@
+50@2022-02-24 17:24:01.968@@Band 7 (IMT-E 2600)@3300@310@43211@#ff0000 -105.56   Bad         @#aaaaaa -28.62    No Coverage @#00a032 -67.92    Very Good   @#ffffff 0@
+50@2022-02-24 16:05:28.967@@Band 7 (IMT-E 2600)@3300@143@43211@#ff0000 -109.54   Bad         @#aaaaaa -29.78    No Coverage @#00d228 -70.44    Good        @#ffffff 0@
+50@2022-02-24 14:09:48.879@@Band 7 (IMT-E 2600)@3102@137@43211@#fa6400 -102.04   Very Poor   @#aaaaaa -26.62    No Coverage @#00a032 -66.29    Very Good   @#ffffff 0@
+50@2022-02-24 11:50:23.476@@Band 7 (IMT-E 2600)@3102@321@43211@#fa6400 -103.14   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.92    Excellent   @#ffffff 0@
+50@2022-02-24 17:37:20.160@@Band 7 (IMT-E 2600)@3102@213@43211@#ffaa00 -99.62    Poor        @#aaaaaa -29.56    No Coverage @#00703c -61.16    Excellent   @#ffffff 0@
+50@2022-02-24 17:02:18.108@@Band 7 (IMT-E 2600)@3300@187@43211@#ff0000 -105.76   Bad         @#aaaaaa -30       No Coverage @#00a032 -66.6     Very Good   @#ffffff 0@
+50@2022-02-24 14:19:15.551@@Band 7 (IMT-E 2600)@3300@276@43211@#fa6400 -102.44   Very Poor   @#aaaaaa -29.46    No Coverage @#00703c -63.84    Excellent   @#ffffff 0@
+50@2022-02-24 17:43:03.158@@Band 7 (IMT-E 2600)@3300@278@43211@#fa6400 -102.96   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.72    Excellent   @#ffffff 0@
+50@2022-02-24 17:02:08.848@@Band 7 (IMT-E 2600)@3300@306@43211@#ff0000 -109.8    Bad         @#aaaaaa -28.94    No Coverage @#00d228 -71.36    Good        @#ffffff 0@
+50@2022-02-24 16:37:42.648@@Band 7 (IMT-E 2600)@3300@296@43211@#fa6400 -101.2    Very Poor   @#aaaaaa -30       No Coverage @#00703c -62       Excellent   @#ffffff 0@
+50@2022-02-24 16:51:56.249@@Band 7 (IMT-E 2600)@3300@472@43211@#fa6400 -102.32   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.56    Excellent   @#ffffff 0@
+50@2022-02-24 16:51:57.718@@Band 7 (IMT-E 2600)@3300@231@43211@#fa6400 -103.56   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.24    Excellent   @#ffffff 0@
+50@2022-02-24 16:46:01.912@@Band 7 (IMT-E 2600)@3300@34@43211@#ff0000 -105.16   Bad         @#aaaaaa -29.52    No Coverage @#00a032 -66.36    Very Good   @#ffffff 0@
+50@2022-02-24 16:40:57.582@@Band 7 (IMT-E 2600)@3300@275@43211@#fa6400 -102.76   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.68    Excellent   @#ffffff 0@
+50@2022-02-24 14:40:00.757@@Band 7 (IMT-E 2600)@3300@258@43211@#fa6400 -102.92   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.92    Excellent   @#ffffff 0@
+50@2022-02-24 16:49:47.300@@Band 7 (IMT-E 2600)@3300@350@43211@#fa6400 -100.78   Very Poor   @#aaaaaa -29.82    No Coverage @#00703c -61.72    Excellent   @#ffffff 0@
+50@2022-02-24 15:58:42.809@@Band 7 (IMT-E 2600)@3300@227@43211@#fa6400 -102.82   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.64    Excellent   @#ffffff 0@
+50@2022-02-24 14:57:44.868@@Band 7 (IMT-E 2600)@3300@228@43211@#ff0000 -106.38   Bad         @#aaaaaa -29.74    No Coverage @#00a032 -67.36    Very Good   @#ffffff 0@
+50@2022-02-24 16:13:10.146@@Band 7 (IMT-E 2600)@3300@181@43211@#ffaa00 -99.72    Poor        @#aaaaaa -29.8     No Coverage @#00703c -60.56    Excellent   @#ffffff 0@
+50@2022-02-24 17:42:31.756@@Band 7 (IMT-E 2600)@3300@432@43211@#fa6400 -103.06   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.8     Excellent   @#ffffff 0@
+50@2022-02-24 17:18:29.496@@Band 7 (IMT-E 2600)@3300@18@43211@#fa6400 -101.38   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.12    Excellent   @#ffffff 0@
+50@2022-02-24 17:57:36.041@@Band 7 (IMT-E 2600)@3300@367@43211@#ff0000 -107.22   Bad         @#aaaaaa -29.78    No Coverage @#00a032 -68.52    Very Good   @#ffffff 0@
+50@2022-02-24 17:43:42.732@@Band 7 (IMT-E 2600)@3300@212@43211@#ff0000 -108.98   Bad         @#aaaaaa -28.96    No Coverage @#00d228 -70.4     Good        @#ffffff 0@
+50@2022-02-24 17:12:53.208@@Band 7 (IMT-E 2600)@3300@371@43211@#fa6400 -102.62   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.92    Excellent   @#ffffff 0@
+50@2022-02-24 16:16:31.838@@Band 7 (IMT-E 2600)@3300@390@43211@#dc143c -110.1    Very Bad    @#aaaaaa -30       No Coverage @#00d228 -70.96    Good        @#ffffff 0@
+50@2022-02-24 17:10:38.789@@Band 7 (IMT-E 2600)@3300@477@43211@#fa6400 -102.48   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.44    Excellent   @#ffffff 0@
+49@2022-02-24 17:12:33.898@@Band 7 (IMT-E 2600)@3300@35@43211@#dc143c -111.67   Very Bad    @#aaaaaa -29.69    No Coverage @#00d228 -72.8     Good        @#ffffff 0@
+48@2022-02-24 15:26:38.357@@Band 7 (IMT-E 2600)@3300@153@43211@#ff0000 -105.6    Bad         @#aaaaaa -30       No Coverage @#00a032 -66.5     Very Good   @#ffffff 0@
+48@2022-02-24 16:52:50.129@@Band 7 (IMT-E 2600)@3300@327@43211@#fa6400 -104.1    Very Poor   @#aaaaaa -30       No Coverage @#00703c -65       Excellent   @#ffffff 0@
+46@2022-02-24 15:45:59.043@@Band 7 (IMT-E 2600)@3300@501@43211@#fa6400 -101.93   Very Poor   @#aaaaaa -28.63    No Coverage @#00703c -63.95    Excellent   @#ffffff 0@
+46@2022-02-24 14:10:29.485@@Band 7 (IMT-E 2600)@3300@436@43211@#ff0000 -106.63   Bad         @#aaaaaa -27.3     No Coverage @#00a032 -69.26    Very Good   @#ffffff 0@
+46@2022-02-24 15:44:42.160@@Band 7 (IMT-E 2600)@3300@11@43211@#ff0000 -105.91   Bad         @#aaaaaa -30       No Coverage @#00a032 -66.43    Very Good   @#ffffff 0@
+46@2022-02-24 17:12:05.782@@Band 7 (IMT-E 2600)@3300@23@43211@#fa6400 -104.63   Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.72    Very Good   @#ffffff 0@
+46@2022-02-24 13:22:42.362@@Band 7 (IMT-E 2600)@3300@443@43211@#fa6400 -103.58   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.86    Excellent   @#ffffff 0@
+46@2022-02-24 14:00:12.680@@Band 7 (IMT-E 2600)@3102@54@43211@#fa6400 -100.5    Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.43    Excellent   @#ffffff 0@
+46@2022-02-24 16:34:41.629@@Band 7 (IMT-E 2600)@3300@194@43211@#fa6400 -102.28   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.39    Excellent   @#ffffff 0@
+46@2022-02-24 17:13:39.979@@Band 7 (IMT-E 2600)@3300@404@43211@#fa6400 -101.32   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.32    Excellent   @#ffffff 0@
+46@2022-02-24 18:08:08.728@@Band 7 (IMT-E 2600)@3300@90@43211@#ff0000 -108.71   Bad         @#aaaaaa -29.65    No Coverage @#00a032 -69.69    Very Good   @#ffffff 0@
+45@2022-02-24 11:54:20.984@@Band 3 (DCS 1800)@1423@108@43211@#00d228 -89.42    Good        @#aaaaaa -23.64    No Coverage @#00703c -56.31    Excellent   @#ffffff 0@
+45@2022-02-24 14:41:02.831@@Band 7 (IMT-E 2600)@3300@171@43211@#ff0000 -108.71   Bad         @#aaaaaa -28.77    No Coverage @#00d228 -71.05    Good        @#ffffff 0@
+44@2022-02-24 15:48:47.603@@Band 7 (IMT-E 2600)@3300@124@43211@#fa6400 -102.11   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63       Excellent   @#ffffff 0@
+44@2022-02-24 15:59:52.522@@Band 7 (IMT-E 2600)@3300@352@43211@#fa6400 -104.72   Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.77    Very Good   @#ffffff 0@
+44@2022-02-24 15:44:34.735@@Band 7 (IMT-E 2600)@3300@460@43211@#fa6400 -103.65   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.27    Excellent   @#ffffff 0@
+44@2022-02-24 12:56:49.724@@Band 7 (IMT-E 2600)@3102@497@43211@#ffaa00 -98.4     Poor        @#820000 -21.15    Awful       @#00a032 -66.72    Very Good   @#ffffff 0@
+44@2022-02-24 17:26:47.496@@Band 7 (IMT-E 2600)@3300@105@43211@#fa6400 -101.38   Very Poor   @#aaaaaa -29.68    No Coverage @#00703c -62.95    Excellent   @#ffffff 0@
+44@2022-02-24 17:01:52.090@@Band 7 (IMT-E 2600)@3300@234@43211@#ffaa00 -99.88    Poor        @#aaaaaa -28.86    No Coverage @#00703c -62.09    Excellent   @#ffffff 0@
+43@2022-02-24 16:01:13.670@@Band 7 (IMT-E 2600)@3300@80@43211@#ffaa00 -99.51    Poor        @#aaaaaa -30       No Coverage @#00703c -60.79    Excellent   @#ffffff 0@
+43@2022-02-24 16:24:25.676@@Band 7 (IMT-E 2600)@3300@328@43211@#ff0000 -108.39   Bad         @#aaaaaa -29.72    No Coverage @#00a032 -69.42    Very Good   @#ffffff 0@
+42@2022-02-24 16:43:19.034@@Band 7 (IMT-E 2600)@3300@141@43211@#fa6400 -100.26   Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.09    Excellent   @#ffffff 0@
+42@2022-02-24 16:47:14.026@@Band 7 (IMT-E 2600)@3300@205@43211@#fa6400 -102.85   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.71    Excellent   @#ffffff 0@
+42@2022-02-24 16:45:10.759@@Band 7 (IMT-E 2600)@3300@56@43211@#fa6400 -104.16   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.71    Excellent   @#ffffff 0@
+42@2022-02-24 13:19:42.859@@Band 7 (IMT-E 2600)@3300@491@43211@#ff0000 -105.21   Bad         @#aaaaaa -29.47    No Coverage @#00a032 -66.19    Very Good   @#ffffff 0@
+42@2022-02-24 16:22:12.161@@Band 7 (IMT-E 2600)@3300@144@43211@#ff0000 -105.71   Bad         @#aaaaaa -30       No Coverage @#00a032 -67.57    Very Good   @#ffffff 0@
+42@2022-02-24 16:21:49.796@@Band 7 (IMT-E 2600)@3300@335@43211@#ff0000 -106.47   Bad         @#aaaaaa -30       No Coverage @#00a032 -67.23    Very Good   @#ffffff 0@
+42@2022-02-24 18:01:52.998@@Band 7 (IMT-E 2600)@3300@208@43211@#fa6400 -100.07   Very Poor   @#aaaaaa -30       No Coverage @#00703c -60.15    Excellent   @#ffffff 0@
+42@2022-02-24 17:19:11.523@@Band 7 (IMT-E 2600)@3300@482@43211@#ff0000 -106.73   Bad         @#aaaaaa -29.64    No Coverage @#00a032 -67.85    Very Good   @#ffffff 0@
+42@2022-02-24 17:44:02.247@@Band 7 (IMT-E 2600)@3300@425@43211@#fa6400 -100.26   Very Poor   @#aaaaaa -28.88    No Coverage @#00703c -62.33    Excellent   @#ffffff 0@
+42@2022-02-24 12:57:35.083@@Band 3 (DCS 1800)@1423@495@43211@#ffff00 -92.69    Fair        @#aaaaaa -29.26    No Coverage @#00703c -54.39    Excellent   @#ffffff 0@
+42@2022-02-24 17:46:14.529@@Band 7 (IMT-E 2600)@3300@422@43211@#ff0000 -108.97   Bad         @#aaaaaa -30       No Coverage @#00a032 -70       Very Good   @#ffffff 0@
+42@2022-02-24 16:24:03.254@@Band 7 (IMT-E 2600)@3300@441@43211@#fa6400 -102.14   Very Poor   @#aaaaaa -29.71    No Coverage @#00703c -63.19    Excellent   @#ffffff 0@
+42@2022-02-24 17:25:17.326@@Band 7 (IMT-E 2600)@3300@433@43211@#fa6400 -102.8    Very Poor   @#aaaaaa -29.69    No Coverage @#00703c -64.09    Excellent   @#ffffff 0@
+42@2022-02-24 15:39:01.722@@Band 7 (IMT-E 2600)@3300@284@43211@#dc143c -112.14   Very Bad    @#aaaaaa -29.42    No Coverage @#00d228 -73.38    Good        @#ffffff 0@
+42@2022-02-24 17:12:32.456@@Band 7 (IMT-E 2600)@3300@488@43211@#fa6400 -101.3    Very Poor   @#aaaaaa -29       No Coverage @#00703c -63.09    Excellent   @#ffffff 0@
+41@2022-02-24 14:18:23.219@@Band 1 (IMT 2100)@550@361@43211@#ffff00 -90.48    Fair        @#820000 -22       Awful       @#00703c -58       Excellent   @#ffffff 0@
+40@2022-02-24 17:12:32.032@@Band 7 (IMT-E 2600)@3300@431@43211@#ff0000 -106.75   Bad         @#aaaaaa -30       No Coverage @#00a032 -67.8     Very Good   @#ffffff 0@
+40@2022-02-24 11:00:10.088@@Band 1 (IMT 2100)@550@413@43211@#00d228 -88       Good        @#ffff00 -13.45    Fair        @#00703c -64.77    Excellent   @#ffffff 0@
+40@2022-02-24 16:05:12.374@@Band 7 (IMT-E 2600)@3300@10@43211@#ff0000 -105.82   Bad         @#aaaaaa -30       No Coverage @#00a032 -66.6     Very Good   @#ffffff 0@
+40@2022-02-24 16:18:16.678@@Band 7 (IMT-E 2600)@3300@30@43211@#ff0000 -107.22   Bad         @#aaaaaa -30       No Coverage @#00a032 -68.15    Very Good   @#ffffff 0@
+40@2022-02-24 18:05:28.270@@Band 7 (IMT-E 2600)@3300@430@43211@#ffaa00 -98.57    Poor        @#aaaaaa -30       No Coverage @#00703c -60       Excellent   @#ffffff 0@
+40@2022-02-24 18:00:22.035@@Band 7 (IMT-E 2600)@3300@499@43211@#ffaa00 -98.87    Poor        @#aaaaaa -30       No Coverage @#00703c -60.25    Excellent   @#ffffff 0@
+40@2022-02-24 17:45:49.547@@Band 7 (IMT-E 2600)@3300@406@43211@#fa6400 -104.4    Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.25    Very Good   @#ffffff 0@
+40@2022-02-24 16:03:40.183@@Band 7 (IMT-E 2600)@3300@269@43211@#ff0000 -105.2    Bad         @#aaaaaa -27.37    No Coverage @#00a032 -67.95    Very Good   @#ffffff 0@
+40@2022-02-24 15:43:58.464@@Band 7 (IMT-E 2600)@3300@244@43211@#fa6400 -104.45   Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.4     Very Good   @#ffffff 0@
+40@2022-02-24 14:11:03.908@@Band 7 (IMT-E 2600)@3102@299@43211@#fa6400 -103.77   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.65    Excellent   @#ffffff 0@
+40@2022-02-24 15:39:28.364@@Band 7 (IMT-E 2600)@3300@13@43211@#ff0000 -105.92   Bad         @#aaaaaa -30       No Coverage @#00a032 -67       Very Good   @#ffffff 0@
+40@2022-02-24 17:26:31.489@@Band 7 (IMT-E 2600)@3300@148@43211@#fa6400 -101.57   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.4     Excellent   @#ffffff 0@
+40@2022-02-24 12:00:08.466@@Band 1 (IMT 2100)@550@110@43211@#ffff00 -94.7     Fair        @#dc143c -19.12    Very Bad    @#00a032 -67.22    Very Good   @#ffffff 0@
+40@2022-02-24 15:41:14.240@@Band 7 (IMT-E 2600)@3300@494@43211@#ff0000 -107.82   Bad         @#aaaaaa -30       No Coverage @#00a032 -68.8     Very Good   @#ffffff 0@
+40@2022-02-24 17:43:22.539@@Band 7 (IMT-E 2600)@3300@52@43211@#fa6400 -103.02   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.4     Excellent   @#ffffff 0@
+40@2022-02-24 16:34:18.727@@Band 7 (IMT-E 2600)@3300@202@43211@#ffaa00 -98.97    Poor        @#aaaaaa -30       No Coverage @#00703c -60.3     Excellent   @#ffffff 0@
+40@2022-02-24 17:05:29.690@@Band 7 (IMT-E 2600)@3300@236@43211@#fa6400 -101.2    Very Poor   @#aaaaaa -29.65    No Coverage @#00703c -62.7     Excellent   @#ffffff 0@
+40@2022-02-24 14:27:45.507@@Band 7 (IMT-E 2600)@3300@32@43211@#ff0000 -108.9    Bad         @#aaaaaa -30       No Coverage @#00a032 -69.5     Very Good   @#ffffff 0@
+40@2022-02-24 16:20:30.904@@Band 7 (IMT-E 2600)@3300@116@43211@#ffaa00 -98.47    Poor        @#aaaaaa -30       No Coverage @#00703c -59.15    Excellent   @#ffffff 0@
+40@2022-02-24 16:36:28.868@@Band 7 (IMT-E 2600)@3300@466@43211@#ffaa00 -99.55    Poor        @#aaaaaa -30       No Coverage @#00703c -60.8     Excellent   @#ffffff 0@
+40@2022-02-24 18:00:19.450@@Band 7 (IMT-E 2600)@3300@369@43211@#fa6400 -103.95   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.95    Excellent   @#ffffff 0@
+40@2022-02-24 17:44:58.825@@Band 7 (IMT-E 2600)@3300@154@43211@#fa6400 -103.22   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.25    Excellent   @#ffffff 0@
+40@2022-02-24 16:57:40.298@@Band 7 (IMT-E 2600)@3300@387@43211@#fa6400 -101.12   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.2     Excellent   @#ffffff 0@
+40@2022-02-24 18:08:44.067@@Band 7 (IMT-E 2600)@3300@426@43211@#ffaa00 -99.97    Poor        @#aaaaaa -30       No Coverage @#00703c -60.7     Excellent   @#ffffff 0@
+40@2022-02-24 17:47:39.928@@Band 7 (IMT-E 2600)@3300@262@43211@#fa6400 -104.65   Very Poor   @#aaaaaa -29.67    No Coverage @#00a032 -65.9     Very Good   @#ffffff 0@
+40@2022-02-24 16:07:09.340@@Band 7 (IMT-E 2600)@3300@391@43211@#ff0000 -106.65   Bad         @#aaaaaa -30       No Coverage @#00a032 -67.6     Very Good   @#ffffff 0@
+40@2022-02-24 17:22:23.387@@Band 7 (IMT-E 2600)@3300@270@43211@#ff0000 -105.07   Bad         @#aaaaaa -30       No Coverage @#00a032 -65.8     Very Good   @#ffffff 0@
+40@2022-02-24 16:15:50.692@@Band 7 (IMT-E 2600)@3300@123@43211@#ff0000 -105.45   Bad         @#aaaaaa -28.97    No Coverage @#00a032 -67.1     Very Good   @#ffffff 0@
+40@2022-02-24 17:31:35.278@@Band 7 (IMT-E 2600)@3300@185@43211@#fa6400 -101.52   Very Poor   @#aaaaaa -28.4     No Coverage @#00703c -63.7     Excellent   @#ffffff 0@
+40@2022-02-24 15:41:26.318@@Band 7 (IMT-E 2600)@3300@242@43211@#dc143c -112.42   Very Bad    @#aaaaaa -30       No Coverage @#00d228 -73.7     Good        @#ffffff 0@
+40@2022-02-24 17:53:45.047@@Band 7 (IMT-E 2600)@3102@150@43211@#fa6400 -100.97   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.1     Excellent   @#ffffff 0@
+39@2022-02-24 18:02:41.406@@Band 7 (IMT-E 2600)@3300@365@43211@#fa6400 -103.89   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.52    Excellent   @#ffffff 0@
+38@2022-02-24 15:20:41.741@@Band 7 (IMT-E 2600)@3300@159@43211@#ff0000 -106.21   Bad         @#aaaaaa -29.39    No Coverage @#00a032 -67.84    Very Good   @#ffffff 0@
+38@2022-02-24 11:12:50.830@@Band 7 (IMT-E 2600)@3102@345@43211@#ffaa00 -99.57    Poor        @#aaaaaa -30       No Coverage @#00703c -60.21    Excellent   @#ffffff 0@
+38@2022-02-24 17:02:11.274@@Band 7 (IMT-E 2600)@3300@251@43211@#ff0000 -107.23   Bad         @#aaaaaa -30       No Coverage @#00a032 -68.38    Very Good   @#ffffff 0@
+38@2022-02-24 17:16:07.077@@Band 7 (IMT-E 2600)@3300@82@43211@#ff0000 -109.21   Bad         @#aaaaaa -30       No Coverage @#00a032 -69.84    Very Good   @#ffffff 0@
+38@2022-02-24 17:24:38.017@@Band 7 (IMT-E 2600)@3300@464@43211@#ffaa00 -97.55    Poor        @#aaaaaa -30       No Coverage @#00703c -59       Excellent   @#ffffff 0@
+38@2022-02-24 13:00:53.132@@Band 3 (DCS 1800)@1423@345@43211@#fa6400 -100.02   Very Poor   @#aaaaaa -29.23    No Coverage @#00703c -61.75    Excellent   @#ffffff 0@
+37@2022-02-24 17:13:09.182@@Band 7 (IMT-E 2600)@3102@117@43211@#fa6400 -101.37   Very Poor   @#aaaaaa -27.78    No Coverage @#00a032 -66       Very Good   @#ffffff 0@
+36@2022-02-24 14:14:50.701@@Band 7 (IMT-E 2600)@3300@221@43211@#fa6400 -103.97   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.77    Excellent   @#ffffff 0@
+36@2022-02-24 15:42:50.265@@Band 7 (IMT-E 2600)@3300@388@43211@#fa6400 -103.69   Very Poor   @#aaaaaa -28.3     No Coverage @#00a032 -65.83    Very Good   @#ffffff 0@
+36@2022-02-24 13:03:17.247@@Band 7 (IMT-E 2600)@3102@170@43211@#fa6400 -103.52   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.38    Excellent   @#ffffff 0@
+36@2022-02-24 11:02:55.417@@Band 7 (IMT-E 2600)@3102@212@43211@#ff0000 -105.36   Bad         @#aaaaaa -29.41    No Coverage @#00a032 -67.1     Very Good   @#ffffff 0@
+36@2022-02-24 17:46:05.223@@Band 7 (IMT-E 2600)@3300@399@43211@#fa6400 -102.22   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.33    Excellent   @#ffffff 0@
+36@2022-02-24 17:08:27.229@@Band 7 (IMT-E 2600)@3300@226@43211@#ff0000 -105.05   Bad         @#aaaaaa -30       No Coverage @#00a032 -65.33    Very Good   @#ffffff 0@
+36@2022-02-24 15:40:28.191@@Band 7 (IMT-E 2600)@3300@203@43211@#ff0000 -107.08   Bad         @#aaaaaa -28.75    No Coverage @#00a032 -69.61    Very Good   @#ffffff 0@
+36@2022-02-24 17:46:08.369@@Band 1 (IMT 2100)@550@373@43211@#ffaa00 -97.05    Poor        @#820000 -21.11    Awful       @#00a032 -65.11    Very Good   @#ffffff 0@
+35@2022-02-24 15:00:13.139@@Band 7 (IMT-E 2600)@3300@85@43211@#fa6400 -102.4    Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.58    Excellent   @#ffffff 0@
+35@2022-02-24 15:33:35.438@@Band 7 (IMT-E 2600)@3102@125@43211@#ffaa00 -98.4     Poor        @#dc143c -19.77    Very Bad    @#00a032 -68.22    Very Good   @#ffffff 0@
+34@2022-02-24 11:14:50.312@@Band 7 (IMT-E 2600)@3102@238@43211@#fa6400 -101.88   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.82    Excellent   @#ffffff 0@
+34@2022-02-24 17:57:40.578@@Band 7 (IMT-E 2600)@3300@113@43211@#fa6400 -103.32   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.11    Excellent   @#ffffff 0@
+34@2022-02-24 15:43:11.592@@Band 1 (IMT 2100)@550@125@43211@#ff0000 -105.11   Bad         @#dc143c -19.5     Very Bad    @#ffff00 -75.2     Fair        @#ffffff 0@
+34@2022-02-24 17:37:40.386@@Band 7 (IMT-E 2600)@3102@280@43211@#fa6400 -101.38   Very Poor   @#aaaaaa -24.08    No Coverage @#00a032 -69.44    Very Good   @#ffffff 0@
+32@2022-02-24 12:17:18.233@@Band 7 (IMT-E 2600)@3300@407@43211@#fa6400 -103.37   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.37    Excellent   @#ffffff 0@
+32@2022-02-24 16:17:26.360@@Band 7 (IMT-E 2600)@3300@287@43211@#ffaa00 -98.93    Poor        @#aaaaaa -30       No Coverage @#00703c -59.62    Excellent   @#ffffff 0@
+32@2022-02-24 14:31:00.747@@Band 7 (IMT-E 2600)@3300@66@43211@#ff0000 -108.25   Bad         @#aaaaaa -30       No Coverage @#00a032 -69.25    Very Good   @#ffffff 0@
+32@2022-02-24 16:16:58.831@@Band 7 (IMT-E 2600)@3300@368@43211@#ff0000 -105.71   Bad         @#aaaaaa -30       No Coverage @#00a032 -66.81    Very Good   @#ffffff 0@
+32@2022-02-24 15:59:32.024@@Band 7 (IMT-E 2600)@3300@243@43211@#fa6400 -100.43   Very Poor   @#aaaaaa -29.25    No Coverage @#00703c -61.62    Excellent   @#ffffff 0@
+32@2022-02-24 17:12:46.024@@Band 7 (IMT-E 2600)@3300@91@43211@#ff0000 -105.28   Bad         @#aaaaaa -28.68    No Coverage @#00a032 -66.56    Very Good   @#ffffff 0@
+32@2022-02-24 15:23:52.593@@Band 7 (IMT-E 2600)@3300@415@43211@#ff0000 -107.21   Bad         @#aaaaaa -29.68    No Coverage @#00a032 -68.37    Very Good   @#ffffff 0@
+32@2022-02-24 16:17:06.112@@Band 7 (IMT-E 2600)@3300@200@43211@#ff0000 -106.62   Bad         @#aaaaaa -29.5     No Coverage @#00a032 -67.31    Very Good   @#ffffff 0@
+32@2022-02-24 14:14:06.313@@Band 7 (IMT-E 2600)@3300@176@43211@#ff0000 -105.28   Bad         @#aaaaaa -30       No Coverage @#00703c -64.72    Excellent   @#ffffff 0@
+32@2022-02-24 11:13:32.707@@Band 7 (IMT-E 2600)@3102@113@43211@#ffaa00 -99.75    Poor        @#aaaaaa -30       No Coverage @#00703c -60.75    Excellent   @#ffffff 0@
+32@2022-02-24 11:18:22.481@@Band 7 (IMT-E 2600)@3102@443@43211@#ffaa00 -99.78    Poor        @#aaaaaa -30       No Coverage @#00703c -60.81    Excellent   @#ffffff 0@
+32@2022-02-24 12:57:34.833@@Band 1 (IMT 2100)@550@497@43211@#fa6400 -101.59   Very Poor   @#dc143c -19.65    Very Bad    @#00d228 -71.65    Good        @#ffffff 0@
+32@2022-02-24 17:43:32.916@@Band 7 (IMT-E 2600)@3300@192@43211@#fa6400 -104.87   Very Poor   @#aaaaaa -29.68    No Coverage @#00a032 -66       Very Good   @#ffffff 0@
+32@2022-02-24 14:10:55.134@@Band 7 (IMT-E 2600)@3102@257@43211@#ff0000 -106.03   Bad         @#aaaaaa -30       No Coverage @#00a032 -67.12    Very Good   @#ffffff 0@
+32@2022-02-24 16:52:11.310@@Band 7 (IMT-E 2600)@3300@503@43211@#ff0000 -106.25   Bad         @#aaaaaa -28.5     No Coverage @#00a032 -69.06    Very Good   @#ffffff 0@
+32@2022-02-24 15:51:41.192@@Band 7 (IMT-E 2600)@3300@410@43211@#ffaa00 -99.65    Poor        @#aaaaaa -30       No Coverage @#00703c -60.81    Excellent   @#ffffff 0@
+31@2022-02-24 14:10:00.294@@Band 3 (DCS 1800)@1423@137@43211@#ffff00 -93.87    Fair        @#820000 -20.16    Awful       @#00703c -64.4     Excellent   @#ffffff 0@
+30@2022-02-24 11:00:06.383@@Band 3 (DCS 1800)@1423@413@43211@#00703c -76.56    Excellent   @#00a032 -9.66     Very Good   @#00703c -56.66    Excellent   @#ffffff 0@
+30@2022-02-24 11:29:51.421@@Band 7 (IMT-E 2600)@3300@379@43211@#ffaa00 -98.56    Poor        @#aaaaaa -30       No Coverage @#00703c -59.46    Excellent   @#ffffff 0@
+30@2022-02-24 16:22:09.085@@Band 7 (IMT-E 2600)@3300@209@43211@#fa6400 -103.33   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.26    Excellent   @#ffffff 0@
+30@2022-02-24 12:30:57.114@@Band 7 (IMT-E 2600)@3300@174@43211@#ff0000 -105.96   Bad         @#aaaaaa -30       No Coverage @#00a032 -66.8     Very Good   @#ffffff 0@
+30@2022-02-24 18:08:56.578@@Band 7 (IMT-E 2600)@3300@54@43211@#fa6400 -103.96   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.93    Excellent   @#ffffff 0@
+30@2022-02-24 16:32:21.780@@Band 7 (IMT-E 2600)@3300@442@43211@#ffaa00 -99.23    Poor        @#aaaaaa -30       No Coverage @#00703c -60.33    Excellent   @#ffffff 0@
+30@2022-02-24 17:44:11.079@@Band 7 (IMT-E 2600)@3300@250@43211@#fa6400 -101.93   Very Poor   @#aaaaaa -27.96    No Coverage @#00703c -64.93    Excellent   @#ffffff 0@
+30@2022-02-24 17:21:17.185@@Band 7 (IMT-E 2600)@3300@458@43211@#fa6400 -103.86   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.86    Excellent   @#ffffff 0@
+30@2022-02-24 13:07:56.395@@Band 7 (IMT-E 2600)@3300@89@43211@#ff0000 -106.03   Bad         @#aaaaaa -30       No Coverage @#00a032 -66.86    Very Good   @#ffffff 0@
+30@2022-02-24 17:03:39.833@@Band 7 (IMT-E 2600)@3300@273@43211@#ff0000 -105.6    Bad         @#aaaaaa -30       No Coverage @#00a032 -66.46    Very Good   @#ffffff 0@
+30@2022-02-24 17:41:39.605@@Band 7 (IMT-E 2600)@3300@492@43211@#fa6400 -104.43   Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.6     Very Good   @#ffffff 0@
+30@2022-02-24 14:35:30.166@@Band 7 (IMT-E 2600)@3300@281@43211@#dc143c -110.4    Very Bad    @#aaaaaa -30       No Coverage @#00d228 -71       Good        @#ffffff 0@
+30@2022-02-24 17:09:46.049@@Band 7 (IMT-E 2600)@3300@383@43211@#fa6400 -100.63   Very Poor   @#aaaaaa -29.7     No Coverage @#00703c -61.93    Excellent   @#ffffff 0@
+30@2022-02-24 14:28:11.765@@Band 7 (IMT-E 2600)@3300@292@43211@#ff0000 -108.1    Bad         @#aaaaaa -30       No Coverage @#00a032 -69.2     Very Good   @#ffffff 0@
+30@2022-02-24 17:15:16.455@@Band 7 (IMT-E 2600)@3300@408@43211@#ff0000 -109.13   Bad         @#aaaaaa -29.7     No Coverage @#00d228 -70.46    Good        @#ffffff 0@
+30@2022-02-24 15:17:57.495@@Band 7 (IMT-E 2600)@3300@120@43211@#fa6400 -104.46   Very Poor   @#aaaaaa -29.53    No Coverage @#00a032 -65.13    Very Good   @#ffffff 0@
+30@2022-02-24 16:49:58.110@@Band 7 (IMT-E 2600)@3300@55@43211@#fa6400 -104.93   Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.93    Very Good   @#ffffff 0@
+30@2022-02-24 15:34:28.149@@Band 7 (IMT-E 2600)@3300@487@43211@#dc143c -111.4    Very Bad    @#aaaaaa -30       No Coverage @#00d228 -72.26    Good        @#ffffff 0@
+30@2022-02-24 14:20:19.045@@Band 7 (IMT-E 2600)@3300@459@43211@#ffaa00 -96.66    Poor        @#aaaaaa -30       No Coverage @#00703c -57.86    Excellent   @#ffffff 0@
+30@2022-02-24 17:02:41.062@@Band 7 (IMT-E 2600)@3300@129@43211@#ff0000 -107.16   Bad         @#aaaaaa -30       No Coverage @#00a032 -67.93    Very Good   @#ffffff 0@
+30@2022-02-24 15:38:11.950@@Band 7 (IMT-E 2600)@3300@95@43211@#ff0000 -107.73   Bad         @#aaaaaa -30       No Coverage @#00a032 -68.73    Very Good   @#ffffff 0@
+30@2022-02-24 15:06:13.563@@Band 7 (IMT-E 2600)@3300@274@43211@#ffaa00 -97.76    Poor        @#aaaaaa -30       No Coverage @#00703c -58.66    Excellent   @#ffffff 0@
+30@2022-02-24 15:46:30.274@@Band 7 (IMT-E 2600)@3300@92@43211@#fa6400 -103.33   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.13    Excellent   @#ffffff 0@
+30@2022-02-24 14:36:23.577@@Band 7 (IMT-E 2600)@3300@60@43211@#dc143c -111.06   Very Bad    @#aaaaaa -28.5     No Coverage @#00d228 -72.73    Good        @#ffffff 0@
+30@2022-02-24 11:16:06.535@@Band 7 (IMT-E 2600)@3102@394@43211@#ffaa00 -99.03    Poor        @#aaaaaa -30       No Coverage @#00703c -59.66    Excellent   @#ffffff 0@
+30@2022-02-24 17:36:27.829@@Band 7 (IMT-E 2600)@3102@107@43211@#fa6400 -104.16   Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.13    Very Good   @#ffffff 0@
+30@2022-02-24 17:52:26.234@@Band 7 (IMT-E 2600)@3102@28@43211@#ffaa00 -96.73    Poor        @#aaaaaa -30       No Coverage @#00703c -57.66    Excellent   @#ffffff 0@
+30@2022-02-24 11:13:19.262@@Band 7 (IMT-E 2600)@3102@29@43211@#ffaa00 -98.33    Poor        @#aaaaaa -30       No Coverage @#00703c -59.46    Excellent   @#ffffff 0@
+30@2022-02-24 11:19:24.740@@Band 7 (IMT-E 2600)@3102@21@43211@#ffaa00 -99.53    Poor        @#aaaaaa -29.6     No Coverage @#00703c -60.93    Excellent   @#ffffff 0@
+30@2022-02-24 17:53:20.481@@Band 7 (IMT-E 2600)@3102@492@43211@#ffaa00 -99.13    Poor        @#aaaaaa -30       No Coverage @#00703c -60.33    Excellent   @#ffffff 0@
+30@2022-02-24 11:18:00.127@@Band 7 (IMT-E 2600)@3102@334@43211@#ffaa00 -99.53    Poor        @#aaaaaa -30       No Coverage @#00703c -60.8     Excellent   @#ffffff 0@
+30@2022-02-24 17:37:47.812@@Band 7 (IMT-E 2600)@3102@273@43211@#fa6400 -102.53   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.26    Excellent   @#ffffff 0@
+30@2022-02-24 13:03:26.059@@Band 7 (IMT-E 2600)@3102@348@43211@#fa6400 -100.2    Very Poor   @#aaaaaa -29.5     No Coverage @#00703c -61.8     Excellent   @#ffffff 0@
+30@2022-02-24 11:15:21.593@@Band 7 (IMT-E 2600)@3102@333@43211@#ffaa00 -98.46    Poor        @#aaaaaa -30       No Coverage @#00703c -59.26    Excellent   @#ffffff 0@
+30@2022-02-24 17:55:29.810@@Band 7 (IMT-E 2600)@3102@486@43211@#ffaa00 -96.53    Poor        @#aaaaaa -30       No Coverage @#00703c -57.46    Excellent   @#ffffff 0@
+30@2022-02-24 17:53:12.196@@Band 7 (IMT-E 2600)@3102@197@43211@#ffaa00 -98.4     Poor        @#aaaaaa -30       No Coverage @#00703c -59.2     Excellent   @#ffffff 0@
+30@2022-02-24 15:47:10.595@@Band 7 (IMT-E 2600)@3300@84@43211@#fa6400 -104.5    Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.73    Very Good   @#ffffff 0@
+30@2022-02-24 18:00:40.637@@Band 7 (IMT-E 2600)@3300@8@43211@#ffaa00 -99.83    Poor        @#aaaaaa -30       No Coverage @#00703c -60.93    Excellent   @#ffffff 0@
+30@2022-02-24 17:19:07.647@@Band 7 (IMT-E 2600)@3300@178@43211@#fa6400 -100.86   Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.4     Excellent   @#ffffff 0@
+30@2022-02-24 16:09:48.364@@Band 7 (IMT-E 2600)@3300@286@43211@#ff0000 -107.8    Bad         @#aaaaaa -29.16    No Coverage @#00a032 -69.26    Very Good   @#ffffff 0@
+30@2022-02-24 15:16:40.609@@Band 7 (IMT-E 2600)@3300@29@43211@#fa6400 -103.93   Very Poor   @#aaaaaa -28.6     No Coverage @#00a032 -65.13    Very Good   @#ffffff 0@
+30@2022-02-24 15:39:03.380@@Band 7 (IMT-E 2600)@3300@461@43211@#820000 -115.13   Awful       @#aaaaaa -28.86    No Coverage @#ffff00 -77.2     Fair        @#ffffff 0@
+30@2022-02-24 14:46:10.408@@Band 7 (IMT-E 2600)@3300@307@43211@#fa6400 -100.86   Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.93    Excellent   @#ffffff 0@
+30@2022-02-24 17:29:21.675@@Band 7 (IMT-E 2600)@3300@428@43211@#fa6400 -101.73   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.33    Excellent   @#ffffff 0@
+30@2022-02-24 17:41:30.414@@Band 7 (IMT-E 2600)@3300@180@43211@#fa6400 -101.63   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.26    Excellent   @#ffffff 0@
+30@2022-02-24 15:42:02.436@@Band 7 (IMT-E 2600)@3300@285@43211@#ff0000 -107.56   Bad         @#aaaaaa -30       No Coverage @#00a032 -68.26    Very Good   @#ffffff 0@
+30@2022-02-24 12:39:13.972@@Band 7 (IMT-E 2600)@3300@186@43211@#ff0000 -107.13   Bad         @#aaaaaa -30       No Coverage @#00a032 -68.46    Very Good   @#ffffff 0@
+30@2022-02-24 17:12:47.889@@Band 7 (IMT-E 2600)@3300@283@43211@#ff0000 -108.2    Bad         @#aaaaaa -30       No Coverage @#00a032 -68.93    Very Good   @#ffffff 0@
+30@2022-02-24 13:34:13.772@@Band 7 (IMT-E 2600)@3300@304@43211@#ffaa00 -99.23    Poor        @#aaaaaa -30       No Coverage @#00703c -60.26    Excellent   @#ffffff 0@
+30@2022-02-24 17:03:30.639@@Band 7 (IMT-E 2600)@3300@168@43211@#ff0000 -109.43   Bad         @#aaaaaa -30       No Coverage @#00d228 -70.06    Good        @#ffffff 0@
+30@2022-02-24 14:43:00.588@@Band 7 (IMT-E 2600)@3300@402@43211@#ffaa00 -96.73    Poor        @#aaaaaa -30       No Coverage @#00703c -57.6     Excellent   @#ffffff 0@
+30@2022-02-24 18:04:05.024@@Band 7 (IMT-E 2600)@3300@297@43211@#ff0000 -105.6    Bad         @#aaaaaa -30       No Coverage @#00a032 -66.26    Very Good   @#ffffff 0@
+30@2022-02-24 18:02:29.994@@Band 7 (IMT-E 2600)@3300@463@43211@#fa6400 -101.86   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.73    Excellent   @#ffffff 0@
+30@2022-02-24 14:51:32.346@@Band 7 (IMT-E 2600)@3300@177@43211@#ff0000 -109.23   Bad         @#aaaaaa -30       No Coverage @#00d228 -70.13    Good        @#ffffff 0@
+30@2022-02-24 16:41:57.408@@Band 7 (IMT-E 2600)@3300@103@43211@#fa6400 -104.5    Very Poor   @#aaaaaa -29.6     No Coverage @#00a032 -65.33    Very Good   @#ffffff 0@
+30@2022-02-24 16:03:39.765@@Band 7 (IMT-E 2600)@3300@450@43211@#ff0000 -108.66   Bad         @#aaaaaa -30       No Coverage @#00a032 -69.66    Very Good   @#ffffff 0@
+30@2022-02-24 17:05:35.432@@Band 7 (IMT-E 2600)@3300@447@43211@#fa6400 -103.73   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.6     Excellent   @#ffffff 0@
+30@2022-02-24 16:40:59.267@@Band 7 (IMT-E 2600)@3300@403@43211@#ff0000 -107.33   Bad         @#aaaaaa -30       No Coverage @#00a032 -67.8     Very Good   @#ffffff 0@
+30@2022-02-24 18:00:21.611@@Band 7 (IMT-E 2600)@3300@94@43211@#fa6400 -103.13   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.2     Excellent   @#ffffff 0@
+30@2022-02-24 15:40:08.669@@Band 7 (IMT-E 2600)@3300@451@43211@#ff0000 -109.23   Bad         @#aaaaaa -30       No Coverage @#00d228 -70.6     Good        @#ffffff 0@
+30@2022-02-24 15:35:07.363@@Band 7 (IMT-E 2600)@3300@311@43211@#ff0000 -109.16   Bad         @#aaaaaa -29.26    No Coverage @#00d228 -70.13    Good        @#ffffff 0@
+30@2022-02-24 16:14:37.270@@Band 7 (IMT-E 2600)@3300@457@43211@#fa6400 -101.53   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.4     Excellent   @#ffffff 0@
+30@2022-02-24 15:47:55.412@@Band 7 (IMT-E 2600)@3300@12@43211@#ff0000 -107.43   Bad         @#aaaaaa -30       No Coverage @#00a032 -68.53    Very Good   @#ffffff 0@
+30@2022-02-24 16:37:59.518@@Band 7 (IMT-E 2600)@3300@313@43211@#ffaa00 -98.46    Poor        @#aaaaaa -29.63    No Coverage @#00703c -59.53    Excellent   @#ffffff 0@
+30@2022-02-24 16:01:05.881@@Band 7 (IMT-E 2600)@3300@81@43211@#ff0000 -109      Bad         @#aaaaaa -30       No Coverage @#00a032 -70       Very Good   @#ffffff 0@
+30@2022-02-24 17:47:39.184@@Band 7 (IMT-E 2600)@3300@279@43211@#fa6400 -101.26   Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.93    Excellent   @#ffffff 0@
+30@2022-02-24 18:02:10.687@@Band 7 (IMT-E 2600)@3300@396@43211@#fa6400 -104.9    Very Poor   @#aaaaaa -29.53    No Coverage @#00a032 -66.13    Very Good   @#ffffff 0@
+30@2022-02-24 18:04:02.683@@Band 7 (IMT-E 2600)@3300@126@43211@#fa6400 -100.03   Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.06    Excellent   @#ffffff 0@
+30@2022-02-24 16:28:58.302@@Band 7 (IMT-E 2600)@3300@63@43211@#fa6400 -104.73   Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.46    Very Good   @#ffffff 0@
+30@2022-02-24 17:02:17.383@@Band 7 (IMT-E 2600)@3300@340@43211@#fa6400 -102.83   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.4     Excellent   @#ffffff 0@
+30@2022-02-24 17:44:47.329@@Band 7 (IMT-E 2600)@3300@62@43211@#fa6400 -103.7    Very Poor   @#aaaaaa -30       No Coverage @#00703c -65       Excellent   @#ffffff 0@
+30@2022-02-24 15:55:11.947@@Band 7 (IMT-E 2600)@3300@366@43211@#dc143c -111.46   Very Bad    @#aaaaaa -30       No Coverage @#00d228 -72.13    Good        @#ffffff 0@
+30@2022-02-24 17:55:29.599@@Band 7 (IMT-E 2600)@3102@193@43211@#fa6400 -100.66   Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.8     Excellent   @#ffffff 0@
+29@2022-02-24 16:01:29.758@@Band 7 (IMT-E 2600)@3300@268@43211@#ff0000 -107.93   Bad         @#aaaaaa -30       No Coverage @#00a032 -68.42    Very Good   @#ffffff 0@
+29@2022-02-24 17:45:02.606@@Band 7 (IMT-E 2600)@3300@33@43211@#dc143c -110.17   Very Bad    @#aaaaaa -30       No Coverage @#00d228 -70.78    Good        @#ffffff 0@
+28@2022-02-24 16:35:59.063@@Band 7 (IMT-E 2600)@3300@272@43211@#ffff00 -94.6     Fair        @#aaaaaa -30       No Coverage @#00703c -56.46    Excellent   @#ffffff 0@
+28@2022-02-24 17:28:03.561@@Band 7 (IMT-E 2600)@3300@165@43211@#ff0000 -106.14   Bad         @#aaaaaa -30       No Coverage @#00a032 -66.23    Very Good   @#ffffff 0@
+28@2022-02-24 16:58:38.023@@Band 1 (IMT 2100)@550@309@43211@#fa6400 -103.75   Very Poor   @#820000 -21.17    Awful       @#00d228 -72.21    Good        @#ffffff 0@
+28@2022-02-24 17:17:21.904@@Band 3 (DCS 1800)@1423@215@43211@#fa6400 -102.5    Very Poor   @#820000 -21.21    Awful       @#00d228 -71.1     Good        @#ffffff 0@
+28@2022-02-24 17:39:35.244@@Band 3 (DCS 1800)@1423@150@43211@#ff0000 -105.71   Bad         @#aaaaaa -30       No Coverage @#00a032 -66.4     Very Good   @#ffffff 0@
+27@2022-02-24 15:38:50.720@@Band 7 (IMT-E 2600)@3300@405@43211@#dc143c -111.74   Very Bad    @#aaaaaa -30       No Coverage @#00d228 -72.16    Good        @#ffffff 0@
+27@2022-02-24 16:10:51.678@@Band 7 (IMT-E 2600)@3300@219@43211@#fa6400 -103.25   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.45    Excellent   @#ffffff 0@
+27@2022-02-24 16:53:31.510@@Band 7 (IMT-E 2600)@3300@73@43211@#fa6400 -103.7    Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.33    Excellent   @#ffffff 0@
+26@2022-02-24 17:52:45.322@@Band 7 (IMT-E 2600)@3102@103@43211@#fa6400 -100.38   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62       Excellent   @#ffffff 0@
+26@2022-02-24 11:14:03.874@@Band 7 (IMT-E 2600)@3102@474@43211@#ffaa00 -99.19    Poor        @#aaaaaa -30       No Coverage @#00703c -60.38    Excellent   @#ffffff 0@
+26@2022-02-24 17:45:19.548@@Band 7 (IMT-E 2600)@3300@19@43211@#fa6400 -103.65   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.6     Excellent   @#ffffff 0@
+26@2022-02-24 11:49:05.193@@Band 7 (IMT-E 2600)@3102@414@43211@#ffaa00 -98.88    Poor        @#aaaaaa -30       No Coverage @#00703c -59.61    Excellent   @#ffffff 0@
+26@2022-02-24 13:21:31.164@@Band 7 (IMT-E 2600)@3300@409@43211@#ffaa00 -98.3     Poor        @#aaaaaa -30       No Coverage @#00703c -59.69    Excellent   @#ffffff 0@
+26@2022-02-24 12:59:21.119@@Band 3 (DCS 1800)@1423@303@43211@#ffaa00 -97.46    Poor        @#aaaaaa -30       No Coverage @#00703c -58.9     Excellent   @#ffffff 0@
+26@2022-02-24 16:46:23.744@@Band 7 (IMT-E 2600)@3300@69@43211@#ffaa00 -99.88    Poor        @#aaaaaa -29.65    No Coverage @#00703c -60.76    Excellent   @#ffffff 0@
+26@2022-02-24 17:57:31.259@@Band 7 (IMT-E 2600)@3300@4@43211@#fa6400 -101.69   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.84    Excellent   @#ffffff 0@
+25@2022-02-24 14:42:12.217@@Band 3 (DCS 1800)@1423@255@43211@#fa6400 -102.72   Very Poor   @#aaaaaa -22.4     No Coverage @#00a032 -69.92    Very Good   @#ffffff 0@
+24@2022-02-24 11:11:21.760@@Band 7 (IMT-E 2600)@3102@303@43211@#ffaa00 -99.91    Poor        @#aaaaaa -30       No Coverage @#00703c -61       Excellent   @#ffffff 0@
+24@2022-02-24 11:21:44.685@@Band 7 (IMT-E 2600)@3102@211@43211@#fa6400 -100.08   Very Poor   @#aaaaaa -28.83    No Coverage @#00703c -62.16    Excellent   @#ffffff 0@
+24@2022-02-24 17:50:28.758@@Band 7 (IMT-E 2600)@3102@420@43211@#ff0000 -107.45   Bad         @#aaaaaa -30       No Coverage @#00a032 -68       Very Good   @#ffffff 0@
+24@2022-02-24 12:50:03.184@@Band 7 (IMT-E 2600)@3300@17@43211@#fa6400 -104.5    Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.08    Very Good   @#ffffff 0@
+24@2022-02-24 14:45:48.520@@Band 7 (IMT-E 2600)@3300@475@43211@#ffaa00 -97.25    Poor        @#aaaaaa -27.79    No Coverage @#00703c -59.58    Excellent   @#ffffff 0@
+24@2022-02-24 16:11:26.836@@Band 7 (IMT-E 2600)@3300@478@43211@#ff0000 -109.04   Bad         @#aaaaaa -30       No Coverage @#00d228 -70.08    Good        @#ffffff 0@
+22@2022-02-24 16:46:37.419@@Band 7 (IMT-E 2600)@3300@337@43211@#fa6400 -103.18   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.18    Excellent   @#ffffff 0@
+22@2022-02-24 11:11:53.595@@Band 7 (IMT-E 2600)@3102@141@43211@#fa6400 -100.09   Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.18    Excellent   @#ffffff 0@
+22@2022-02-24 11:11:12.045@@Band 7 (IMT-E 2600)@3102@12@43211@#ffaa00 -99.63    Poor        @#aaaaaa -30       No Coverage @#00703c -60.45    Excellent   @#ffffff 0@
+22@2022-02-24 17:54:34.523@@Band 7 (IMT-E 2600)@3102@384@43211@#ffaa00 -95.77    Poor        @#aaaaaa -30       No Coverage @#00703c -56.63    Excellent   @#ffffff 0@
+22@2022-02-24 11:50:03.781@@Band 7 (IMT-E 2600)@3102@37@43211@#ffaa00 -99.5     Poor        @#aaaaaa -30       No Coverage @#00703c -60.18    Excellent   @#ffffff 0@
+22@2022-02-24 16:16:26.025@@Band 7 (IMT-E 2600)@3300@282@43211@#fa6400 -104      Very Poor   @#aaaaaa -30       No Coverage @#00703c -65       Excellent   @#ffffff 0@
+22@2022-02-24 17:08:41.250@@Band 7 (IMT-E 2600)@3300@71@43211@#dc143c -110.86   Very Bad    @#aaaaaa -30       No Coverage @#00d228 -71.45    Good        @#ffffff 0@
+22@2022-02-24 16:22:56.866@@Band 7 (IMT-E 2600)@3300@265@43211@#fa6400 -101.45   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.18    Excellent   @#ffffff 0@
+22@2022-02-24 17:53:52.488@@Band 7 (IMT-E 2600)@3102@152@43211@#ffff00 -91.27    Fair        @#aaaaaa -25.95    No Coverage @#00703c -57.58    Excellent   @#ffffff 0@
+21@2022-02-24 17:08:36.030@@Band 3 (DCS 1800)@1423@435@43211@#fa6400 -101.76   Very Poor   @#820000 -21.42    Awful       @#00d228 -70.09    Good        @#ffffff 0@
+20@2022-02-24 12:37:21.278@@Band 7 (IMT-E 2600)@3300@158@43211@#fa6400 -103.95   Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.3     Very Good   @#ffffff 0@
+20@2022-02-24 11:24:28.375@@Band 7 (IMT-E 2600)@3300@241@43211@#ffaa00 -99.95    Poor        @#aaaaaa -30       No Coverage @#00703c -60.9     Excellent   @#ffffff 0@
+20@2022-02-24 16:13:38.439@@Band 7 (IMT-E 2600)@3300@364@43211@#fa6400 -104.55   Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.2     Very Good   @#ffffff 0@
+20@2022-02-24 17:46:32.431@@Band 7 (IMT-E 2600)@3300@70@43211@#fa6400 -104.15   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.2     Excellent   @#ffffff 0@
+20@2022-02-24 15:59:45.032@@Band 7 (IMT-E 2600)@3300@271@43211@#fa6400 -102.8    Very Poor   @#aaaaaa -29.1     No Coverage @#00703c -64.3     Excellent   @#ffffff 0@
+20@2022-02-24 15:02:02.827@@Band 7 (IMT-E 2600)@3300@27@43211@#fa6400 -101      Very Poor   @#aaaaaa -28.55    No Coverage @#00703c -63.3     Excellent   @#ffffff 0@
+20@2022-02-24 17:12:36.405@@Band 7 (IMT-E 2600)@3300@253@43211@#ff0000 -106.65   Bad         @#aaaaaa -30       No Coverage @#00a032 -67.8     Very Good   @#ffffff 0@
+20@2022-02-24 12:05:31.345@@Band 7 (IMT-E 2600)@3300@39@43211@#fa6400 -102.35   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.4     Excellent   @#ffffff 0@
+20@2022-02-24 17:50:30.689@@Band 7 (IMT-E 2600)@3102@110@43211@#fa6400 -103      Very Poor   @#aaaaaa -30       No Coverage @#00703c -64       Excellent   @#ffffff 0@
+20@2022-02-24 11:00:37.379@@Band 7 (IMT-E 2600)@3102@237@43211@#fa6400 -103.6    Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.6     Very Good   @#ffffff 0@
+20@2022-02-24 11:08:52.076@@Band 7 (IMT-E 2600)@3102@247@43211@#ffaa00 -95.6     Poor        @#aaaaaa -30       No Coverage @#00703c -56.6     Excellent   @#ffffff 0@
+20@2022-02-24 11:04:30.154@@Band 7 (IMT-E 2600)@3102@86@43211@#fa6400 -101.05   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.3     Excellent   @#ffffff 0@
+20@2022-02-24 17:36:33.433@@Band 7 (IMT-E 2600)@3102@398@43211@#fa6400 -104.4    Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.3     Very Good   @#ffffff 0@
+20@2022-02-24 11:19:12.786@@Band 7 (IMT-E 2600)@3102@261@43211@#ffaa00 -99.15    Poor        @#aaaaaa -30       No Coverage @#00703c -60.3     Excellent   @#ffffff 0@
+20@2022-02-24 17:55:07.822@@Band 7 (IMT-E 2600)@3102@383@43211@#ffaa00 -96.4     Poor        @#aaaaaa -30       No Coverage @#00703c -56.9     Excellent   @#ffffff 0@
+20@2022-02-24 17:53:37.801@@Band 7 (IMT-E 2600)@3102@1@43211@#ffaa00 -96.1     Poor        @#aaaaaa -30       No Coverage @#00703c -56.8     Excellent   @#ffffff 0@
+20@2022-02-24 11:19:30.732@@Band 7 (IMT-E 2600)@3102@246@43211@#fa6400 -101.25   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.1     Excellent   @#ffffff 0@
+20@2022-02-24 17:53:38.190@@Band 7 (IMT-E 2600)@3102@231@43211@#ffaa00 -96.2     Poor        @#aaaaaa -30       No Coverage @#00703c -57.2     Excellent   @#ffffff 0@
+20@2022-02-24 11:51:33.480@@Band 7 (IMT-E 2600)@3102@393@43211@#ffaa00 -95.5     Poor        @#aaaaaa -30       No Coverage @#00703c -57.4     Excellent   @#ffffff 0@
+20@2022-02-24 11:21:03.117@@Band 7 (IMT-E 2600)@3102@278@43211@#ffaa00 -98.75    Poor        @#aaaaaa -30       No Coverage @#00703c -60       Excellent   @#ffffff 0@
+20@2022-02-24 11:13:33.986@@Band 7 (IMT-E 2600)@3102@469@43211@#ffaa00 -98.15    Poor        @#aaaaaa -30       No Coverage @#00703c -59.3     Excellent   @#ffffff 0@
+20@2022-02-24 17:50:03.026@@Band 7 (IMT-E 2600)@3102@159@43211@#ffaa00 -97.85    Poor        @#aaaaaa -30       No Coverage @#00703c -59.5     Excellent   @#ffffff 0@
+20@2022-02-24 17:54:24.012@@Band 7 (IMT-E 2600)@3102@458@43211@#ffff00 -93.05    Fair        @#aaaaaa -30       No Coverage @#00703c -54.1     Excellent   @#ffffff 0@
+20@2022-02-24 17:49:19.934@@Band 7 (IMT-E 2600)@3102@262@43211@#fa6400 -102.95   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.8     Excellent   @#ffffff 0@
+20@2022-02-24 17:53:05.988@@Band 7 (IMT-E 2600)@3102@13@43211@#ffaa00 -97.05    Poor        @#aaaaaa -30       No Coverage @#00703c -58.1     Excellent   @#ffffff 0@
+20@2022-02-24 11:16:29.027@@Band 7 (IMT-E 2600)@3102@184@43211@#ffaa00 -98.1     Poor        @#aaaaaa -28.05    No Coverage @#00703c -60.5     Excellent   @#ffffff 0@
+20@2022-02-24 17:51:23.530@@Band 7 (IMT-E 2600)@3102@477@43211@#fa6400 -100.15   Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.6     Excellent   @#ffffff 0@
+20@2022-02-24 14:01:43.025@@Band 7 (IMT-E 2600)@3102@33@43211@#fa6400 -101.85   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.8     Excellent   @#ffffff 0@
+20@2022-02-24 11:21:07.258@@Band 7 (IMT-E 2600)@3102@277@43211@#ffaa00 -99.9     Poor        @#aaaaaa -29.3     No Coverage @#00703c -61.5     Excellent   @#ffffff 0@
+20@2022-02-24 17:37:26.484@@Band 7 (IMT-E 2600)@3102@403@43211@#ffaa00 -96.55    Poor        @#aaaaaa -30       No Coverage @#00703c -58.1     Excellent   @#ffffff 0@
+20@2022-02-24 17:53:45.154@@Band 7 (IMT-E 2600)@3102@264@43211@#ffff00 -93.85    Fair        @#aaaaaa -30       No Coverage @#00703c -54.4     Excellent   @#ffffff 0@
+20@2022-02-24 17:50:07.466@@Band 7 (IMT-E 2600)@3102@268@43211@#ffaa00 -95.8     Poor        @#aaaaaa -30       No Coverage @#00703c -57       Excellent   @#ffffff 0@
+20@2022-02-24 11:17:29.808@@Band 7 (IMT-E 2600)@3102@56@43211@#ffaa00 -97.3     Poor        @#aaaaaa -26.75    No Coverage @#00703c -61.6     Excellent   @#ffffff 0@
+20@2022-02-24 14:00:52.358@@Band 3 (DCS 1800)@1423@361@43211@#ffff00 -93.6     Fair        @#aaaaaa -25.9     No Coverage @#00703c -57.31    Excellent   @#ffffff 0@
+20@2022-02-24 14:01:47.740@@Band 7 (IMT-E 2600)@3102@35@43211@#fa6400 -101.15   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.2     Excellent   @#ffffff 0@
+20@2022-02-24 11:48:53.741@@Band 7 (IMT-E 2600)@3102@281@43211@#ffaa00 -98.7     Poor        @#aaaaaa -30       No Coverage @#00703c -59.7     Excellent   @#ffffff 0@
+20@2022-02-24 14:49:14.376@@Band 7 (IMT-E 2600)@3300@179@43211@#ffaa00 -95.7     Poor        @#aaaaaa -30       No Coverage @#00703c -56.8     Excellent   @#ffffff 0@
+20@2022-02-24 11:39:24.531@@Band 7 (IMT-E 2600)@3300@397@43211@#ffaa00 -96       Poor        @#aaaaaa -30       No Coverage @#00703c -56.7     Excellent   @#ffffff 0@
+20@2022-02-24 13:11:31.488@@Band 7 (IMT-E 2600)@3300@295@43211@#ffaa00 -96       Poor        @#aaaaaa -28.05    No Coverage @#00703c -58.1     Excellent   @#ffffff 0@
+20@2022-02-24 12:38:37.706@@Band 7 (IMT-E 2600)@3300@77@43211@#ff0000 -105.25   Bad         @#aaaaaa -30       No Coverage @#00a032 -66.3     Very Good   @#ffffff 0@
+20@2022-02-24 17:45:12.477@@Band 7 (IMT-E 2600)@3300@6@43211@#fa6400 -103.05   Very Poor   @#aaaaaa -29.5     No Coverage @#00a032 -65.3     Very Good   @#ffffff 0@
+20@2022-02-24 15:19:56.145@@Band 7 (IMT-E 2600)@3300@277@43211@#ffff00 -94       Fair        @#aaaaaa -30       No Coverage @#00703c -55.3     Excellent   @#ffffff 0@
+20@2022-02-24 16:05:24.011@@Band 7 (IMT-E 2600)@3300@43@43211@#fa6400 -102.55   Very Poor   @#aaaaaa -29.35    No Coverage @#00703c -63.9     Excellent   @#ffffff 0@
+20@2022-02-24 14:03:43.599@@Band 7 (IMT-E 2600)@3300@182@43211@#ff0000 -107.1    Bad         @#aaaaaa -30       No Coverage @#00a032 -67.9     Very Good   @#ffffff 0@
+20@2022-02-24 15:24:37.542@@Band 7 (IMT-E 2600)@3300@416@43211@#ff0000 -108.65   Bad         @#aaaaaa -29.25    No Coverage @#00d228 -70.5     Good        @#ffffff 0@
+20@2022-02-24 12:28:20.161@@Band 7 (IMT-E 2600)@3300@429@43211@#ff0000 -109.5    Bad         @#aaaaaa -30       No Coverage @#00d228 -70.3     Good        @#ffffff 0@
+20@2022-02-24 18:00:44.150@@Band 7 (IMT-E 2600)@3300@157@43211@#fa6400 -104.95   Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.6     Very Good   @#ffffff 0@
+20@2022-02-24 14:07:58.817@@Band 7 (IMT-E 2600)@3300@169@43211@#ff0000 -106.75   Bad         @#aaaaaa -29.4     No Coverage @#00a032 -68.5     Very Good   @#ffffff 0@
+20@2022-02-24 15:16:23.532@@Band 7 (IMT-E 2600)@3300@341@43211@#fa6400 -104.35   Very Poor   @#aaaaaa -28.05    No Coverage @#00a032 -67.5     Very Good   @#ffffff 0@
+20@2022-02-24 13:56:47.141@@Band 7 (IMT-E 2600)@3300@481@43211@#ff0000 -108.2    Bad         @#aaaaaa -29.25    No Coverage @#00a032 -70       Very Good   @#ffffff 0@
+20@2022-02-24 14:48:24.674@@Band 7 (IMT-E 2600)@3300@427@43211@#ffff00 -94.95    Fair        @#aaaaaa -30       No Coverage @#00703c -56.7     Excellent   @#ffffff 0@
+20@2022-02-24 16:16:21.068@@Band 7 (IMT-E 2600)@3300@65@43211@#fa6400 -103.45   Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.2     Excellent   @#ffffff 0@
+20@2022-02-24 14:23:20.687@@Band 7 (IMT-E 2600)@3300@493@43211@#ffaa00 -95.3     Poor        @#aaaaaa -30       No Coverage @#00703c -56.8     Excellent   @#ffffff 0@
+20@2022-02-24 17:49:50.513@@Band 7 (IMT-E 2600)@3102@202@43211@#dc143c -111.85   Very Bad    @#aaaaaa -30       No Coverage @#00d228 -71.9     Good        @#ffffff 0@
+20@2022-02-24 16:20:24.384@@Band 7 (IMT-E 2600)@3300@166@43211@#fa6400 -101.75   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63       Excellent   @#ffffff 0@
+20@2022-02-24 17:30:24.622@@Band 7 (IMT-E 2600)@3300@112@43211@#ffaa00 -97.8     Poor        @#aaaaaa -30       No Coverage @#00703c -58.7     Excellent   @#ffffff 0@
+20@2022-02-24 15:20:22.195@@Band 7 (IMT-E 2600)@3300@359@43211@#ff0000 -105.75   Bad         @#aaaaaa -30       No Coverage @#00a032 -66.5     Very Good   @#ffffff 0@
+20@2022-02-24 14:14:48.403@@Band 7 (IMT-E 2600)@3300@2@43211@#ff0000 -107.05   Bad         @#aaaaaa -30       No Coverage @#00a032 -67.8     Very Good   @#ffffff 0@
+20@2022-02-24 14:17:54.614@@Band 7 (IMT-E 2600)@3300@220@43211@#ffaa00 -95.5     Poor        @#aaaaaa -30       No Coverage @#00703c -56.5     Excellent   @#ffffff 0@
+20@2022-02-24 16:12:56.475@@Band 7 (IMT-E 2600)@3300@232@43211@#fa6400 -103.6    Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.7     Excellent   @#ffffff 0@
+20@2022-02-24 17:49:11.531@@Band 7 (IMT-E 2600)@3102@127@43211@#fa6400 -103.45   Very Poor   @#aaaaaa -26.75    No Coverage @#00a032 -67.5     Very Good   @#ffffff 0@
+20@2022-02-24 17:55:39.361@@Band 7 (IMT-E 2600)@3102@308@43211@#ffaa00 -98.95    Poor        @#aaaaaa -30       No Coverage @#00703c -60.4     Excellent   @#ffffff 0@
+20@2022-02-24 17:43:58.382@@Band 7 (IMT-E 2600)@3300@263@43211@#ff0000 -107.55   Bad         @#aaaaaa -30       No Coverage @#00a032 -68.5     Very Good   @#ffffff 0@
+20@2022-02-24 14:42:42.275@@Band 7 (IMT-E 2600)@3300@75@43211@#fa6400 -102      Very Poor   @#aaaaaa -29.4     No Coverage @#00703c -64.3     Excellent   @#ffffff 0@
+20@2022-02-24 14:50:57.588@@Band 7 (IMT-E 2600)@3300@67@43211@#dc143c -110.05   Very Bad    @#aaaaaa -27.7     No Coverage @#00d228 -72       Good        @#ffffff 0@
+20@2022-02-24 17:02:49.881@@Band 7 (IMT-E 2600)@3300@42@43211@#ff0000 -108.45   Bad         @#aaaaaa -29.1     No Coverage @#00a032 -70       Very Good   @#ffffff 0@
+20@2022-02-24 17:44:21.236@@Band 7 (IMT-E 2600)@3300@305@43211@#ff0000 -106.35   Bad         @#aaaaaa -30       No Coverage @#00a032 -68       Very Good   @#ffffff 0@
+20@2022-02-24 16:01:26.182@@Band 7 (IMT-E 2600)@3300@266@43211@#ffaa00 -99.3     Poor        @#aaaaaa -29.05    No Coverage @#00703c -60.8     Excellent   @#ffffff 0@
+20@2022-02-24 15:51:47.582@@Band 7 (IMT-E 2600)@3300@25@43211@#fa6400 -102.25   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.6     Excellent   @#ffffff 0@
+20@2022-02-24 18:04:06.986@@Band 7 (IMT-E 2600)@3300@195@43211@#ffaa00 -98.7     Poor        @#aaaaaa -30       No Coverage @#00703c -59.5     Excellent   @#ffffff 0@
+20@2022-02-24 15:46:58.372@@Band 7 (IMT-E 2600)@3300@259@43211@#ff0000 -107.95   Bad         @#aaaaaa -30       No Coverage @#00a032 -68.7     Very Good   @#ffffff 0@
+20@2022-02-24 17:45:06.808@@Band 7 (IMT-E 2600)@3300@434@43211@#fa6400 -103.9    Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.9     Excellent   @#ffffff 0@
+20@2022-02-24 17:15:15.552@@Band 7 (IMT-E 2600)@3300@151@43211@#fa6400 -104.8    Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.5     Very Good   @#ffffff 0@
+20@2022-02-24 17:53:14.471@@Band 7 (IMT-E 2600)@3102@491@43211@#ffff00 -94.75    Fair        @#aaaaaa -30       No Coverage @#00703c -55.5     Excellent   @#ffffff 0@
+20@2022-02-24 17:54:57.687@@Band 7 (IMT-E 2600)@3102@227@43211@#ffff00 -93.45    Fair        @#aaaaaa -30       No Coverage @#00703c -54.4     Excellent   @#ffffff 0@
+20@2022-02-24 17:54:53.994@@Band 7 (IMT-E 2600)@3102@355@43211@#ffff00 -94.4     Fair        @#aaaaaa -30       No Coverage @#00703c -55       Excellent   @#ffffff 0@
+20@2022-02-24 17:53:31.832@@Band 7 (IMT-E 2600)@3102@16@43211@#ffff00 -93.95    Fair        @#aaaaaa -30       No Coverage @#00703c -55       Excellent   @#ffffff 0@
+18@2022-02-24 15:23:40.508@@Band 7 (IMT-E 2600)@3300@331@43211@#fa6400 -102.61   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.33    Excellent   @#ffffff 0@
+17@2022-02-24 17:12:51.009@@Band 7 (IMT-E 2600)@3300@16@43211@#ff0000 -106.29   Bad         @#aaaaaa -29.35    No Coverage @#00a032 -69.1     Very Good   @#ffffff 0@
+17@2022-02-24 17:17:15.056@@Band 7 (IMT-E 2600)@3102@215@43211@#ffaa00 -95.05    Poor        @#dc143c -19.17    Very Bad    @#00a032 -65.47    Very Good   @#ffffff 0@
+16@2022-02-24 11:00:11.319@@Band 7 (IMT-E 2600)@3102@269@43211@#ff0000 -105.18   Bad         @#aaaaaa -30       No Coverage @#00a032 -67.12    Very Good   @#ffffff 0@
+16@2022-02-24 16:20:52.905@@Band 7 (IMT-E 2600)@3300@480@43211@#dc143c -110.37   Very Bad    @#aaaaaa -29.25    No Coverage @#00d228 -74       Good        @#ffffff 0@
+16@2022-02-24 11:48:59.222@@Band 7 (IMT-E 2600)@3102@183@43211@#ffaa00 -99.31    Poor        @#aaaaaa -30       No Coverage @#00703c -60.5     Excellent   @#ffffff 0@
+16@2022-02-24 13:04:31.141@@Band 3 (DCS 1800)@1423@323@43211@#ffff00 -94.81    Fair        @#aaaaaa -30       No Coverage @#00703c -55.86    Excellent   @#ffffff 0@
+16@2022-02-24 18:00:55.188@@Band 7 (IMT-E 2600)@3300@24@43211@#ff0000 -106.87   Bad         @#aaaaaa -30       No Coverage @#00703c -64.33    Excellent   @#ffffff 0@
+16@2022-02-24 17:50:59.442@@Band 7 (IMT-E 2600)@3102@70@43211@#fa6400 -100.75   Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.87    Excellent   @#ffffff 0@
+15@2022-02-24 17:04:59.622@@Band 7 (IMT-E 2600)@3300@384@43211@#fa6400 -101.66   Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.8     Excellent   @#ffffff 0@
+14@2022-02-24 10:53:00.730@@Band 7 (IMT-E 2600)@3300@329@43211@#fa6400 -103.28   Very Poor   @#aaaaaa -28.85    No Coverage @#00703c -65       Excellent   @#ffffff 0@
+14@2022-02-24 11:01:19.226@@Band 7 (IMT-E 2600)@3102@351@43211@#ffaa00 -95.78    Poor        @#aaaaaa -30       No Coverage @#00703c -56       Excellent   @#ffffff 0@
+14@2022-02-24 11:41:50.367@@Band 7 (IMT-E 2600)@3102@495@43211@#ffaa00 -98.64    Poor        @#aaaaaa -27       No Coverage @#00703c -63.77    Excellent   @#ffffff 0@
+14@2022-02-24 11:48:25.382@@Band 7 (IMT-E 2600)@3102@95@43211@#ffff00 -90.21    Fair        @#aaaaaa -30       No Coverage @#00703c -50.85    Excellent   @#ffffff 0@
+14@2022-02-24 17:03:55.242@@Band 7 (IMT-E 2600)@3300@357@43211@#820000 -118.14   Awful       @#aaaaaa -29       No Coverage @#ffff00 -79.85    Fair        @#ffffff 0@
+14@2022-02-24 17:50:49.361@@Band 7 (IMT-E 2600)@3102@381@43211@#fa6400 -100.14   Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.42    Excellent   @#ffffff 0@
+14@2022-02-24 17:52:01.385@@Band 7 (IMT-E 2600)@3102@121@43211@#ffaa00 -96.14    Poor        @#aaaaaa -30       No Coverage @#00703c -57.57    Excellent   @#ffffff 0@
+14@2022-02-24 17:55:21.156@@Band 7 (IMT-E 2600)@3102@139@43211@#ffff00 -93.07    Fair        @#aaaaaa -30       No Coverage @#00703c -53.85    Excellent   @#ffffff 0@
+14@2022-02-24 17:55:51.333@@Band 7 (IMT-E 2600)@3102@36@43211@#ff0000 -107      Bad         @#aaaaaa -30       No Coverage @#00a032 -67.42    Very Good   @#ffffff 0@
+13@2022-02-24 12:57:41.058@@Band 3 (DCS 1800)@1423@175@43211@#fa6400 -101.69   Very Poor   @#aaaaaa -26.69    No Coverage @#00a032 -66.36    Very Good   @#ffffff 0@
+12@2022-02-24 11:05:05.095@@Band 7 (IMT-E 2600)@3102@48@43211@#ffaa00 -99.91    Poor        @#aaaaaa -30       No Coverage @#00703c -60.83    Excellent   @#ffffff 0@
+12@2022-02-24 11:12:45.700@@Band 7 (IMT-E 2600)@3102@83@43211@#fa6400 -101.25   Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.16    Excellent   @#ffffff 0@
+12@2022-02-24 16:06:23.946@@Band 7 (IMT-E 2600)@3300@22@43211@#fa6400 -104.66   Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.7     Very Good   @#ffffff 0@
+12@2022-02-24 14:00:15.226@@Band 7 (IMT-E 2600)@3102@142@43211@#ffff00 -90.58    Fair        @#aaaaaa -30       No Coverage @#00703c -52       Excellent   @#ffffff 0@
+12@2022-02-24 14:08:38.242@@Band 1 (IMT 2100)@550@136@43211@#fa6400 -104.5    Very Poor   @#dc143c -19.5     Very Bad    @#00d228 -73.91    Good        @#ffffff 0@
+12@2022-02-24 17:37:13.313@@Band 7 (IMT-E 2600)@3102@404@43211@#fa6400 -104      Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.5     Very Good   @#ffffff 0@
+12@2022-02-24 17:51:31.135@@Band 7 (IMT-E 2600)@3102@72@43211@#ffaa00 -97.5     Poor        @#aaaaaa -30       No Coverage @#00703c -58.83    Excellent   @#ffffff 0@
+11@2022-02-24 11:58:06.002@@Band 3 (DCS 1800)@1423@378@43211@#ffaa00 -98.72    Poor        @#aaaaaa -30       No Coverage @#00703c -59.72    Excellent   @#ffffff 0@
+11@2022-02-24 17:36:21.904@@Band 7 (IMT-E 2600)@3102@175@43211@#ff0000 -109.9    Bad         @#aaaaaa -29.18    No Coverage @#00d228 -72       Good        @#ffffff 0@
+11@2022-02-24 13:03:39.969@@Band 3 (DCS 1800)@1423@449@43211@#ffaa00 -96.45    Poor        @#aaaaaa -28.09    No Coverage @#00703c -58.72    Excellent   @#ffffff 0@
+11@2022-02-24 14:22:02.474@@Band 1 (IMT 2100)@550@338@43211@#fa6400 -102.27   Very Poor   @#aaaaaa -23.36    No Coverage @#00a032 -68.18    Very Good   @#ffffff 0@
+11@2022-02-24 15:23:36.587@@Band 7 (IMT-E 2600)@3102@435@43211@#ffaa00 -95.72    Poor        @#aaaaaa -22.54    No Coverage @#00703c -63.63    Excellent   @#ffffff 0@
+11@2022-02-24 17:13:02.851@@Band 1 (IMT 2100)@550@280@43211@#ff0000 -107.18   Bad         @#aaaaaa -22.54    No Coverage @#00d228 -74.27    Good        @#ffffff 0@
+11@2022-02-24 17:56:13.150@@Band 3 (DCS 1800)@1423@197@43211@#ffaa00 -96.45    Poor        @#aaaaaa -30       No Coverage @#00703c -56.88    Excellent   @#ffffff 0@
+10@2022-02-24 10:16:31.804@@Band 7 (IMT-E 2600)@3300@68@43211@#fa6400 -105      Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.8     Very Good   @#ffffff 0@
+10@2022-02-24 10:20:05.155@@Band 7 (IMT-E 2600)@3300@229@43211@#fa6400 -102.9    Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.6     Excellent   @#ffffff 0@
+10@2022-02-24 10:23:11.522@@Band 7 (IMT-E 2600)@3300@346@43211@#fa6400 -105      Very Poor   @#aaaaaa -30       No Coverage @#00a032 -66       Very Good   @#ffffff 0@
+10@2022-02-24 10:33:07.584@@Band 7 (IMT-E 2600)@3300@462@43211@#fa6400 -103.7    Very Poor   @#aaaaaa -25.4     No Coverage @#00a032 -65.2     Very Good   @#ffffff 0@
+10@2022-02-24 10:38:47.278@@Band 7 (IMT-E 2600)@3300@173@43211@#fa6400 -103.8    Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.6     Excellent   @#ffffff 0@
+10@2022-02-24 10:55:04.921@@Band 7 (IMT-E 2600)@3300@115@43211@#fa6400 -104.2    Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.2     Very Good   @#ffffff 0@
+10@2022-02-24 10:55:30.629@@Band 7 (IMT-E 2600)@3300@53@43211@#fa6400 -101.5    Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.6     Excellent   @#ffffff 0@
+10@2022-02-24 10:58:32.837@@Band 7 (IMT-E 2600)@3102@248@43211@#ff0000 -105.1    Bad         @#aaaaaa -30       No Coverage @#00a032 -66.2     Very Good   @#ffffff 0@
+10@2022-02-24 10:58:36.755@@Band 7 (IMT-E 2600)@3102@285@43211@#ff0000 -106.2    Bad         @#aaaaaa -30       No Coverage @#00a032 -67.4     Very Good   @#ffffff 0@
+10@2022-02-24 10:58:56.796@@Band 7 (IMT-E 2600)@3102@402@43211@#ff0000 -106.6    Bad         @#aaaaaa -30       No Coverage @#00a032 -67.2     Very Good   @#ffffff 0@
+10@2022-02-24 10:59:05.378@@Band 7 (IMT-E 2600)@3102@233@43211@#ff0000 -106.7    Bad         @#aaaaaa -30       No Coverage @#00a032 -67.2     Very Good   @#ffffff 0@
+10@2022-02-24 10:59:21.932@@Band 7 (IMT-E 2600)@3102@318@43211@#fa6400 -104.8    Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.6     Very Good   @#ffffff 0@
+10@2022-02-24 10:59:45.400@@Band 7 (IMT-E 2600)@3102@239@43211@#ff0000 -105.1    Bad         @#aaaaaa -28.9     No Coverage @#00a032 -67.2     Very Good   @#ffffff 0@
+10@2022-02-24 10:59:46.232@@Band 7 (IMT-E 2600)@3102@389@43211@#ff0000 -106.1    Bad         @#aaaaaa -30       No Coverage @#00a032 -66.8     Very Good   @#ffffff 0@
+10@2022-02-24 10:59:57.090@@Band 7 (IMT-E 2600)@3102@176@43211@#ff0000 -108.4    Bad         @#aaaaaa -30       No Coverage @#00a032 -69.8     Very Good   @#ffffff 0@
+10@2022-02-24 11:00:06.406@@Band 7 (IMT-E 2600)@3102@135@43211@#ff0000 -106.9    Bad         @#aaaaaa -30       No Coverage @#00a032 -67.6     Very Good   @#ffffff 0@
+10@2022-02-24 11:00:10.077@@Band 7 (IMT-E 2600)@3102@406@43211@#ff0000 -106.7    Bad         @#aaaaaa -30       No Coverage @#00a032 -67.4     Very Good   @#ffffff 0@
+10@2022-02-24 11:00:13.929@@Band 7 (IMT-E 2600)@3102@501@43211@#ff0000 -105.6    Bad         @#aaaaaa -30       No Coverage @#00a032 -66.2     Very Good   @#ffffff 0@
+10@2022-02-24 11:00:24.380@@Band 7 (IMT-E 2600)@3102@341@43211@#fa6400 -103.6    Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.2     Excellent   @#ffffff 0@
+10@2022-02-24 11:00:35.716@@Band 7 (IMT-E 2600)@3102@489@43211@#ffaa00 -99.2     Poor        @#aaaaaa -30       No Coverage @#00703c -60.2     Excellent   @#ffffff 0@
+10@2022-02-24 11:00:38.693@@Band 7 (IMT-E 2600)@3102@46@43211@#ffaa00 -98.4     Poor        @#aaaaaa -30       No Coverage @#00703c -59.4     Excellent   @#ffffff 0@
+10@2022-02-24 11:01:24.010@@Band 7 (IMT-E 2600)@3102@41@43211@#ffaa00 -96.9     Poor        @#aaaaaa -28.6     No Coverage @#00703c -58.2     Excellent   @#ffffff 0@
+10@2022-02-24 11:01:29.972@@Band 7 (IMT-E 2600)@3102@34@43211@#ffaa00 -98.4     Poor        @#aaaaaa -25.6     No Coverage @#00703c -62.8     Excellent   @#ffffff 0@
+10@2022-02-24 11:01:38.164@@Band 7 (IMT-E 2600)@3102@295@43211@#fa6400 -101.1    Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.4     Excellent   @#ffffff 0@
+10@2022-02-24 11:01:53.257@@Band 7 (IMT-E 2600)@3102@249@43211@#fa6400 -100.2    Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.4     Excellent   @#ffffff 0@
+10@2022-02-24 11:02:01.593@@Band 7 (IMT-E 2600)@3102@297@43211@#ffaa00 -99       Poor        @#aaaaaa -30       No Coverage @#00703c -60       Excellent   @#ffffff 0@
+10@2022-02-24 11:02:04.168@@Band 7 (IMT-E 2600)@3102@366@43211@#ffaa00 -99       Poor        @#aaaaaa -30       No Coverage @#00703c -59.8     Excellent   @#ffffff 0@
+10@2022-02-24 11:02:15.819@@Band 7 (IMT-E 2600)@3102@60@43211@#fa6400 -100.8    Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.2     Excellent   @#ffffff 0@
+10@2022-02-24 11:02:33.114@@Band 7 (IMT-E 2600)@3102@51@43211@#fa6400 -101      Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:02:43.806@@Band 7 (IMT-E 2600)@3102@461@43211@#fa6400 -100.2    Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.2     Excellent   @#ffffff 0@
+10@2022-02-24 11:03:04.534@@Band 7 (IMT-E 2600)@3102@4@43211@#fa6400 -100.9    Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:03:31.113@@Band 7 (IMT-E 2600)@3102@330@43211@#ffff00 -94.9     Fair        @#aaaaaa -25.4     No Coverage @#00703c -60       Excellent   @#ffffff 0@
+10@2022-02-24 11:03:51.575@@Band 7 (IMT-E 2600)@3102@263@43211@#ffaa00 -99.3     Poor        @#aaaaaa -30       No Coverage @#00703c -60.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:04:05.442@@Band 7 (IMT-E 2600)@3102@487@43211@#ffaa00 -97.8     Poor        @#aaaaaa -30       No Coverage @#00703c -59       Excellent   @#ffffff 0@
+10@2022-02-24 11:04:16.180@@Band 7 (IMT-E 2600)@3102@130@43211@#ffaa00 -99.8     Poor        @#aaaaaa -30       No Coverage @#00703c -61       Excellent   @#ffffff 0@
+10@2022-02-24 11:04:40.097@@Band 7 (IMT-E 2600)@3102@503@43211@#fa6400 -101      Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.8     Excellent   @#ffffff 0@
+10@2022-02-24 11:04:44.366@@Band 7 (IMT-E 2600)@3102@378@43211@#ffaa00 -99.3     Poor        @#aaaaaa -30       No Coverage @#00703c -60.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:05:02.807@@Band 7 (IMT-E 2600)@3102@407@43211@#fa6400 -101      Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.2     Excellent   @#ffffff 0@
+10@2022-02-24 11:05:04.251@@Band 7 (IMT-E 2600)@3102@432@43211@#fa6400 -101.9    Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:05:48.086@@Band 7 (IMT-E 2600)@3102@182@43211@#ffaa00 -98.7     Poor        @#aaaaaa -30       No Coverage @#00703c -59.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:06:43.780@@Band 7 (IMT-E 2600)@3102@478@43211@#ffaa00 -96.4     Poor        @#aaaaaa -30       No Coverage @#00703c -57.8     Excellent   @#ffffff 0@
+10@2022-02-24 11:07:21.067@@Band 7 (IMT-E 2600)@3102@282@43211@#ffaa00 -95.3     Poor        @#aaaaaa -30       No Coverage @#00703c -56.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:07:26.296@@Band 7 (IMT-E 2600)@3102@42@43211@#ffff00 -93.2     Fair        @#aaaaaa -25.2     No Coverage @#00703c -55.4     Excellent   @#ffffff 0@
+10@2022-02-24 11:09:43.417@@Band 7 (IMT-E 2600)@3102@43@43211@#ffaa00 -95.9     Poor        @#aaaaaa -30       No Coverage @#00703c -56.8     Excellent   @#ffffff 0@
+10@2022-02-24 11:10:34.905@@Band 7 (IMT-E 2600)@3102@66@43211@#ffaa00 -99.2     Poor        @#aaaaaa -30       No Coverage @#00703c -60.8     Excellent   @#ffffff 0@
+10@2022-02-24 11:10:36.378@@Band 7 (IMT-E 2600)@3102@138@43211@#fa6400 -102.4    Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.8     Excellent   @#ffffff 0@
+10@2022-02-24 11:10:45.369@@Band 7 (IMT-E 2600)@3102@69@43211@#fa6400 -101      Very Poor   @#aaaaaa -30       No Coverage @#00703c -62       Excellent   @#ffffff 0@
+10@2022-02-24 11:10:57.140@@Band 7 (IMT-E 2600)@3102@460@43211@#ffaa00 -99.2     Poor        @#aaaaaa -28.5     No Coverage @#00703c -61.2     Excellent   @#ffffff 0@
+10@2022-02-24 11:11:06.714@@Band 7 (IMT-E 2600)@3102@131@43211@#fa6400 -101.5    Very Poor   @#aaaaaa -30       No Coverage @#00703c -62       Excellent   @#ffffff 0@
+10@2022-02-24 11:11:15.233@@Band 7 (IMT-E 2600)@3102@198@43211@#ffaa00 -98.9     Poor        @#aaaaaa -30       No Coverage @#00703c -60.2     Excellent   @#ffffff 0@
+10@2022-02-24 11:11:47.766@@Band 7 (IMT-E 2600)@3102@397@43211@#ffaa00 -95.7     Poor        @#aaaaaa -26.1     No Coverage @#00703c -59       Excellent   @#ffffff 0@
+10@2022-02-24 11:11:53.366@@Band 7 (IMT-E 2600)@3102@416@43211@#ffaa00 -98.4     Poor        @#aaaaaa -28.6     No Coverage @#00703c -60.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:11:56.892@@Band 7 (IMT-E 2600)@3102@45@43211@#ffaa00 -99.4     Poor        @#aaaaaa -30       No Coverage @#00703c -60.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:11:58.142@@Band 7 (IMT-E 2600)@3102@124@43211@#ffaa00 -98.4     Poor        @#aaaaaa -30       No Coverage @#00703c -59.8     Excellent   @#ffffff 0@
+10@2022-02-24 11:11:59.771@@Band 7 (IMT-E 2600)@3102@187@43211@#ffaa00 -99.7     Poor        @#aaaaaa -30       No Coverage @#00703c -60.4     Excellent   @#ffffff 0@
+10@2022-02-24 11:12:17.700@@Band 7 (IMT-E 2600)@3102@296@43211@#ffaa00 -100      Poor        @#aaaaaa -30       No Coverage @#00703c -60.8     Excellent   @#ffffff 0@
+10@2022-02-24 11:12:23.181@@Band 7 (IMT-E 2600)@3102@304@43211@#ffaa00 -97.7     Poor        @#aaaaaa -30       No Coverage @#00703c -58.4     Excellent   @#ffffff 0@
+10@2022-02-24 11:12:28.400@@Band 7 (IMT-E 2600)@3102@356@43211@#ffaa00 -96.9     Poor        @#aaaaaa -30       No Coverage @#00703c -57.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:12:29.370@@Band 7 (IMT-E 2600)@3102@471@43211@#ffaa00 -97.7     Poor        @#aaaaaa -30       No Coverage @#00703c -58.4     Excellent   @#ffffff 0@
+10@2022-02-24 11:12:58.772@@Band 7 (IMT-E 2600)@3102@422@43211@#ffaa00 -99.2     Poor        @#aaaaaa -30       No Coverage @#00703c -60.4     Excellent   @#ffffff 0@
+10@2022-02-24 11:13:02.405@@Band 7 (IMT-E 2600)@3102@147@43211@#fa6400 -101.1    Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:13:41.551@@Band 7 (IMT-E 2600)@3102@424@43211@#fa6400 -100.8    Very Poor   @#aaaaaa -30       No Coverage @#00703c -62       Excellent   @#ffffff 0@
+10@2022-02-24 11:13:49.642@@Band 7 (IMT-E 2600)@3102@223@43211@#fa6400 -102      Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:13:58.668@@Band 7 (IMT-E 2600)@3102@220@43211@#ffaa00 -98.9     Poor        @#aaaaaa -30       No Coverage @#00703c -59.8     Excellent   @#ffffff 0@
+10@2022-02-24 11:14:31.550@@Band 7 (IMT-E 2600)@3102@229@43211@#ffaa00 -98.1     Poor        @#aaaaaa -30       No Coverage @#00703c -59.2     Excellent   @#ffffff 0@
+10@2022-02-24 11:14:36.436@@Band 7 (IMT-E 2600)@3102@164@43211@#ffaa00 -97.9     Poor        @#aaaaaa -30       No Coverage @#00703c -58.8     Excellent   @#ffffff 0@
+10@2022-02-24 11:14:51.389@@Band 7 (IMT-E 2600)@3102@123@43211@#ffaa00 -99.2     Poor        @#aaaaaa -30       No Coverage @#00703c -60       Excellent   @#ffffff 0@
+10@2022-02-24 11:14:54.100@@Band 7 (IMT-E 2600)@3102@15@43211@#ffaa00 -97.9     Poor        @#aaaaaa -30       No Coverage @#00703c -58.8     Excellent   @#ffffff 0@
+10@2022-02-24 11:15:05.467@@Band 7 (IMT-E 2600)@3102@449@43211@#ffaa00 -98.3     Poor        @#aaaaaa -28.9     No Coverage @#00703c -60.4     Excellent   @#ffffff 0@
+10@2022-02-24 11:15:07.753@@Band 7 (IMT-E 2600)@3102@283@43211@#ffaa00 -98.8     Poor        @#aaaaaa -30       No Coverage @#00703c -59.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:15:35.569@@Band 7 (IMT-E 2600)@3102@106@43211@#fa6400 -100.9    Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.8     Excellent   @#ffffff 0@
+10@2022-02-24 11:15:47.341@@Band 7 (IMT-E 2600)@3102@156@43211@#ffaa00 -98.5     Poor        @#aaaaaa -30       No Coverage @#00703c -60.2     Excellent   @#ffffff 0@
+10@2022-02-24 11:16:06.877@@Band 7 (IMT-E 2600)@3102@91@43211@#ffff00 -92.4     Fair        @#aaaaaa -30       No Coverage @#00703c -54.2     Excellent   @#ffffff 0@
+10@2022-02-24 11:16:41.687@@Band 7 (IMT-E 2600)@3102@167@43211@#fa6400 -101.8    Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:16:50.038@@Band 7 (IMT-E 2600)@3102@400@43211@#ffaa00 -99.2     Poor        @#aaaaaa -30       No Coverage @#00703c -60.4     Excellent   @#ffffff 0@
+10@2022-02-24 11:16:53.813@@Band 7 (IMT-E 2600)@3102@496@43211@#ffaa00 -99.3     Poor        @#aaaaaa -30       No Coverage @#00703c -60.8     Excellent   @#ffffff 0@
+10@2022-02-24 11:16:55.719@@Band 7 (IMT-E 2600)@3102@228@43211@#fa6400 -100.4    Very Poor   @#aaaaaa -30       No Coverage @#00703c -61       Excellent   @#ffffff 0@
+10@2022-02-24 11:16:59.945@@Band 7 (IMT-E 2600)@3102@468@43211@#fa6400 -102.8    Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:17:06.387@@Band 7 (IMT-E 2600)@3102@40@43211@#fa6400 -103.2    Very Poor   @#aaaaaa -29       No Coverage @#00703c -64.4     Excellent   @#ffffff 0@
+10@2022-02-24 11:17:10.827@@Band 7 (IMT-E 2600)@3102@347@43211@#fa6400 -103.7    Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.4     Excellent   @#ffffff 0@
+10@2022-02-24 11:17:37.779@@Band 7 (IMT-E 2600)@3102@118@43211@#ffaa00 -99.9     Poor        @#aaaaaa -30       No Coverage @#00703c -60.8     Excellent   @#ffffff 0@
+10@2022-02-24 11:17:44.621@@Band 7 (IMT-E 2600)@3102@160@43211@#fa6400 -101.5    Very Poor   @#aaaaaa -30       No Coverage @#00703c -62       Excellent   @#ffffff 0@
+10@2022-02-24 11:18:22.898@@Band 7 (IMT-E 2600)@3102@232@43211@#fa6400 -101.1    Very Poor   @#aaaaaa -30       No Coverage @#00703c -62       Excellent   @#ffffff 0@
+10@2022-02-24 11:18:24.558@@Band 7 (IMT-E 2600)@3102@221@43211@#fa6400 -101.5    Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:18:33.329@@Band 7 (IMT-E 2600)@3102@357@43211@#fa6400 -102.4    Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.2     Excellent   @#ffffff 0@
+10@2022-02-24 11:18:36.832@@Band 7 (IMT-E 2600)@3102@391@43211@#ffaa00 -99.9     Poor        @#aaaaaa -30       No Coverage @#00703c -60.8     Excellent   @#ffffff 0@
+10@2022-02-24 11:19:39.358@@Band 7 (IMT-E 2600)@3102@73@43211@#fa6400 -100.2    Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.4     Excellent   @#ffffff 0@
+10@2022-02-24 11:19:43.066@@Band 7 (IMT-E 2600)@3102@276@43211@#ffaa00 -100      Poor        @#aaaaaa -30       No Coverage @#00703c -61       Excellent   @#ffffff 0@
+10@2022-02-24 11:20:08.523@@Band 7 (IMT-E 2600)@3102@196@43211@#fa6400 -100.3    Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.2     Excellent   @#ffffff 0@
+10@2022-02-24 11:21:25.645@@Band 7 (IMT-E 2600)@3102@129@43211@#ffaa00 -98.7     Poor        @#aaaaaa -28.4     No Coverage @#00703c -60.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:21:46.116@@Band 7 (IMT-E 2600)@3102@226@43211@#ffaa00 -99.4     Poor        @#aaaaaa -30       No Coverage @#00703c -60.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:23:52.255@@Band 7 (IMT-E 2600)@3300@160@43211@#ffaa00 -96.6     Poor        @#aaaaaa -30       No Coverage @#00703c -57.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:26:04.760@@Band 7 (IMT-E 2600)@3300@76@43211@#ffaa00 -98.5     Poor        @#aaaaaa -30       No Coverage @#00703c -59       Excellent   @#ffffff 0@
+10@2022-02-24 11:26:33.105@@Band 7 (IMT-E 2600)@3300@140@43211@#ffaa00 -99.7     Poor        @#aaaaaa -30       No Coverage @#00703c -61       Excellent   @#ffffff 0@
+10@2022-02-24 11:46:49.446@@Band 7 (IMT-E 2600)@3300@106@43211@#ff0000 -108.9    Bad         @#aaaaaa -30       No Coverage @#00d228 -70.2     Good        @#ffffff 0@
+10@2022-02-24 11:48:17.628@@Band 7 (IMT-E 2600)@3102@475@43211@#ffff00 -92.1     Fair        @#aaaaaa -30       No Coverage @#00703c -52.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:48:39.584@@Band 7 (IMT-E 2600)@3102@480@43211@#ffaa00 -99.1     Poor        @#aaaaaa -30       No Coverage @#00703c -59.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:48:46.698@@Band 7 (IMT-E 2600)@3102@320@43211@#ffaa00 -96.8     Poor        @#aaaaaa -30       No Coverage @#00703c -57.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:49:03.792@@Band 7 (IMT-E 2600)@3102@27@43211@#ffff00 -93.2     Fair        @#aaaaaa -30       No Coverage @#00703c -54.2     Excellent   @#ffffff 0@
+10@2022-02-24 11:50:19.294@@Band 7 (IMT-E 2600)@3102@194@43211@#ffaa00 -95.8     Poor        @#aaaaaa -30       No Coverage @#00703c -56.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:50:49.218@@Band 7 (IMT-E 2600)@3102@331@43211@#ffaa00 -96.8     Poor        @#aaaaaa -30       No Coverage @#00703c -57.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:51:01.039@@Band 7 (IMT-E 2600)@3102@502@43211@#ffaa00 -96.6     Poor        @#aaaaaa -30       No Coverage @#00703c -57.8     Excellent   @#ffffff 0@
+10@2022-02-24 11:56:23.287@@Band 7 (IMT-E 2600)@3300@122@43211@#fa6400 -102.3    Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.6     Excellent   @#ffffff 0@
+10@2022-02-24 11:59:48.223@@Band 1 (IMT 2100)@550@130@43211@#fa6400 -100.2    Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.4     Excellent   @#ffffff 0@
+10@2022-02-24 11:59:48.299@@Band 1 (IMT 2100)@550@390@43211@#fa6400 -101.5    Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.8     Excellent   @#ffffff 0@
+10@2022-02-24 12:00:52.922@@Band 1 (IMT 2100)@550@334@43211@#fa6400 -101      Very Poor   @#aaaaaa -30       No Coverage @#00703c -62       Excellent   @#ffffff 0@
+10@2022-02-24 12:23:03.970@@Band 7 (IMT-E 2600)@3300@172@43211@#ff0000 -105.8    Bad         @#aaaaaa -30       No Coverage @#00a032 -66.6     Very Good   @#ffffff 0@
+10@2022-02-24 12:26:42.202@@Band 7 (IMT-E 2600)@3300@351@43211@#ff0000 -107.4    Bad         @#aaaaaa -30       No Coverage @#00a032 -68.8     Very Good   @#ffffff 0@
+10@2022-02-24 12:35:34.892@@Band 7 (IMT-E 2600)@3300@184@43211@#ff0000 -108.7    Bad         @#aaaaaa -30       No Coverage @#00a032 -69.6     Very Good   @#ffffff 0@
+10@2022-02-24 12:40:26.401@@Band 7 (IMT-E 2600)@3300@156@43211@#ff0000 -105.7    Bad         @#aaaaaa -30       No Coverage @#00a032 -66.6     Very Good   @#ffffff 0@
+10@2022-02-24 13:00:35.190@@Band 3 (DCS 1800)@1423@31@43211@#ff0000 -107.1    Bad         @#aaaaaa -30       No Coverage @#00a032 -68       Very Good   @#ffffff 0@
+10@2022-02-24 13:03:17.440@@Band 7 (IMT-E 2600)@3102@23@43211@#ff0000 -106.7    Bad         @#aaaaaa -30       No Coverage @#00a032 -67.6     Very Good   @#ffffff 0@
+10@2022-02-24 13:03:19.395@@Band 7 (IMT-E 2600)@3102@219@43211@#ff0000 -107.8    Bad         @#aaaaaa -30       No Coverage @#00a032 -68.4     Very Good   @#ffffff 0@
+10@2022-02-24 13:07:02.556@@Band 7 (IMT-E 2600)@3300@370@43211@#fa6400 -102.7    Very Poor   @#aaaaaa -28.6     No Coverage @#00703c -63.8     Excellent   @#ffffff 0@
+10@2022-02-24 13:26:12.405@@Band 7 (IMT-E 2600)@3300@467@43211@#ffff00 -92       Fair        @#aaaaaa -30       No Coverage @#00703c -52.6     Excellent   @#ffffff 0@
+10@2022-02-24 14:00:21.252@@Band 7 (IMT-E 2600)@3102@165@43211@#ffaa00 -98       Poor        @#aaaaaa -30       No Coverage @#00703c -59       Excellent   @#ffffff 0@
+10@2022-02-24 14:02:16.972@@Band 7 (IMT-E 2600)@3102@3@43211@#fa6400 -103.5    Very Poor   @#aaaaaa -30       No Coverage @#00703c -64.6     Excellent   @#ffffff 0@
+10@2022-02-24 14:02:48.653@@Band 7 (IMT-E 2600)@3102@306@43211@#ffaa00 -99       Poor        @#aaaaaa -24.8     No Coverage @#00703c -60.4     Excellent   @#ffffff 0@
+10@2022-02-24 14:02:50.896@@Band 7 (IMT-E 2600)@3102@442@43211@#ffaa00 -99.7     Poor        @#aaaaaa -30       No Coverage @#00703c -60.6     Excellent   @#ffffff 0@
+10@2022-02-24 14:08:58.150@@Band 7 (IMT-E 2600)@3300@100@43211@#dc143c -110.7    Very Bad    @#aaaaaa -30       No Coverage @#00d228 -71.8     Good        @#ffffff 0@
+10@2022-02-24 14:32:35.060@@Band 7 (IMT-E 2600)@3300@142@43211@#fa6400 -101      Very Poor   @#aaaaaa -30       No Coverage @#00703c -62       Excellent   @#ffffff 0@
+10@2022-02-24 15:24:59.909@@Band 1 (IMT 2100)@550@47@43211@#fa6400 -100.3    Very Poor   @#aaaaaa -30       No Coverage @#00703c -62       Excellent   @#ffffff 0@
+10@2022-02-24 15:25:00.435@@Band 1 (IMT 2100)@550@123@43211@#ffaa00 -95.9     Poor        @#aaaaaa -30       No Coverage @#00703c -56.2     Excellent   @#ffffff 0@
+10@2022-02-24 15:25:02.196@@Band 1 (IMT 2100)@550@362@43211@#ffaa00 -98.6     Poor        @#aaaaaa -30       No Coverage @#00703c -58       Excellent   @#ffffff 0@
+10@2022-02-24 15:37:55.383@@Band 7 (IMT-E 2600)@3300@389@43211@#820000 -118.8    Awful       @#aaaaaa -30       No Coverage @#ffff00 -79.6     Fair        @#ffffff 0@
+10@2022-02-24 15:43:25.424@@Band 7 (IMT-E 2600)@3300@308@43211@#dc143c -113.5    Very Bad    @#aaaaaa -30       No Coverage @#00d228 -74.4     Good        @#ffffff 0@
+10@2022-02-24 15:53:28.675@@Band 1 (IMT 2100)@550@285@43211@#fa6400 -101.2    Very Poor   @#aaaaaa -28.6     No Coverage @#00703c -62.8     Excellent   @#ffffff 0@
+10@2022-02-24 15:53:38.246@@Band 1 (IMT 2100)@550@432@43211@#ffaa00 -95.8     Poor        @#aaaaaa -30       No Coverage @#00703c -56.8     Excellent   @#ffffff 0@
+10@2022-02-24 15:53:44.081@@Band 1 (IMT 2100)@550@378@43211@#fa6400 -100.1    Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.2     Excellent   @#ffffff 0@
+10@2022-02-24 15:53:51.483@@Band 1 (IMT 2100)@550@291@43211@#fa6400 -100.9    Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.6     Excellent   @#ffffff 0@
+10@2022-02-24 16:05:42.094@@Band 7 (IMT-E 2600)@3300@79@43211@#fa6400 -101.4    Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.4     Excellent   @#ffffff 0@
+10@2022-02-24 16:14:05.536@@Band 7 (IMT-E 2600)@3300@382@43211@#fa6400 -102.6    Very Poor   @#aaaaaa -30       No Coverage @#00703c -64       Excellent   @#ffffff 0@
+10@2022-02-24 16:17:19.321@@Band 7 (IMT-E 2600)@3300@502@43211@#fa6400 -102.8    Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.6     Excellent   @#ffffff 0@
+10@2022-02-24 16:21:09.849@@Band 7 (IMT-E 2600)@3300@235@43211@#fa6400 -102.1    Very Poor   @#aaaaaa -30       No Coverage @#00703c -63       Excellent   @#ffffff 0@
+10@2022-02-24 17:06:35.570@@Band 7 (IMT-E 2600)@3300@237@43211@#ffaa00 -97.1     Poor        @#aaaaaa -30       No Coverage @#00703c -57.8     Excellent   @#ffffff 0@
+10@2022-02-24 17:08:20.505@@Band 7 (IMT-E 2600)@3300@162@43211@#ffff00 -92       Fair        @#aaaaaa -30       No Coverage @#00703c -52.6     Excellent   @#ffffff 0@
+10@2022-02-24 17:20:41.281@@Band 7 (IMT-E 2600)@3300@334@43211@#fa6400 -104.9    Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.6     Very Good   @#ffffff 0@
+10@2022-02-24 17:21:16.777@@Band 7 (IMT-E 2600)@3300@353@43211@#fa6400 -102.7    Very Poor   @#aaaaaa -30       No Coverage @#00703c -63.4     Excellent   @#ffffff 0@
+10@2022-02-24 17:26:50.841@@Band 7 (IMT-E 2600)@3300@322@43211@#ffff00 -93.2     Fair        @#aaaaaa -30       No Coverage @#00703c -53.8     Excellent   @#ffffff 0@
+10@2022-02-24 17:35:08.146@@Band 7 (IMT-E 2600)@3102@328@43211@#ffaa00 -99.2     Poor        @#aaaaaa -30       No Coverage @#00703c -60.4     Excellent   @#ffffff 0@
+10@2022-02-24 17:35:08.359@@Band 7 (IMT-E 2600)@3102@24@43211@#ffaa00 -98.5     Poor        @#aaaaaa -30       No Coverage @#00703c -59.4     Excellent   @#ffffff 0@
+10@2022-02-24 17:35:31.582@@Band 7 (IMT-E 2600)@3102@459@43211@#ffaa00 -97.9     Poor        @#aaaaaa -30       No Coverage @#00703c -58.8     Excellent   @#ffffff 0@
+10@2022-02-24 17:36:18.968@@Band 7 (IMT-E 2600)@3102@205@43211@#dc143c -110.6    Very Bad    @#aaaaaa -30       No Coverage @#00d228 -71.4     Good        @#ffffff 0@
+10@2022-02-24 17:36:42.790@@Band 7 (IMT-E 2600)@3102@85@43211@#ff0000 -109      Bad         @#aaaaaa -30       No Coverage @#00a032 -70       Very Good   @#ffffff 0@
+10@2022-02-24 17:36:53.805@@Band 7 (IMT-E 2600)@3102@6@43211@#ff0000 -109.1    Bad         @#aaaaaa -30       No Coverage @#00a032 -69.8     Very Good   @#ffffff 0@
+10@2022-02-24 17:36:58.895@@Band 7 (IMT-E 2600)@3102@287@43211@#dc143c -110.1    Very Bad    @#aaaaaa -30       No Coverage @#00d228 -71.2     Good        @#ffffff 0@
+10@2022-02-24 17:36:59.417@@Band 7 (IMT-E 2600)@3102@473@43211@#ff0000 -109.7    Bad         @#aaaaaa -30       No Coverage @#00d228 -71.2     Good        @#ffffff 0@
+10@2022-02-24 17:36:59.755@@Band 7 (IMT-E 2600)@3102@104@43211@#dc143c -111.1    Very Bad    @#aaaaaa -30       No Coverage @#00d228 -72.8     Good        @#ffffff 0@
+10@2022-02-24 17:37:48.086@@Band 7 (IMT-E 2600)@3102@270@43211@#ffaa00 -96.6     Poor        @#aaaaaa -30       No Coverage @#00703c -56.8     Excellent   @#ffffff 0@
+10@2022-02-24 17:46:07.375@@Band 7 (IMT-E 2600)@3300@424@43211@#ff0000 -105.2    Bad         @#aaaaaa -30       No Coverage @#00a032 -66.6     Very Good   @#ffffff 0@
+10@2022-02-24 17:48:06.179@@Band 7 (IMT-E 2600)@3300@358@43211@#fa6400 -104.6    Very Poor   @#aaaaaa -30       No Coverage @#00703c -65       Excellent   @#ffffff 0@
+10@2022-02-24 17:49:16.378@@Band 7 (IMT-E 2600)@3102@94@43211@#ff0000 -107.9    Bad         @#aaaaaa -30       No Coverage @#00a032 -68.8     Very Good   @#ffffff 0@
+10@2022-02-24 17:49:24.270@@Band 7 (IMT-E 2600)@3102@427@43211@#ff0000 -108.8    Bad         @#aaaaaa -30       No Coverage @#00a032 -69.6     Very Good   @#ffffff 0@
+10@2022-02-24 17:50:10.356@@Band 7 (IMT-E 2600)@3102@352@43211@#fa6400 -101.2    Very Poor   @#aaaaaa -30       No Coverage @#00703c -62.4     Excellent   @#ffffff 0@
+10@2022-02-24 17:51:03.398@@Band 7 (IMT-E 2600)@3102@421@43211@#ffaa00 -99.7     Poor        @#aaaaaa -30       No Coverage @#00703c -60.6     Excellent   @#ffffff 0@
+10@2022-02-24 17:51:29.671@@Band 7 (IMT-E 2600)@3102@292@43211@#ffaa00 -98.2     Poor        @#aaaaaa -30       No Coverage @#00703c -58.6     Excellent   @#ffffff 0@
+10@2022-02-24 17:52:16.138@@Band 7 (IMT-E 2600)@3102@87@43211@#ffaa00 -96.6     Poor        @#aaaaaa -30       No Coverage @#00703c -57.4     Excellent   @#ffffff 0@
+10@2022-02-24 17:52:24.668@@Band 7 (IMT-E 2600)@3102@365@43211@#ffff00 -91.8     Fair        @#aaaaaa -30       No Coverage @#00703c -52.8     Excellent   @#ffffff 0@
+10@2022-02-24 17:52:41.789@@Band 7 (IMT-E 2600)@3102@186@43211@#ffff00 -92       Fair        @#aaaaaa -30       No Coverage @#00703c -53.2     Excellent   @#ffffff 0@
+10@2022-02-24 17:52:44.388@@Band 7 (IMT-E 2600)@3102@111@43211@#00d228 -89.3     Good        @#aaaaaa -30       No Coverage @#00703c -50.6     Excellent   @#ffffff 0@
+10@2022-02-24 17:53:04.109@@Band 7 (IMT-E 2600)@3102@499@43211@#ffaa00 -96       Poor        @#aaaaaa -30       No Coverage @#00703c -57.6     Excellent   @#ffffff 0@
+10@2022-02-24 17:53:08.044@@Band 7 (IMT-E 2600)@3102@181@43211@#ffaa00 -95.2     Poor        @#aaaaaa -30       No Coverage @#00703c -56.2     Excellent   @#ffffff 0@
+10@2022-02-24 17:53:45.500@@Band 7 (IMT-E 2600)@3102@18@43211@#ffff00 -92.1     Fair        @#aaaaaa -30       No Coverage @#00703c -53       Excellent   @#ffffff 0@
+10@2022-02-24 17:53:45.654@@Band 7 (IMT-E 2600)@3102@112@43211@#ffff00 -90.6     Fair        @#aaaaaa -30       No Coverage @#00703c -52       Excellent   @#ffffff 0@
+10@2022-02-24 17:53:52.281@@Band 7 (IMT-E 2600)@3102@291@43211@#00d228 -89.3     Good        @#aaaaaa -30       No Coverage @#00703c -49.8     Excellent   @#ffffff 0@
+10@2022-02-24 17:54:07.003@@Band 7 (IMT-E 2600)@3102@408@43211@#00d228 -85.1     Good        @#aaaaaa -30       No Coverage @#00703c -46.2     Excellent   @#ffffff 0@
+10@2022-02-24 17:54:11.773@@Band 7 (IMT-E 2600)@3102@79@43211@#00d228 -89       Good        @#aaaaaa -30       No Coverage @#00703c -49.4     Excellent   @#ffffff 0@
+10@2022-02-24 17:54:33.891@@Band 7 (IMT-E 2600)@3102@251@43211@#00d228 -88.9     Good        @#aaaaaa -30       No Coverage @#00703c -49.4     Excellent   @#ffffff 0@
+10@2022-02-24 17:54:56.552@@Band 7 (IMT-E 2600)@3102@298@43211@#ffff00 -92.8     Fair        @#aaaaaa -30       No Coverage @#00703c -54.2     Excellent   @#ffffff 0@
+10@2022-02-24 17:55:15.280@@Band 7 (IMT-E 2600)@3102@500@43211@#ffff00 -91.4     Fair        @#aaaaaa -30       No Coverage @#00703c -53.4     Excellent   @#ffffff 0@
+8@2022-02-24 12:58:53.176@@Band 3 (DCS 1800)@1423@177@43211@#fa6400 -100.37   Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.37    Excellent   @#ffffff 0@
+8@2022-02-24 15:43:53.723@@Band 3 (DCS 1800)@1423@476@43211@#dc143c -111.37   Very Bad    @#aaaaaa -22.12    No Coverage @#ffff00 -79       Fair        @#ffffff 0@
+7@2022-02-24 14:03:21.103@@Band 3 (DCS 1800)@1423@299@43211@#ffff00 -92.57    Fair        @#aaaaaa -30       No Coverage @#00703c -53.57    Excellent   @#ffffff 0@
+7@2022-02-24 14:07:54.589@@Band 3 (DCS 1800)@1423@136@43211@#ffaa00 -96.71    Poor        @#dc143c -19.85    Very Bad    @#00a032 -66.57    Very Good   @#ffffff 0@
+7@2022-02-24 14:21:36.002@@Band 1 (IMT 2100)@550@104@43211@#fa6400 -104.85   Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.71    Very Good   @#ffffff 0@
+6@2022-02-24 11:41:36.242@@Band 1 (IMT 2100)@550@496@43211@#fa6400 -104.83   Very Poor   @#aaaaaa -22.16    No Coverage @#00d228 -72.5     Good        @#ffffff 0@
+6@2022-02-24 12:44:55.806@@Band 1 (IMT 2100)@550@449@43211@#fa6400 -103.5    Very Poor   @#aaaaaa -25       No Coverage @#00a032 -69.16    Very Good   @#ffffff 0@
+6@2022-02-24 12:50:58.055@@Band 3 (DCS 1800)@1423@135@43211@#00a032 -82.5     Very Good   @#aaaaaa -24.66    No Coverage @#00703c -47.16    Excellent   @#ffffff 0@
+6@2022-02-24 12:59:45.159@@Band 3 (DCS 1800)@1423@347@43211@#ffaa00 -96.16    Poor        @#aaaaaa -30       No Coverage @#00703c -56.8     Excellent   @#ffffff 0@
+6@2022-02-24 14:01:09.374@@Band 3 (DCS 1800)@1423@21@43211@#ffff00 -93.16    Fair        @#aaaaaa -30       No Coverage @#00703c -54.16    Excellent   @#ffffff 0@
+6@2022-02-24 14:07:55.283@@Band 1 (IMT 2100)@550@137@43211@#ff0000 -109.33   Bad         @#aaaaaa -23.5     No Coverage @#00d228 -75       Good        @#ffffff 0@
+6@2022-02-24 14:20:58.950@@Band 3 (DCS 1800)@1423@104@43211@#fa6400 -100.83   Very Poor   @#aaaaaa -26.16    No Coverage @#00703c -64       Excellent   @#ffffff 0@
+6@2022-02-24 14:30:20.030@@Band 3 (DCS 1800)@1423@380@43211@#fa6400 -100.5    Very Poor   @#aaaaaa -22.83    No Coverage @#00a032 -67.83    Very Good   @#ffffff 0@
+6@2022-02-24 15:21:07.841@@Band 1 (IMT 2100)@550@87@43211@#ff0000 -108.5    Bad         @#aaaaaa -26.83    No Coverage @#00d228 -72.5     Good        @#ffffff 0@
+6@2022-02-24 15:37:43.067@@Band 3 (DCS 1800)@1423@332@43211@#ff0000 -109.83   Bad         @#aaaaaa -23       No Coverage @#ffff00 -76.66    Fair        @#ffffff 0@
+6@2022-02-24 15:43:53.554@@Band 3 (DCS 1800)@1423@28@43211@#ff0000 -106      Bad         @#820000 -21       Awful       @#ffff00 -75.5     Fair        @#ffffff 0@
+6@2022-02-24 17:10:46.675@@Band 1 (IMT 2100)@550@93@43211@#fa6400 -102      Very Poor   @#aaaaaa -23.5     No Coverage @#00a032 -65.5     Very Good   @#ffffff 0@
+6@2022-02-24 17:17:09.290@@Band 1 (IMT 2100)@550@215@43211@#fa6400 -101.66   Very Poor   @#aaaaaa -23       No Coverage @#00a032 -69       Very Good   @#ffffff 0@
+5@2022-02-24 11:07:25.262@@Band 7 (IMT-E 2600)@3102@145@43211@#ffff00 -94.2     Fair        @#aaaaaa -30       No Coverage @#00703c -55.2     Excellent   @#ffffff 0@
+5@2022-02-24 11:53:07.695@@Band 3 (DCS 1800)@1423@110@43211@#ffff00 -92.8     Fair        @#aaaaaa -28.2     No Coverage @#00703c -54.8     Excellent   @#ffffff 0@
+5@2022-02-24 11:57:24.135@@Band 3 (DCS 1800)@1423@234@43211@#ffaa00 -95.2     Poor        @#aaaaaa -30       No Coverage @#00703c -56.2     Excellent   @#ffffff 0@
+5@2022-02-24 12:58:42.159@@Band 3 (DCS 1800)@1423@261@43211@#fa6400 -100.6    Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.6     Excellent   @#ffffff 0@
+5@2022-02-24 12:58:42.710@@Band 3 (DCS 1800)@1423@499@43211@#fa6400 -103      Very Poor   @#aaaaaa -30       No Coverage @#00703c -64       Excellent   @#ffffff 0@
+5@2022-02-24 12:59:51.318@@Band 3 (DCS 1800)@1423@287@43211@#ffaa00 -95.6     Poor        @#aaaaaa -30       No Coverage @#00703c -56.6     Excellent   @#ffffff 0@
+5@2022-02-24 13:02:29.755@@Band 3 (DCS 1800)@1423@274@43211@#fa6400 -101.6    Very Poor   @#aaaaaa -28.4     No Coverage @#00703c -63.8     Excellent   @#ffffff 0@
+5@2022-02-24 13:04:21.822@@Band 3 (DCS 1800)@1423@434@43211@#ffff00 -94.4     Fair        @#aaaaaa -30       No Coverage @#00703c -55.4     Excellent   @#ffffff 0@
+5@2022-02-24 14:01:16.420@@Band 3 (DCS 1800)@1423@467@43211@#ffff00 -93.4     Fair        @#aaaaaa -30       No Coverage @#00703c -54.4     Excellent   @#ffffff 0@
+5@2022-02-24 14:03:11.268@@Band 3 (DCS 1800)@1423@391@43211@#ff0000 -106.6    Bad         @#aaaaaa -30       No Coverage @#00a032 -68       Very Good   @#ffffff 0@
+5@2022-02-24 14:03:19.273@@Band 3 (DCS 1800)@1423@414@43211@#ffff00 -94.8     Fair        @#aaaaaa -30       No Coverage @#00703c -55.6     Excellent   @#ffffff 0@
+5@2022-02-24 14:07:46.767@@Band 1 (IMT 2100)@550@255@43211@#ff0000 -109.6    Bad         @#820000 -22       Awful       @#ffff00 -77       Fair        @#ffffff 0@
+5@2022-02-24 15:25:38.261@@Band 1 (IMT 2100)@550@226@43211@#ff0000 -106      Bad         @#aaaaaa -27.6     No Coverage @#00a032 -69.2     Very Good   @#ffffff 0@
+5@2022-02-24 16:26:22.703@@Band 3 (DCS 1800)@1423@102@43211@#fa6400 -100.4    Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.2     Excellent   @#ffffff 0@
+5@2022-02-24 17:03:37.767@@Band 1 (IMT 2100)@550@330@43211@#fa6400 -103.2    Very Poor   @#820000 -21.8     Awful       @#00d228 -71.2     Good        @#ffffff 0@
+5@2022-02-24 17:32:07.498@@Band 3 (DCS 1800)@1423@423@43211@#ffaa00 -98.6     Poor        @#aaaaaa -28.2     No Coverage @#00703c -61.2     Excellent   @#ffffff 0@
+5@2022-02-24 17:32:34.044@@Band 3 (DCS 1800)@1423@259@43211@#ffaa00 -97.8     Poor        @#aaaaaa -30       No Coverage @#00703c -58.8     Excellent   @#ffffff 0@
+5@2022-02-24 17:32:51.381@@Band 3 (DCS 1800)@1423@291@43211@#ffff00 -92.4     Fair        @#aaaaaa -30       No Coverage @#00703c -53.4     Excellent   @#ffffff 0@
+5@2022-02-24 17:34:13.683@@Band 3 (DCS 1800)@1423@211@43211@#00d228 -86       Good        @#aaaaaa -28.4     No Coverage @#00703c -48.4     Excellent   @#ffffff 0@
+5@2022-02-24 17:37:56.527@@Band 3 (DCS 1800)@1423@275@43211@#ffff00 -94.8     Fair        @#aaaaaa -30       No Coverage @#00703c -55.6     Excellent   @#ffffff 0@
+5@2022-02-24 17:38:56.424@@Band 3 (DCS 1800)@1423@442@43211@#fa6400 -104.8    Very Poor   @#aaaaaa -30       No Coverage @#00a032 -65.8     Very Good   @#ffffff 0@
+5@2022-02-24 17:40:45.149@@Band 3 (DCS 1800)@1423@73@43211@#fa6400 -100.6    Very Poor   @#aaaaaa -30       No Coverage @#00703c -61.5     Excellent   @#ffffff 0@
+5@2022-02-24 17:40:54.452@@Band 3 (DCS 1800)@1423@170@43211@#ffff00 -94       Fair        @#aaaaaa -30       No Coverage @#00703c -55       Excellent   @#ffffff 0@
+5@2022-02-24 17:43:18.122@@Band 3 (DCS 1800)@1423@372@43211@#ffff00 -92.2     Fair        @#aaaaaa -22.4     No Coverage @#00703c -59.8     Excellent   @#ffffff 0@
+5@2022-02-24 17:48:42.663@@Band 3 (DCS 1800)@1423@311@43211@#fa6400 -101.2    Very Poor   @#aaaaaa -28.8     No Coverage @#00703c -63.4     Excellent   @#ffffff 0@
+4@2022-02-24 13:00:29.598@@Band 3 (DCS 1800)@1423@384@43211@#ff0000 -105.25   Bad         @#aaaaaa -30       No Coverage @#00a032 -66.5     Very Good   @#ffffff 0@
+4@2022-02-24 17:32:01.096@@Band 3 (DCS 1800)@1423@130@43211@#ffaa00 -97       Poor        @#aaaaaa -30       No Coverage @#00703c -58.33    Excellent   @#ffffff 0@
+4@2022-02-24 15:23:36.989@@Band 3 (DCS 1800)@1423@420@43211@#fa6400 -102.5    Very Poor   @#aaaaaa -22.5     No Coverage @#00a032 -69.25    Very Good   @#ffffff 0@
+4@2022-02-24 17:38:28.433@@Band 3 (DCS 1800)@1423@399@43211@#ffaa00 -97.75    Poor        @#aaaaaa -30       No Coverage @#00703c -58.75    Excellent   @#ffffff 0@
+3@2022-02-24 14:11:21.987@@Band 1 (IMT 2100)@550@207@43211@#fa6400 -101.33   Very Poor   @#820000 -21       Awful       @#00d228 -70.66    Good        @#ffffff 0@
+3@2022-02-24 15:33:41.437@@Band 1 (IMT 2100)@550@117@43211@#dc143c -115      Very Bad    @#820000 -21       Awful       @#ffff00 -81.33    Fair        @#ffffff 0@
+3@2022-02-24 17:04:00.159@@Band 1 (IMT 2100)@550@212@43211@#ff0000 -107      Bad         @#dc143c -20       Very Bad    @#00d228 -74.33    Good        @#ffffff 0@
+3@2022-02-24 17:31:57.141@@Band 3 (DCS 1800)@1423@221@43211@#fa6400 -101.66   Very Poor   @#aaaaaa -29       No Coverage @#00703c -63.5     Excellent   @#ffffff 0@
+2@2022-02-24 13:00:31.808@@Band 3 (DCS 1800)@1423@320@43211@#ff0000 -108      Bad         @#aaaaaa -30       No Coverage @#00a032 -69       Very Good   @#ffffff 0@
+2@2022-02-24 14:03:15.202@@Band 3 (DCS 1800)@1423@230@43211@#ffaa00 -97       Poor        @#aaaaaa -26       No Coverage @#00703c -61       Excellent   @#ffffff 0@
+2@2022-02-24 14:44:28.564@@Band 3 (DCS 1800)@1423@338@43211@#ffaa00 -95.5     Poor        @#820000 -20.5     Awful       @#00a032 -66       Very Good   @#ffffff 0@
+1@2022-02-24 11:21:53.531@@Band 3 (DCS 1800)@1423@362@43211@#ffaa00 -98       Poor        @#aaaaaa -30       No Coverage @#00703c -59       Excellent   @#ffffff 0@
+1@2022-02-24 14:03:13.098@@Band 3 (DCS 1800)@1423@428@43211@#fa6400 -103      Very Poor   @#aaaaaa -30       No Coverage @#00703c -64       Excellent   @#ffffff 0@
+1@2022-02-24 14:03:15.168@@Band 3 (DCS 1800)@1423@240@43211@#fa6400 -101      Very Poor   @#aaaaaa -30       No Coverage @#00703c -62       Excellent   @#ffffff 0@
+1@2022-02-24 16:26:15.124@@Band 3 (DCS 1800)@1423@152@43211@#ffaa00 -98       Poor        @#aaaaaa -30       No Coverage @#00703c -59       Excellent   @#ffffff 0@
+1@2022-02-24 17:38:45.057@@Band 3 (DCS 1800)@1423@5@43211@#fa6400 -103      Very Poor   @#aaaaaa -30       No Coverage @#00703c -64       Excellent   @#ffffff 0@
+1@2022-02-24 17:39:21.104@@Band 3 (DCS 1800)@1423@365@43211@#ff0000 -108      Bad         @#aaaaaa -30       No Coverage @#00a032 -69       Very Good   @#ffffff 0@
+1@2022-02-24 17:39:45.119@@Band 3 (DCS 1800)@1423@330@43211@#fa6400 -105      Very Poor   @#aaaaaa -30       No Coverage @#00a032 -66       Very Good   @#ffffff 0@

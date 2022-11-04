@@ -1,5 +1,5 @@
 from django import forms
-from .models import Poit_Info
+from .models import Point_Info
 import datetime
 
 
@@ -7,13 +7,13 @@ class PointForm(forms.ModelForm):
     # time = forms.TimeField()
     class Meta:
         # specify model to be used
-        model = Poit_Info
+        model = Point_Info
         
         # specify fields to be used
         fields = [
-            "Accuracy",
+            
             "latitude",
             "longitude",
-            "Code",
-            "Power"]
+            "code",
+            "power"]
             

@@ -1,0 +1,13 @@
+%===========================
+% dl_throughput
+\IfFileExists{./pic/Map-QoE--dl_throughput.png}{%
+\vfill
+\begin{figure}[H]\centering
+\begin{tikzpicture}
+\node [](P){\includegraphics[width=\MapScale\linewidth]{./pic/Map-QoE--dl_throughput}};
+\node at(P.south west)[above right,shape=rectangle,fill=white]{\input{./legend/Map-QoE--dl_throughput}};
+\end{tikzpicture}
+\caption{Downlink throughput on map (QoE)}
+\end{figure}
+\vfill
+}{}

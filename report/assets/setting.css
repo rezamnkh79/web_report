@@ -1,0 +1,13 @@
+/* A simple, css only, (some-what) responsive menu */
+
+@import "menu.css";
+  
+
+#setting{
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    left: 40%;
+    top: 30%;
+    background-color: white;
+}

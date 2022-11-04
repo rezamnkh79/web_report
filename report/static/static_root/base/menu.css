@@ -1,0 +1,278 @@
+body { 
+  background: #ccc;
+  font-family: helvetica, arial, serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: center;
+}
+ 
+.wrap {
+  display: inline-block;
+  
+  margin-top: 40px;
+ 
+  
+}
+
+/* a little "umph" */
+.decor {
+ 
+ 
+  padding: 2px;
+  display: block;
+  width: 95%;
+  
+}
+
+
+
+ul.primary li:last-child a {
+  border-right: none;
+}
+
+ul.primary li a:hover {
+  
+  color: #000;
+}
+
+/* subs */
+ul.sub {
+  position: absolute;
+  z-index: 200;
+  box-shadow: 2px 2px 0 #BEBEBE;
+  width: 35%;
+  display:none;
+}
+ul.sub1 {
+  position: absolute;
+  z-index: 200;
+  box-shadow: 2px 2px 0 #BEBEBE;
+  width: 5%;
+  display:none;
+}
+
+#nav {
+list-style:none inside;
+margin:0;
+padding:0;
+text-align:center;
+}
+#nav li {
+display:block;
+position:relative;
+float:left;
+position: relative;
+  background: #2B2B2B;
+  background-image: -webkit-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
+  background-image: -moz-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
+  background-image: -o-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
+  background-image: linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px #ccc;
+  -webkit-box-shadow: 2px 2px 3px #ccc;
+  -moz-box-shadow: 2px 2px 3px #ccc;
+  box-shadow: 2px 2px 3px #ccc;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+#nav li a {
+display:block;
+padding:0;
+text-decoration:none;
+height: 50px;
+left: 20px;
+width:400px; /* this is the width of the menu items */
+line-height:35px; /* this is the hieght of the menu items */
+color:#ffffff; /* list item font color */
+}
+#nav li li a {font-size:80%;} /* smaller font size for sub menu items */
+#nav li:hover {background:#BEBEBE;} /* highlights current hovered list item and the parent list items when hovering over sub menues */
+#nav ul {
+position:absolute;
+padding:0;
+left:0;
+display:none; /* hides sublists */
+}
+#nav li:hover ul ul {display:none;} /* hides sub-sublists */
+#nav li:hover ul {display:block;} /* shows sublist on hover */
+#nav li li:hover ul ul {display:none;} /* hides sub-sublists */
+#nav li li:hover ul {display:block;} /* shows sublist on hover */
+#nav li li:hover ul {
+display:block; /* shows sub-sublist on hover */
+margin-left:200px; /* this should be the same width as the parent list item */
+margin-top:-35px; /* aligns top of sub menu with top of list item */
+/* position: relative; */
+background:#c51d1d;
+}
+
+
+#selector{
+  position: absolute;
+  left: 500px;
+
+  top: 200px;
+  
+}
+
+h1 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 60px;
+  line-height: 70px;
+  font-family: 'roboto', sans-serif;
+}
+#container {
+  margin: 0 auto;
+  max-width: 890px;
+}
+p { text-align: center; }
+ .toggle, [id^=drop] {
+ display: none;
+}
+nav {
+  margin: 0;
+  padding: 0;
+  background-color: #254441;
+}
+
+
+
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+nav ul {
+  float: left;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li {
+  margin: 0px;
+  display: inline-block;
+  float: left;
+  background-color: #254441;
+}
+
+nav a {
+  display: block;
+  padding: 0 20px;
+  color: #FFF;
+  font-size: 20px;
+  line-height: 60px;
+  text-decoration: none;
+}
+
+nav ul li ul li:hover { background: #000000; }
+
+nav a:hover { background-color: #000000; }
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+}
+
+nav ul li:hover > ul { display: inherit; }
+
+nav ul ul li {
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+nav ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 170px;
+}
+
+li > a:after { content: ' +'; }
+
+li > a:only-child:after { content: ''; }
+
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width : 768px) {
+
+#logo {
+  display: block;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  float: none;
+}
+
+nav { margin: 0; }
+
+.toggle + a,
+ .menu { display: none; }
+
+.toggle {
+  display: block;
+  background-color: #254441;
+  padding: 0 20px;
+  color: #FFF;
+  font-size: 22px;
+  font-weight:bold;
+  line-height: 60px;
+  text-decoration: none;
+  border: none;
+}
+
+.toggle:hover { background-color: #000000; }
+
+[id^=drop]:checked + ul { display: block; }
+
+nav ul li {
+  display: block;
+  width: 100%;
+}
+
+nav ul ul .toggle,
+ nav ul ul a { padding: 0 40px; }
+
+nav ul ul ul a { padding: 0 80px; }
+
+nav a:hover,
+ nav ul ul ul a { background-color: #000000; }
+
+nav ul li ul li .toggle,
+ nav ul ul a { background-color: #212121; }
+
+nav ul ul {
+  float: none;
+  position: static;
+  color: #ffffff;
+}
+
+nav ul ul li:hover > ul,
+nav ul li:hover > ul { display: none; }
+
+nav ul ul li {
+  display: block;
+  width: 100%;
+}
+
+nav ul ul ul li { position: static;
+
+}
+}
+
+@media all and (max-width : 330px) {
+
+nav ul li {
+  display: block;
+  width: 94%;
+}
+
+}

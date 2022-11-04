@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+<title>Web Report</title>
+<link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+<link rel="stylesheet" href="{% static 'circle.css' %}"/>
+<script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<meta name="viewport" content="width=device-width">
+
+
+
+</head>
+<style type="text/css">
+    
+</style>
+<body>
+    {% include "base/menu.html" %}
+        <script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+        
+       
+        <div id = "circle">
+            
+            <div id="chart5" class="ct-chart ct-major-tenth" style="position:absolute;width:500px"></div>
+        </div>
+        <div>
+            <table id = "ranges"  style = "">
+
+                <tr>
+                <td >Color</td>
+                <td>Name</td>
+                <td>Tech</td>
+                <td>Range </td>
+                
+                </tr>
+                {% for color in ranges %}
+                            
+                            <tr>
+                                <td bgcolor ="{{color.color}}" ></td>
+                                <td> {{ color.name }}</td>
+                                <td> {{ color.tech }}</td>
+                                <td>{{color.rang}}</td>
+                            </tr>
+                {% endfor %}
+                        
+           </table>
+        </div>
+
+       <script >
+        
+              
+    </script>
+
+    <script>  
+        {% comment %} console.log(G4) {% endcomment %}
+        var options = {
+            width: '400px',
+            height: '600px'
+          };
+        var data1 = {
+            {% comment %} labels: ['Very Good', 'Good', 'Fair','Poor','Bad','Very Bad','Awful','No Coverage'], {% endcomment %}
+            series: ["{{Very_Good}}","{{Good}}","{{Fair}}","{{Poor}}","{{Bad}}","{{Very_Bad}}",
+            "{{Awful}}","{{No_Coverage}}"]
+          };
+          new Chartist.Pie('#chart5', data1,options);
+    </script>
+</body>
+</html>

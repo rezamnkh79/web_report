@@ -1,0 +1,11 @@
+Color@Name@Tech@Range
+#00703c @Excellent@4G@-65≤X
+#00a032 @Very Good@4G@-70≤X<-65
+#00d228 @Good@4G@-75≤X<-70
+#ffff00 @Fair@4G@-85≤X<-75
+#ffaa00 @Poor@4G@-95≤X<-85
+#fa6400 @Very Poor@4G@-100≤X<-95
+#ff0000 @Bad@4G@-105≤X<-100
+#dc143c @Very Bad@4G@-110≤X<-105
+#820000 @Awful@4G@-115≤X<-110
+#aaaaaa @No Coverage@4G@X<-115

@@ -1,0 +1,19 @@
+/* A simple, css only, (some-what) responsive menu */
+
+@import "menu.css";
+
+#line{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 20%;
+    top: 30%;
+    background-color: white;
+}
+#myChart{
+    position:absolute;
+    width:50%;
+    height:50%;
+    top: 5%;
+    background-color: #fff;
+}

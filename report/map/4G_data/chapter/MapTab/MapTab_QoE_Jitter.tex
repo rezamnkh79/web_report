@@ -1,0 +1,13 @@
+%===========================
+% jitter
+\IfFileExists{./pic/Map-QoE--jitter.png}{%
+\vfill
+\begin{figure}[H]\centering
+\begin{tikzpicture}
+\node[](P){\includegraphics[width=\MapScale\linewidth]{./pic/Map-QoE--jitter}};
+\node at(P.south west)[above right,shape=rectangle,fill=white]{\input{./legend/Map-QoE--jitter}};
+\end{tikzpicture}
+\caption{UE Jitter on map (QoE)}
+\end{figure}
+\vfill
+}{}

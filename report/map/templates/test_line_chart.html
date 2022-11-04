@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+<title>Leaflet sample</title>
+<link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+<link rel="stylesheet" href="{% static 'line.css' %}"/>
+<script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<meta name="viewport" content="width=device-width">
+</head>
+<style type="text/css">
+    
+</style>
+<body>
+    {% include "base/menu.html" %}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+        
+        <div id = "line">
+            <canvas id="speedChart" width="600" height="330"></canvas>
+        </div>
+        {% comment %} <canvas id="myChart" ></canvas> {% endcomment %}
+
+
+
+       <script >
+        var speedCanvas = document.getElementById("speedChart");
+
+        Chart.defaults.global.defaultFontFamily = "Lato";
+        Chart.defaults.global.defaultFontSize = 18;
+
+        var dataFirst = {
+            label: "Car A - Speed (mph)",
+            data: [0, 59, 75, 20, 20, 55, 40],
+            lineTension: 0,
+            fill: false,
+            borderColor: 'red'
+        };
+
+        var dataSecond = {
+            label: "Car B - Speed (mph)",
+            data: [20, 15, 60, 60, 65, 30, 70],
+            lineTension: 0,
+            fill: false,
+        borderColor: 'blue'
+        };
+
+        var speedData = {
+        labels: ["0s", "10s", "20s", "30s", "40s", "50s", "60s"],
+        datasets: [dataFirst, dataSecond]
+        };
+
+        var chartOptions = {
+        legend: {
+            display: true,
+            position: 'top',
+            labels: {
+            boxWidth: 80,
+            fontColor: 'black'
+            }
+        }
+        };
+
+        var lineChart = new Chart(speedCanvas, {
+        type: 'line',
+        data: speedData,
+        options: chartOptions
+        });    
+    </script>
+
+    <script>  
+    
+
+    </script>
+</body>
+</html>

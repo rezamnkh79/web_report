@@ -1,0 +1,13 @@
+%===========================
+% multimedia_services
+\IfFileExists{./pic/Map-QoE--multimedia_services.png}{%
+\vfill
+\begin{figure}[H]\centering
+\begin{tikzpicture}
+\node [](P){\includegraphics[width=\MapScale\linewidth]{./pic/Map-QoE--multimedia_services}};
+\node at(P.south west)[above right,shape=rectangle,fill=white]{\input{./legend/Map-QoE--multimedia_services}};
+\end{tikzpicture}
+\caption{Multimedia Services on map (QoE)}
+\end{figure}
+\vfill
+}{}

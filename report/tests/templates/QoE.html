@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+<title>Leaflet sample</title>
+<link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+<link rel="stylesheet" href="{% static 'RDRP.css' %}"/>
+<script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width">
+</head>
+<style type="text/css">
+    
+  </style>
+<body>
+  
+   {% include "base/menu.html" %}
+    <div id = "map" style = "" ></div>
+    
+    <p id="demo">
+        
+    </p>
+    <button onclick = "myFunction()" id = "mode" style="font-size:34px"> <i class="fa fa-moon-o"></i></button>
+    <p id="demo1">
+        
+    </p>
+  
+    <h4 id = "title-info"  >Color Information</h4>
+    <table id = "color_info"  style = "">
+
+       <tr>
+        <td >Color</td>
+        <td>Name</td>
+        <td>Count</td>
+        <td>Distance </td>
+        <td>Distribution </td>
+    </tr>
+       {% for color in info %}
+                    
+                     <tr>
+                        <td bgcolor ="{{color.color_range.color}}" ></td>
+                        <td> {{ color.name }}</td>
+                        <td> {{ color.count }}</td>
+                        <td>{{ color.distance }} </td>
+                        <td>{{ color.distribution }} </td>
+                    </tr>
+        {% endfor %}
+                
+      </table>
+
+      
+      <h4 id = "title-range"  >Ranges</h4>
+     
+      <table id = "ranges"  style = "">
+
+            <tr>
+            <td >Color</td>
+            <td>Name</td>
+            <td>Tech</td>
+            <td>Range </td>
+            
+            </tr>
+            {% for color in info %}
+                        {% if color.name != "Null" and color.name != "Total" %}
+                        
+                        <tr>
+                            <td bgcolor ="{{color.color_range.color}}" ></td>
+                            <td> {{ color.name }}</td>
+                            <td> {{ color.color_range.tech }}</td>
+                            {% if color.color_range.min == -1000 %}
+
+                                <td>X<span>&#60;</span> {{color.color_range.max}} </td>
+                        
+                            {% elif color.color_range.max == 1000%}
+                        
+                                <td>{{ color.color_range.min }} ≤ X </td>
+
+                            {% else %}
+                                
+                                <td>{{ color.color_range.min }} ≤  X <span>&#60;</span> {{color.color_range.max}} </td>
+                            {% endif %}
+                        </tr>
+
+                        {% endif %}
+                        
+                        
+            {% endfor %}
+                    
+       </table>
+
+       <h4>{{.}}</h4>
+       {% comment %} //static Info  {% endcomment %}
+       <table id = "static"  style = "">
+
+        <tr>
+        <td >Count</td>
+        <td>Mean</td>
+        <td>Max</td>
+        <td>Min</td>
+        <td>Median</td>
+        <td>Mode</td>
+        <td>Std</td>
+        <td>Variance</td>
+        <td>CI[95%]</td>   
+            
+        </tr>
+            {% for data in statics %}
+                        
+                <tr>
+                  
+                    <td> {{ data.count }}</td>
+                    <td> {{ data.mean }}</td>
+                    <td>{{ data.max }} </td>
+                    <td>{{ data.min }} </td>
+                    <td>{{ data.median }} </td>
+                    <td>{{ data.mode }} </td>
+                    <td>{{ data.std }} </td>
+                    <td>{{ data.variance }} </td>
+                    <td>[{{ data.ci_min}},{{data.ci_max}}] </td>
+                </tr>
+            {% endfor %}
+                
+   </table>
+  
+   <div>
+    
+
+    {% comment %} {% for i in object.filter.region_name = "fdcx"  %}
+            {{i}}
+    {% endfor %} {% endcomment %}
+   
+   </div>
+    
+   <script  src="{% static 'map.js' %}" >
+
+      
+</script>
+<script>  
+    {% comment %} function update() {
+            var select = document.getElementById('language');
+            var option = select.options[select.selectedIndex];
+            
+            document.getElementById('demo3').innerText = option.value;
+    }
+
+    update(); {% endcomment %}
+  //map variable
+    let messages = "{{circule_messages}}";
+    var circule_poses = {{circule_poses}};
+    var circule_color = "{{circule_color}}";
+    var marker_poses = {{marker_poses}};
+    var region_lat = 35.745000
+    var region_lon = 51.550000
+    {% comment %} if region doesn't exist {% endcomment %}
+    if(circule_poses.length == 1){
+        console.log(circule_poses.length)
+        var mapOptions = {
+            center: [17.385044, 78.486671],
+            zoom: 10
+            }
+            // Creating a map object
+           
+            // Creating a Layer object
+            var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+            // Adding layer to the map
+            map.addLayer(layer);
+            
+    }
+    CreateMap(circule_poses,messages,circule_color,marker_poses,region_lat,region_lon)
+ 
+    let flag = false;
+    function myFunction() {
+         if(flag ==true){
+          console.log(flag)
+         var layer = new L.TileLayer('http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/ {y}.png');
+         map.addLayer(layer);
+          flag = false
+          }
+         else{
+
+         var layer = new L.TileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png');
+         map.addLayer(layer);
+         flag = true
+
+
+         }
+        
+        console.log("dsacfsacdx")
+     }
+</script>
+</body>
+</html>

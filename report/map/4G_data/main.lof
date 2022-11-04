@@ -1,0 +1,43 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Test route with node's speed profile\relax }}{10}{figure.caption.6}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Technology parameter for Serving cell\relax }}{15}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Average Reference Signals Received Power (\textit {RSRP}) for 4G serving cell\relax }}{16}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Just show RSRP less than \textit {Very Poor}\relax }}{17}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Average Reference Signal Received Quality (RSRQ) for 4G serving cell\relax }}{18}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Just show RSRQ less than \textit {Very Poor}\relax }}{19}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Average Received Signal Strength Indication (RSSI) for 4G serving cell\relax }}{20}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Average Reference Signals Received Power (\textit {RSRP}) for 4G neighbor cell\relax }}{21}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Average Reference Signal Received Quality (RSRQ) for 4G neighbor cell\relax }}{22}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Average Reference Signals Received Power (\textit {RSRP}) for 4G serving and neighbor cell\relax }}{23}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Average Reference Signal Received Quality (RSRQ) for 4G serving and neighbor cell\relax }}{24}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Technology parameter for Serving cell on map\relax }}{26}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Serving cell lifetime for each technology\relax }}{27}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Serving cell lifetime for 4G\relax }}{28}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces ARFCN parameter for Serving cell on map\relax }}{29}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Code parameter for Serving cell on map (Code in 2G=BSIC, 3G=PSC and 4G=PCI)\relax }}{31}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces ARFCN/Code parameter for Serving cell on map (Code in 2G=BSIC, 3G=PSC and 4G=PCI)\relax }}{34}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Cell Identity parameter for Serving cellon map\relax }}{38}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces PLMN Identity parameter for Serving cell on map (Roaming)\relax }}{42}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces LAC/TAC parameter for Serving cell on map (2G and 3G=LAC, 4G=TAC)\relax }}{44}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Alone TAC 45215\relax }}{46}{figure.caption.38}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Ping time on map [ms]\relax }}{50}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Ping samples versus as time\relax }}{51}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces UE Jitter on map (QoE)\relax }}{52}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Jitter samples versus as time\relax }}{53}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Downlink throughput on map [kbps]\relax }}{54}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Download throughput samples versus as time\relax }}{55}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces DNS on map [ms]\relax }}{56}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces DNS samples versus as time\relax }}{57}{figure.caption.47}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Reference Signal Received Powery (\textit {RSRP}) for 4G Serving Cell.\relax }}{64}{figure.caption.49}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Reference Signal Received Quality (\textit {RSRQ}) for 4G Serving Cell.\relax }}{65}{figure.caption.50}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Reference Signal Received Powery (\textit {RSRP}) for 4G Neighbor Cell.\relax }}{66}{figure.caption.51}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Reference Signal Received Quality (\textit {RSRQ}) for 4G Neighbor Cell.\relax }}{67}{figure.caption.52}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Reference Signal Received Powery (\textit {RSRP}) for 4G Serving and Neighbor Cell.\relax }}{68}{figure.caption.53}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Reference Signal Received Quality (\textit {RSRQ}) for 4G Serving and Neighbor Cell.\relax }}{69}{figure.caption.54}%
+\addvspace {10\p@ }
+\contentsfinish 

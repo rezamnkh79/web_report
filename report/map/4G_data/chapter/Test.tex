@@ -1,0 +1,111 @@
+\chapter{Tests}
+~ % Point: Do not remove it
+During the \textit{Drive Test}, the user can define and perform various tests, including call, SMS and Internet service test. The following table lists the tests defined in this experiment.
+
+
+\clearpage
+\section{Call Test Results}
+he calls test can be of two types:
+\begin{itemize}
+\item 
+Short calls should last the average of a user call - a good reference value is 15 to 30 seconds. Serve to check whether the calls are being established and successfully completed (being a good way to also check the network setup time).
+\item 
+Long calls serve to verify if the handovers (continuity between the cells) of the network are working, ie calls must not drop.
+\end{itemize}
+\vfill
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.45\linewidth]{pic/LocUpdateConcept/LocUpdateConcept}
+\end{figure}
+\vfill
+
+\AddMapAllLeg{Map-Call Test-Dropped---}{Call Test (Dropped)}
+\AddMapAllLeg{Map-Call Test-Failed---}{Call Test (Failed)}
+\AddMapAllLeg{Map-Call Test-NotActive---}{Call Test (Not Active)}
+\AddMapAllLeg{Map-Call Test-NotStart---}{Call Test (Not Start)}
+\AddMapAllLeg{Map-Call Test-Success---}{Call Test (Success)}
+
+\AddMapAllLeg{Map-Call Test-Dropped,Failed---}{Call Test (Dropped,Failed)}
+\AddMapAllLeg{Map-Call Test-Dropped,NotActive---}{Call Test (Dropped,NotActive)}
+\AddMapAllLeg{Map-Call Test-Dropped,NotStart---}{Call Test (Dropped,NotStart)}
+\AddMapAllLeg{Map-Call Test-Dropped,Success---}{Call Test (Dropped,Success)}
+
+\AddMapAllLeg{Map-Call Test-Failed,NotActive---}{Call Test (Failed,NotActive)}
+\AddMapAllLeg{Map-Call Test-Failed,NotStart---}{Call Test (Failed,NotStart)}
+\AddMapAllLeg{Map-Call Test-Failed,Success---}{Call Test (Failed,Success)}
+
+\AddMapAllLeg{Map-Call Test-NotActive,NotStart---}{Call Test (NotActive,NotStart)}
+\AddMapAllLeg{Map-Call Test-NotActive,Success---}{Call Test (NotActive,Success)}
+
+\AddMapAllLeg{Map-Call Test-NotStart,Success---}{Call Test (NotStart,Success)}
+
+\AddMapAllLeg{Map-Call Test-Dropped,Failed,NotActive---}{Call Test (Dropped,Failed,NotActive)}
+\AddMapAllLeg{Map-Call Test-Dropped,Failed,NotStart---}{Call Test (Dropped,Failed,NotStart)}
+\AddMapAllLeg{Map-Call Test-Dropped,Failed,Success---}{Call Test (Dropped,Failed,Success)}
+
+\AddMapAllLeg{Map-Call Test-Dropped,NotActive,NotStart---}{Call Test (Dropped,NotActive,NotStart)}
+\AddMapAllLeg{Map-Call Test-Dropped,NotActive,Success---}{Call Test (Dropped,NotActive,Success)}
+
+\AddMapAllLeg{Map-Call Test-Dropped,NotStart,Success---}{Call Test (Dropped,NotStart,Success)}
+
+\AddMapAllLeg{Map-Call Test-Failed,NotActive,NotStart---}{Call Test (Failed,NotActive,NotStart)}
+\AddMapAllLeg{Map-Call Test-Failed,NotActive,Success---}{Call Test (Failed,NotActive,Success)}
+
+\AddMapAllLeg{Map-Call Test-Failed,NotStart,Success---}{Call Test (Failed,NotStart,Success)}
+
+\AddMapAllLeg{Map-Call Test-NotActive,NotStart,Success---}{Call Test (NotActive,NotStart,Success)}
+
+\AddMapAllLeg{Map-Call Test-Dropped,Failed,NotActive,NotStart,Success---}{Call Test (Dropped,Failed,NotActive,NotStart,Success)}
+
+\clearpage
+\section{Data Test  Results}
+\AddTableO{DataTestParam}{Data Test parameters}
+
+%% =======================================
+\AddMapAllLeg{Map-Data Test-Delay-Ping--}{Ping time on map [ms]}
+\AddMapNoLeg[pdf]{Data Test-Plot-Delay-Ping--}{Ping samples versus as time}
+
+%% =======================================
+\AddMapAllLeg{Map-Data Test-Delay-Jitter--}{UE Jitter on map (QoE)}
+\AddMapNoLeg[pdf]{Data Test-Plot-Delay-Jitter--}{Jitter samples versus as time}
+
+%% =======================================
+\AddMapAllLeg{Map-Data Test-Throughput-Download--}{Downlink throughput on map [kbps]}
+\AddMapNoLeg[pdf]{Data Test-Plot-Throughput-Download--}{Download throughput samples versus as time}
+
+%% =======================================
+%\AddMapAllLeg{Map-Data Test-Throughput-Upload--}{Uplink throughput on map [kbps]}
+%\AddMapNoLeg[pdf]{Data Test-Plot-Throughput-Upload--}{Upload throughput samples versus as time}
+
+%% =======================================
+%\AddMapAllLeg{Map-Data Test-Web-HTTP Response--}{HTTP response time on map (QoE)}
+%\AddMapNoLeg[pdf]{Data Test-Plot-Web-HTTP Response--}{HTTP Response samples versus as time}
+
+%% =======================================
+%\AddMapAllLeg{Map-Data Test-Multimedia-Throughput--}{Multimedia Services on map (QoE)}
+%\AddMapNoLeg[pdf]{Data Test-Plot-Multimedia-Throughput--}{Multimedia service versus as time}
+
+%% =======================================
+%\AddMapAllLeg{Map-Data Test-FTP-Throughput--}{FTP response time on map [kbps]}
+%\AddMapNoLeg[pdf]{Data Test-Plot-FTP-Throughput--}{FTP samples versus as time}
+
+%% =======================================
+\AddMapAllLeg{Map-Data Test-DNS-A Records--}{DNS on map [ms]}
+\AddMapNoLeg[pdf]{Data Test-Plot-DNS-A Records--}{DNS samples versus as time}
+
+%% =======================================
+%\AddMapAllLeg{Map-Data Test-Email-Gmail--}{Email (Gmail) on map (QoE)}
+%\AddMapNoLeg[pdf]{Data Test-Plot-Email-Gmail--}{Email (Gmail) samples versus as time}
+
+%% =======================================
+%\AddMapAllLeg{Map-Data Test-Email-Hotmail--}{Email (Hotmail) on map (QoE)}
+%\AddMapNoLeg[pdf]{Data Test-Plot-Email-Hotmail--}{Email (Hotmail) samples versus as time}
+
+%% =======================================
+%\AddMapAllLeg{Map-Data Test-Instagram-Browse Feed--}{Instagram (Browse Feed) on map (QoE)}
+%\AddMapNoLeg[pdf]{Data Test-Plot-Instagram-Browse Feed--}{Instagram (Browse Feed) samples versus as time}
+
+%% =======================================
+%\AddMapAllLeg{Map-Data Test-Instagram-Download Image--}{Instagram (Download Image) on map (QoE)}
+%\AddMapNoLeg[pdf]{Data Test-Plot-Instagram-Download Image--}{Instagram (Download Image) samples versus as time}
+

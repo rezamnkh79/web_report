@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <title>Web Report</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+    <link rel="stylesheet" href="{% static 'map/Scans_on_map.css' %}"/>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width">
+</head>
+<style type="text/css">
+    #nodes_info {
+        position: relative;
+        width: 20%;
+        top: 10%;
+        left: 25%;
+    }
+    #analysis{
+        position: relative;
+        top: 30%;
+        left: 70%;
+    }
+    #general{
+        position: relative;
+        top: 0%;
+        left: 20%;
+
+    }
+</style>
+<body>
+
+{% include "base/menu.html" %}
+
+<table id="nodes_info" style="">
+
+    <tr>
+        <td bgcolor=#DFDBF8>N</td>
+        <td bgcolor=#DFDBF8>Name</td>
+        <td bgcolor=#DFDBF8>IMSI</td>
+        <td bgcolor=#DFDBF8>IMEI</td>
+        <td bgcolor=#DFDBF8>Type</td>
+        <td bgcolor=#DFDBF8>T</td>
+        <td bgcolor=#DFDBF8>Status</td>
+        <td bgcolor=#DFDBF8>Data</td>
+        <td bgcolor=#DFDBF8>Roaming</td>
+        <td bgcolor=#DFDBF8>Desc</td>
+    </tr>
+    {% for node in nodes %}
+
+        <tr>
+            <td>{{ node.n }}</td>
+            <td> {{ node.name }}</td>
+            <td> {{ node.imsi }}</td>
+            <td>{{ node.imei }} </td>
+            <td>{{ node.type }} </td>
+            <td>{{ node.t }} </td>
+            <td>{{ node.status }} </td>
+            <td>{{ node.data }} </td>
+            <td>{{ node.roaming }} </td>
+            <td>{{ node.desc }} </td>
+        </tr>
+    {% endfor %}
+
+</table>
+
+
+<table id="analysis" style="">
+
+    <tr>
+        <td bgcolor=#DFDBF8>param</td>
+        <td bgcolor=#DFDBF8>count</td>
+
+
+    </tr>
+
+    {% for analysis in general_analysis %}
+
+
+        <tr>
+
+            <td>{{ analysis.param}}</td>
+            <td> {{ analysis.count }}</td>
+        </tr>
+
+
+
+
+
+
+    {% endfor %}
+
+</table>
+
+<table id="general" style="">
+
+    <tr>
+        <td bgcolor=#DFDBF8>Param</td>
+        <td bgcolor=#DFDBF8>Description</td>
+
+
+    </tr>
+    {% for info in general_info %}
+
+        <tr>
+
+            <td> {{ info.param }}</td>
+            <td> {{ info.description }}</td>
+        </tr>
+    {% endfor %}
+
+</table>
+
+
+</body>
+</html>
