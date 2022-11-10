@@ -60,9 +60,10 @@ body {
   #ranges {
     border:ridge 5px rgb(30, 255, 0);
     position:absolute;
-    top:40%;
-    right:15%;
-    width: 20%;
+    top:32%;
+    right:12%;
+    width: 40%;
+    height: 40%;
   }
   #title-info  {
       
@@ -94,7 +95,7 @@ body {
 #chart5{
     position: absolute;
     top: -15%;
-    left: 10%;
-    
+    left: -50%;
+
 }
 }
