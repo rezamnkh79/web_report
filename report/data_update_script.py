@@ -1,14 +1,7 @@
 import redis
-from typing import List
-
 from django.http import HttpResponse
 import pandas as pd
-import os
 import pickle
-
-from django.conf import settings
-
-from pathlib import Path
 import os
 import sys
 
@@ -20,6 +13,8 @@ execute_from_command_line(sys.argv)
 from map.models import *
 
 color_list = []
+
+r = redis.Redis(host='localhost', port=6379, db=0)
 
 
 def InsertColorInfoTechnology():
@@ -149,13 +144,13 @@ def insert_table_result():
 
 
 def ReadPointInfoData():
-    directory = os.path.join(os.getcwd(), "data/datas/datas")
+    directory = os.path.join(os.getcwd(), "data/datas/datas/data")
     # r = redis.Redis(host='localhost', port=6379, db=0)
     for root, dirs, files in os.walk(directory):
         for file in files:
             if file.endswith(".csv"):
                 # TODO delete file name from catch
-                # r.delete(file)
+                r.delete(file)
                 f = open(os.path.join(directory, file), 'r')
                 for data in f:
                     data = data.split(',')
@@ -176,27 +171,26 @@ def ReadPointInfoData():
                     Sig_tech = (data[10])
                     Power = (data[11])
                     Quality = (data[12])
-                    Color = (data[13])
-                    for i in range(1, len(latitude)):
-                        loop_color = ''
-                        if '*' in Power:
-                            continue
+                    Color = (data[15])
+                    loop_color = ''
+                    if '*' in Power:
+                        continue
 
-                        color = Color.replace('*', '')
-                        if color == '':
-                            color_list.append("#aaaaaa")
-                            loop_color = "#aaaaaa"
-
-                        else:
-                            color = (color.split('('))[-1].replace(')', '')
-                            loop_color = str(Set_Color((color)))
-                            color_list.append(loop_color)
-                        # TODO set file name as parameter name
-                        Point_Info.objects.create(parameter=file, time=Time, node=Node, latitude=latitude,
-                                                  longitude=longitude,
-                                                  technology=technology, arfcn=ARFCN, code=code, plmnId=PLMNID,
-                                                  lac=LAC, color=loop_color, cellId=CellID, scan=Sig_tech, power=Power,
-                                                  quality=Quality)
+                    # color = Color.replace('*', '')
+                    # if color == '':
+                    #     color_list.append("#aaaaaa")
+                    #     loop_color = "#aaaaaa"
+                    #
+                    # else:
+                    #     color = (color.split('('))[-1].replace(')', '')
+                    #     loop_color = str(Set_Color((color)))
+                    #     color_list.append(loop_color)
+                    # TODO set file name as parameter name
+                    Point_Info.objects.create(parameter=file, time=Time, node=Node, latitude=latitude,
+                                              longitude=longitude,
+                                              technology=technology, arfcn=ARFCN, code=code, plmnId=PLMNID,
+                                              lac=LAC, color=loop_color, cellId=CellID, scan=Sig_tech, power=Power,
+                                              quality=Quality)
                 f.close()
     return HttpResponse("done")
 
@@ -207,6 +201,7 @@ def ReadColorInfoData():
         for file in files:
             if file.endswith(".csv"):
                 # TODO delete file name from catch
+                r.delete("context" + file)
                 f = open(os.path.join(directory, file), 'r')
                 for data in f:
                     data = data.split('@')
@@ -253,6 +248,7 @@ def ReadTestTableData():
         for file in files:
             if file.endswith(".csv"):
                 # TODO delete file name from catch
+                r.delete("context" + file)
                 f = open(os.path.join(directory, file), 'r')
                 for data in f:
                     data = data.split('@')
@@ -287,6 +283,7 @@ def ReadStaticData():
     for root, dirs, files in os.walk(directory):
         for file in files:
             if file.endswith(".csv"):
+                r.delete("context" + file)
                 f = open(os.path.join(directory, file), 'r')
                 for data in f:
                     data = data.split('@')
@@ -316,6 +313,7 @@ def ReadRangeData():
     for root, dirs, files in os.walk(directory):
         for file in files:
             if file.endswith(".csv"):
+                r.delete("context" + file)
                 f = open(os.path.join(directory, file), 'r')
                 for data in f:
                     data = data.split('@')
